@@ -62,6 +62,7 @@
 17. Read, Write File, Pickle
 18. ...
 19. OOP Concepts
+* Optional
 1. ...
 1. Decorator
 1. Generator
@@ -150,3 +151,15 @@
 13. Test frameworks
 14. Multimedia
 15. Scientific computing
+
+## Methodologies <sub>[Optional]</sub>
+* ...
+
+## OO Principles <sub>[Optional]</sub>
+* ...
+
+## Design Patterns <sub>[Optional]</sub>
+* ...
+
+## Test Conscepts <sub>[Optional]</sub>
+* ...
