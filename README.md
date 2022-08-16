@@ -40,7 +40,6 @@
 5. Boolean
 6. Random
    - `random(), randint(), shuffle(), choice()`
-7. Global, Local Variables
 8. Operators
    1. Arithmetic `+ -` ,...
    2. Assignment `= += -=` ,...
@@ -57,18 +56,21 @@
 13. Set/FrozenSet
 14. Dictionary
 1. Input
-1. If, Elif, Else, Comperhension, For, While
+1. If, Elif, Else
+1. While, Break, Continue, Comperhension, For
 1. Function, Lambda
 1. Try, Except
 15. Keywords
-16. ...
+16. Scope, Global, Local
 17. Read, Write File, Pickle
-18. ...
+18. Math, Date
+1. Module
 19. OOP Concepts
 #### Optional
 1. ...
 1. Decorator
 1. Generator
+1. Iterator
 1. Closure
 1. ...
 1. Regular Expression
@@ -76,7 +78,7 @@
 1. Web Service/Web Socket
 1. Database (MariaDB, Sqlite, ...)
 1. ORM
-1. ...
+1. JSON
 
 ## Programming Paradigms <sub>[Optional]</sub>
 
@@ -108,15 +110,10 @@
 
 ## Roadmap <sub>[Optional]</sub>
 
-- Important Modules
-  - Random
-  - NumPy
-  - Turtle
-  - ...
-
 1. Big Data/Data Mining
    - NumPy
    - Pandas
+   - Matplotlib
 2. GUI (Desktop) Applications
    - [Tkinter](/exercises/02/gui/)
    - PyQT
