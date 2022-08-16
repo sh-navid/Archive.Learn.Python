@@ -52,15 +52,7 @@
    6. Membership `in, not in`
    7. Bitwise `& | ^ ~ << >>`
 9. Scape Chars
-<pre style="font-size:60%">
-\'	\\    \t    \n
-\r	Carriage Return
-\b	Backspace
-\f	Form Feed
-\xhh	Hex
-\ooo	Octal
-</pre>
-10. DataTypes `Integer, Float, String, Range, Boolean`
+10. DataTypes
 11. List
 12. Tuple
 13. Set/FrozenSet
