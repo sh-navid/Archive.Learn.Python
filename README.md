@@ -4,8 +4,8 @@
 
 1. **Homeworks for Week 1** <sub>[PASSED]</sub>
    - Practice and learn:
-     - Easy: [Triangles](/github/exercises/01/easy-01-triangle.py)
-     - Hard [Optional]: [TicTocToe Game](/github/exercises/01/hard-01-xo-game.py)
+     - Easy: [Triangles](/exercises/01/easy-01-triangle.py)
+     - Hard [Optional]: [TicTocToe Game](/exercises/01/hard-01-xo-game.py)
 1. **_<div style="color:gold">Homeworks for Week 2<sub>[CURRENT]</sub></div>_**
    1. Search about these:
       1. **Error**? **Debugging**?
@@ -13,7 +13,7 @@
       1. **Compiler**? **Interpreter**? Deference between them?
       1. **Syntax**?, **OpenSource**?, **SourceCode**?
    1. Read about **python operators** [This is for next week]
-   1. Practice and learn **string** functionalities: [Need Help?](/github/exercises/02/review/review-01-string.py)
+   1. Practice and learn **string** functionalities: [Need Help?](/exercises/02/review/review-01-string.py)
       - `(strip, lstrip, rstrip), (partition, rpartition), (title, capitalize, lower, upper, swapcase, casefold), (splitlines, split, join), (center, ljust, rjust), (endswith, startswith, find, index, rindex), zfill, (translate, maketrans), (format, format_map), expandtabs, (encode, decode), count, replace, len`
       - `multiline, loop over chars, slice, concatenation, reverse`
       - Check: `in, istitle, isspace, isprintable, islower, isupper, isidentifier, isascii, isalpha`
@@ -22,12 +22,12 @@
       - Find vs Index?
    1. Practice with these examples:
       - GUI:
-        - Easy: Rock Paper Game ([1](/github/exercises/02/gui/easy-01-rock-paper.py),[2](/github/exercises/02/gui/easy-02-rock-paper.py),[3](/github/exercises/02/gui/easy-03-rock-paper.py))
-        - Medium: Random Dice ([1](/github/exercises/02/gui/medium-01-random-number.py),[2](/github/exercises/02/gui/medium-02-random-number.py))
-        - Hard [Optional]: Color Detector ([1](/github/exercises/02/gui/hard-01-color-detector.py),[2](/github/exercises/02/gui/hard-02-color-detector.py))
-      - Console [Optional]: ([PhoneBook](/github/exercises/02/console/optional-01-phone-book.py))
-      - Turtle [Optional]: ([1](/github/exercises/02/turtle/optional-01-turtle.py),[2](/github/exercises/02/turtle/optional-02-turtle.py))
-      - Web [Optional]: ([1](/github/exercises/02/web/optional-01-flask.py),[2](/github/exercises/02/web/optional-02-flask.py))
+        - Easy: Rock Paper Game ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
+        - Medium: Random Dice ([1](/exercises/02/gui/medium-01-random-number.py),[2](/exercises/02/gui/medium-02-random-number.py))
+        - Hard [Optional]: Color Detector ([1](/exercises/02/gui/hard-01-color-detector.py),[2](/exercises/02/gui/hard-02-color-detector.py))
+      - Console [Optional]: ([PhoneBook](/exercises/02/console/optional-01-phone-book.py))
+      - Turtle [Optional]: ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
+      - Web [Optional]: ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
    1. Try to install and run `Jupyter`
 
 ## Headings
