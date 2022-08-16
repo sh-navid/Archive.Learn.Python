@@ -31,9 +31,7 @@
    1. Try to install and run `Jupyter`
 
 ## Headings
-
-- Starter Class
-
+#### Starter Class
 1. Introduction
 2. Syntax
    - `pep8, naming, comments, indentation, ...`
@@ -53,21 +51,27 @@
    7. Bitwise `& | ^ ~ << >>`
 9. Scape Chars
 10. DataTypes
+1. Conversion, TypeCasting
 11. List
 12. Tuple
 13. Set/FrozenSet
 14. Dictionary
+1. Input
+1. If, Elif, Else, Comperhension, For, While
+1. Function, Lambda
+1. Try, Except
 15. Keywords
 16. ...
 17. Read, Write File, Pickle
 18. ...
 19. OOP Concepts
-* Optional
+#### Optional
 1. ...
 1. Decorator
 1. Generator
 1. Closure
 1. ...
+1. Regular Expression
 1. Socket
 1. Web Service/Web Socket
 1. Database (MariaDB, Sqlite, ...)
