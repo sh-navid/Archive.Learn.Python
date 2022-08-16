@@ -67,16 +67,15 @@
 1. Module
 19. OOP Concepts
 #### Optional
-1. ...
 1. Decorator
 1. Generator
 1. Iterator
 1. Closure
-1. ...
 1. Regular Expression
 1. Socket
-1. Web Service/Web Socket
-1. Database (MariaDB, Sqlite, ...)
+1. Web Service, Web Socket
+1. SQL (MariaDB, Sqlite, ...)
+1. NoSQL (MongoDB, Redis, ...)
 1. ORM
 1. JSON
 
@@ -162,5 +161,8 @@
 ## Design Patterns <sub>[Optional]</sub>
 * ...
 
-## Test Conscepts <sub>[Optional]</sub>
-* ...
+## Test Concepts <sub>[Optional]</sub>
+* UI
+* Unit
+* Integration
+* TDD
