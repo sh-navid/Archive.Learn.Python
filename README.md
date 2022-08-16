@@ -69,16 +69,14 @@
 16. ...
 17. Read, Write File, Pickle
 18. ...
-19. OOP
-    - Class, Method
-    - Constructor, Extend
-    - Inheritance, Instance, Object
-
-- Advanced
-
+19. OOP Concepts
+1. ...
+1. Decorator
+1. Generator
+1. Closure
 1. ...
 1. Socket
-1. Web Service
+1. Web Service/Web Socket
 1. Database (MariaDB, Sqlite, ...)
 1. ORM
 1. ...
@@ -109,10 +107,6 @@
 1. Sort Algorithms
 2. Search Algorithms
 3. Time Complexity
-   - Calculations?
-   - P
-   - NP-Hard
-   - NP-Complete
 4. ...
 
 ## Roadmap <sub>[Optional]</sub>
