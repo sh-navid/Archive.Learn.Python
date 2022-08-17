@@ -89,7 +89,8 @@
 - Functional Programming
 - ...
 
-## Algorithm / Data Structure <sub>[Optional]</sub>
+## Algorithm Design, Data Structure <sub>[Optional]</sub>
+* Algorithm?
 
 - Kinds of algorithms
   1. Recursive
@@ -98,15 +99,44 @@
   4. Greedy Algorithm
   5. Brute Force
   6. Backtracking
-  7. Heuristic
-  8. MetaHeuristic <sub>(Soft Computing)</sub>
-  9. CollectiveIntelligence
-  10. EvolutionaryAlgorithms
+  7. Heuristic, MetaHeuristic <sub>(Soft Computing)</sub>
+  9. CollectiveIntelligence <sub>(Soft Computing)</sub>
+  10. EvolutionaryAlgorithms <sub>(Soft Computing)</sub>
 
 1. Sort Algorithms
+   * Bubble Sort
+   * Merge Sort
+   * Selection Sort
+   * Insertion Sort
+   * Quick Sort
+   * Heap Sort
+   * ...
+
 2. Search Algorithms
+   * Linear Search
+   * Binary Search
+   * ...
+   * Harmony Search <sub>(Soft Computing)</sub>
+   * ...
 3. Time Complexity
+3. Space Complexity
 4. ...
+
+* Data Structures
+   1. Tree <sup>(Non Linear)</sup>
+      * Binary Tree
+      * Binary Heap (Min, Max Complete Tree)
+   2. Graph <sup>(Non Linear)</sup>
+   3. Link List
+      * Single
+      * Circular
+      * Double
+   4. Stack
+   5. Queue
+   6. Array
+      * Matrix
+   7. Hash Table (Hash Map)
+   8. ...
 
 ## Roadmap <sub>[Optional]</sub>
 
@@ -154,12 +184,15 @@
 15. Scientific computing
 
 ## Methodologies <sub>[Optional]</sub>
+* Agile
 * ...
 
 ## OO Principles <sub>[Optional]</sub>
+* DRY
 * ...
 
 ## Design Patterns <sub>[Optional]</sub>
+* Singleton
 * ...
 
 ## Test Concepts <sub>[Optional]</sub>
