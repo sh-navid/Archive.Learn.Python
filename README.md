@@ -71,6 +71,7 @@
 1. Generator
 1. Iterator
 1. Closure
+1. Reflection
 1. Regular Expression
 1. Socket
 1. Web Service, Web Socket
