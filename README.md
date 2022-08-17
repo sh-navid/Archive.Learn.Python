@@ -12,6 +12,7 @@
       1. **Bit**? **Byte**? Deference between them?
       1. **Compiler**? **Interpreter**? Deference between them?
       1. **Syntax**?, **OpenSource**?, **SourceCode**?
+      1. **GUI**?
    1. Read about **python operators** [This is for next week]
    1. Practice and learn **string** functionalities: [Need Help?](/exercises/02/review/review-01-string.py)
       - `(strip, lstrip, rstrip), (partition, rpartition), (title, capitalize, lower, upper, swapcase, casefold), (splitlines, split, join), (center, ljust, rjust), (endswith, startswith, find, index, rindex), zfill, (translate, maketrans), (format, format_map), expandtabs, (encode, decode), count, replace, len`
