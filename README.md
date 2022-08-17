@@ -148,11 +148,10 @@
    - [Tkinter](/exercises/02/gui/)
    - PyQT
    - Kivy
-3. Web
-   - [Read About This in Detail](/README-WEB.md)
+3. Web [[Read About This in Detail](/README-WEB.md)]
    - Backend (App, Services)
      - Django
-     - Flask
+     - [Flask](/exercises/02/web/)
    - Web scraping
      - Scrapy
      - BeautifulSoup
@@ -167,7 +166,7 @@
 8. AR, VR
 9. 2D, 3D Games
    - PyGame
-10. Plot
+   - Open3D
 11. AI, Machine Learning
     - TF
     - PyTorch
