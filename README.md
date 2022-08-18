@@ -48,11 +48,11 @@
 1. Boolean
 1. Random
    - `random(), randint(), shuffle(), choice()`
-1. [Operators](/lessons/python/operators)
+1. [Operators](/lessons/python/concepts/operators)
    1. Arithmetic `+ -` ,...
    2. Assignment `= += -=` ,...
    3. Comparison `== != >=` ,...
-   4. [Logical](/lessons/python/operators/logical-operators.py) `and, or, not`
+   4. [Logical](/lessons/python/concepts/operators/logical-operators.py) `and, or, not`
    5. Identity `is, is not`
    6. Membership `in, not in`
    7. Bitwise `& | ^ ~ << >>`
