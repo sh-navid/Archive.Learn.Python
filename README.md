@@ -1,6 +1,6 @@
 # Python Class
 
-- An article to complete the Python classroom.
+- An article to complete the Python course.
 - **Notice:** ...
 
 ## How to _install_ and _run_ python?
@@ -13,30 +13,27 @@
    - Practice and learn:
      - Easy: [Triangles](/exercises/01/easy-01-triangle.py)
      - Hard <sub>[Optional]</sub>: [TicTocToe Game](/exercises/01/hard-01-xo-game.py)
-1. **_Homeworks for Week 2_**
+1. **Homeworks for Week 2**
+   1. Try to install and run `Jupyter` or `Markdown`
    1. Search for these terms and check their differences:
-      1. **Error**, **Debug**
-      1. **Bit**, **Byte**
-      1. **Compiler**, **Interpreter**
-      1. **Syntax**, **OpenSource**, **SourceCode**
-      1. **CLI**, **GUI**
-   1. Read about python [**operators**](/lessons/python/concepts/operators)
-   1. Review **String** functionalities: [Need Help?](/exercises/02/review/review-01-string.py)
-      - `(strip, lstrip, rstrip), (partition, rpartition), (title, capitalize, lower, upper, swapcase, casefold), (splitlines, split, join), (center, ljust, rjust), (endswith, startswith, find, index, rindex), (translate, maketrans), (format, format_map), (encode, decode), zfill, count, replace, len, expandtabs`
-      - `multiline, loop over chars, slice, concatenation, reverse`
-      - Check: `in, istitle, isspace, isprintable, islower, isupper, isidentifier, isascii, isalpha`
-      - Check Number: `isalnum, isnumeric, isdecimal, isdigit`
+      - **Error**, **Debug**
+      - **Bit**, **Byte**
+      - **Compiler**, **Interpreter**
+      - **Syntax**, **OpenSource**, **SourceCode**
+      - **CLI**, **GUI**
+   1. Read about python [**Operators**](/lessons/python/concepts/operators)
+   1. Review and Practice [**String**](/exercises/02/review/review-01-string.py)
       - Partition vs Split?
       - Find vs Index?
+   1. Review and Practice Random
    1. Practice with these examples:
       - GUI:
-        - Easy: Rock Paper Game ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
+        - Easy: Rock Paper Scissors ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
         - Medium: Random Dice ([1](/exercises/02/gui/medium-01-random-number.py),[2](/exercises/02/gui/medium-02-random-number.py))
         - Hard <sub>[Optional]</sub>: Color Detector ([1](/exercises/02/gui/hard-01-color-detector.py),[2](/exercises/02/gui/hard-02-color-detector.py))
-      - Console <sub>[Optional]</sub>: ([PhoneBook](/exercises/02/console/optional-01-phone-book.py))
-      - Turtle <sub>[Optional]</sub>: ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
+      - CLI <sub>[Optional]</sub>: ([PhoneBook](/exercises/02/console/optional-01-phone-book.py))
       - Web <sub>[Optional]</sub>: ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
-   1. Try to install and run `Jupyter` or `Markdown`
+      - Turtle <sub>[Optional]</sub>: ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
 
 ## Headings
 
@@ -44,33 +41,44 @@
 1. Syntax
    - `pep8, naming, comments, indentation, ...`
 1. Variables
-1. Strings
+1. [Strings](/lessons/python/concepts/string)
+   - [Encode](/lessons/python/concepts/string/encode-string.py) `encode, decode`
+   - [Trim](/lessons/python/concepts/string/trim-string.py) `strip, lstrip, rstrip`
+   - [Concat](/lessons/python/concepts/string/concat-string.py) `join, concatenation`
+   - Search `endswith, startswith, find, index, rindex`
+   - Format `translate, maketrans, format, format_map`
+   - Split `partition, rpartition, splitlines, split, slice`
+   - Text `(title, capitalize), (lower, upper, swapcase, casefold), (center, ljust, rjust)`
+   - Check `in, (istitle, islower, isupper), isspace, isprintable, isidentifier, (isascii, isalpha), (isalnum, isnumeric, isdecimal, isdigit)`
+   - Other `zfill, count, replace, len, expandtabs, multi-line, loop-over-characters, reverse`
 1. Boolean
 1. Random
    - `random(), randint(), shuffle(), choice()`
 1. [Operators](/lessons/python/concepts/operators)
-   1. Arithmetic `+ -` ,...
-   2. Assignment `= += -=` ,...
-   3. Comparison `== != >=` ,...
+   1. [Arithmetic](/lessons/python/concepts/operators/arithmetic-operators.py) `+ -` ,...
+   2. [Assignment](/lessons/python/concepts/operators/assignment-operators.py) `= += -=` ,...
+   3. [Comparison](/lessons/python/concepts/operators/comparison-operators.py) `== != >=` ,...
    4. [Logical](/lessons/python/concepts/operators/logical-operators.py) `and, or, not`
    5. Identity `is, is not`
-   6. Membership `in, not in`
+   6. [Membership](/lessons/python/concepts/operators/membership-operators.py) `in, not in`
    7. Bitwise `& | ^ ~ << >>`
 1. Scape Chars
 1. DataTypes
 1. Conversion, TypeCasting
+1. Debugging (break point)
 1. List
 1. Tuple
-1. Set/FrozenSet
+1. Set, FrozenSet
 1. Dictionary
-1. Debugging (break point)
 1. Input
 1. If, Elif, Else
-1. While, Break, Continue, Comperhension, For
+1. While, Break, Continue
+1. Comperhension, For
 1. Function, Lambda
 1. Try, Except
 1. Keywords
 1. Scope, Global, Local
+   - `locals(), globals()`
 1. Read, Write File, Pickle
 1. Math, Date
 1. Module
@@ -85,6 +93,10 @@
    - freeze
    - uninstall
    - ...
+1. Eval, Exec
+1. Operator Overload ???
+1. Exception, Custom Exception, Types of Errors
+1. Assertion
 1. Decorator
 1. Generator
 1. Iterator
@@ -151,7 +163,7 @@
    - Binary Tree
    - Binary Heap (Min, Max Complete Tree)
 2. Graph <sub>(Non Linear)</sub>
-   - Ontology 
+   - Ontology
 3. Link List
    - Single
    - Circular

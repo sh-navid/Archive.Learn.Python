@@ -1,6 +1,3 @@
-from unicodedata import decimal
-
-
 print("Strip:", "  Hello  ".lstrip())
 
 
