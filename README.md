@@ -1,7 +1,7 @@
 # Python Class
 
 - An article to complete the Python classroom.
-- **Notice:** _Every article, tool, algorithm, concept, link and every content and subset that is in this repository is placed only for learning._
+- **Notice:** ...
 
 ## How to _install_ and _run_ python?
 
