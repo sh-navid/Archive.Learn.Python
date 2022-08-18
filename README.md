@@ -20,7 +20,7 @@
       1. **Compiler**, **Interpreter**
       1. **Syntax**, **OpenSource**, **SourceCode**
       1. **CLI**, **GUI**
-   1. Read about python [**operators**](/lessons/concepts/python/operators)
+   1. Read about python [**operators**](/lessons/python/concepts/operators)
    1. Review **String** functionalities: [Need Help?](/exercises/02/review/review-01-string.py)
       - `(strip, lstrip, rstrip), (partition, rpartition), (title, capitalize, lower, upper, swapcase, casefold), (splitlines, split, join), (center, ljust, rjust), (endswith, startswith, find, index, rindex), (translate, maketrans), (format, format_map), (encode, decode), zfill, count, replace, len, expandtabs`
       - `multiline, loop over chars, slice, concatenation, reverse`
