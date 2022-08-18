@@ -19,7 +19,7 @@
 ## Jupyter Notebook
 
 - To install `jupyter`, open a terminal (Search for `CMD` in windows) and type and enter this command: `python -m pip install jupyter` or simply use `pip install jupyter`
-- To run your notebook open a terminal and use this command: `jupyter notebook`
+- Then to run your `notebook` open a terminal and enter this command: `jupyter notebook`
 
 <hr/>
 
