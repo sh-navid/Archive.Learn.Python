@@ -7,10 +7,10 @@
     - Type `python` and press _ENTER_
     - If you can see something like this `Python 3.10.5 (tags/v3.10.5:f377153, Jun 6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32`, then you have python and you don't have to install it.
 
-- To install python
+- To install python:
     - Windows:
         - Download python from its official [website](https://python.org)
-        - **Important**: Check `Add python 3.10 to PATH`
+        - **Important**: At the time of installation of python, tick `Add python 3.10 to PATH` and then continue the installation.
         - ![img](snapshot-installation.png)
 
 
