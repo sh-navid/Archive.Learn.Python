@@ -1,39 +1,42 @@
 # Python Class
 
 - An article to complete the Python course.
-- **Notice:** ...
+- **Notice:** Wherever you see the word **[*Optional*]**, it means that it is not a part of your introductory class, but you can check and study as you wish.
 
 ## How to _install_ and _run_ python?
 
-- Check this [link](/lessons/python/installation/README.md) to install and run Python.
+- Check this [link](/lessons/python/installation/README.md) ([farsi](/lessons/python/installation/README-FARSI.md)) to install and run Python.
 
-## Homeworks
+## Homework
 
-1. **Homeworks for Week 1**
-   - Practice and learn:
-     - Easy: [Triangles](/exercises/01/easy-01-triangle.py)
-     - Hard <sub>[Optional]</sub>: [TicTocToe Game](/exercises/01/hard-01-xo-game.py)
-1. **Homeworks for Week 2**
+1. **Homework for Week 1**
+   - Practice with these examples:
+     - [Triangles](/exercises/01/easy-01-triangle.py) <sub>[Easy, CLI]</sub>
+     - [TicTocToe](/exercises/01/hard-01-xo-game.py) <sub>[Optional, Hard, CLI]</sub>
+1. **Homework for Week 2**
    1. Try to install and run `Jupyter` or `Markdown`
    1. Search for these terms and check their differences:
-      - **Error**, **Debug**
+      - **CLI**, **GUI**
       - **Bit**, **Byte**
+      - **Error**, **Debug**
       - **Compiler**, **Interpreter**
       - **Syntax**, **OpenSource**, **SourceCode**
-      - **CLI**, **GUI**
    1. Read about python [**Operators**](/lessons/python/concepts/operators)
-   1. Review and Practice [**String**](/exercises/02/review/review-01-string.py)
-      - Partition vs Split?
+   1. Review and practice [**Strings**](/exercises/02/review/review-01-string.py) and **Randoms**
       - Find vs Index?
-   1. Review and Practice Random
+      - Partition vs Split?
    1. Practice with these examples:
-      - GUI:
-        - Easy: Rock Paper Scissors ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
-        - Medium: Random Dice ([1](/exercises/02/gui/medium-01-random-number.py),[2](/exercises/02/gui/medium-02-random-number.py))
-        - Hard <sub>[Optional]</sub>: Color Detector ([1](/exercises/02/gui/hard-01-color-detector.py),[2](/exercises/02/gui/hard-02-color-detector.py))
-      - CLI <sub>[Optional]</sub>: ([PhoneBook](/exercises/02/console/optional-01-phone-book.py))
-      - Web <sub>[Optional]</sub>: ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
-      - Turtle <sub>[Optional]</sub>: ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
+      - Rock Paper Scissors <sub>[Easy, GUI]</sub> ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
+      - Random Dice <sub>[Medium, GUI]</sub> ([1](/exercises/02/gui/medium-01-random-number.py),[2](/exercises/02/gui/medium-02-random-number.py))
+      - Color Detector <sub>[Optional, Hard, GUI]</sub> ([1](/exercises/02/gui/hard-01-color-detector.py),[2](/exercises/02/gui/hard-02-color-detector.py))
+      - PhoneBook <sub>[Optional, Medium, CLI]</sub>: ([1](/exercises/02/console/optional-01-phone-book.py))
+      - Web <sub>[Optional, Web]</sub>: ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
+      - Turtle <sub>[Optional, GUI]</sub>: ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
+1. **Homework for Week 3**
+   1. Practice with these examples:
+      - How to make a simple paint? <sub>[Easy, General]</sub> ([First part](/lessons/python/examples/paint-part1.py))
+      - How to make a simple phonebook with GUI? <sub>[Optional, Medium, General]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
+      - How to make an interpreter for a hypothetical programming language?<sub>[Optional, Hard, General]</sub> ([First part](/lessons/python/examples/interpreter-part1.py))
 
 ## Headings
 
@@ -45,7 +48,7 @@
    - [Encode](/lessons/python/concepts/string/encode-string.py) `encode, decode`
    - [Trim](/lessons/python/concepts/string/trim-string.py) `strip, lstrip, rstrip`
    - [Concat](/lessons/python/concepts/string/concat-string.py) `join, concatenation`
-   - Search `endswith, startswith, find, index, rindex`
+   - [Search](/lessons/python/concepts/string/search-string.py) `endswith, startswith, find, rfind, index, rindex`
    - Format `translate, maketrans, format, format_map`
    - Split `partition, rpartition, splitlines, split, slice`
    - Text `(title, capitalize), (lower, upper, swapcase, casefold), (center, ljust, rjust)`
@@ -62,7 +65,7 @@
    5. Identity `is, is not`
    6. [Membership](/lessons/python/concepts/operators/membership-operators.py) `in, not in`
    7. Bitwise `& | ^ ~ << >>`
-1. Scape Chars
+1. [Scape Chars](/lessons/python/concepts/string/scape-chars.py)
 1. DataTypes
 1. Conversion, TypeCasting
 1. Debugging (break point)
@@ -79,7 +82,7 @@
 1. Keywords
 1. Scope, Global, Local
    - `locals(), globals()`
-1. Read, Write File, Pickle
+1. Read File, Write File, Pickle
 1. Math, Date
 1. Module
 1. OOP Concepts
@@ -88,16 +91,13 @@
 
 1. VENV
 1. PIP
-   - install
-   - list
-   - freeze
-   - uninstall
-   - ...
+   - `install, list, uninstall, freeze`, ...
 1. Eval, Exec
 1. Operator Overload ???
 1. Exception, Custom Exception, Types of Errors
 1. Assertion
 1. Decorator
+1. MetaClasses, MetaProgramming
 1. Generator
 1. Iterator
 1. Closure
@@ -125,13 +125,13 @@
 
 ### Kinds of algorithms <sub>[Optional]</sub>
 
-1. Recursive
+1. [Recursive](/lessons/algorithm/kinds/recursive-algorithm.py)
 2. Divide and Conquer
 3. Dynamic Programming
 4. Greedy Algorithm
 5. Brute Force
-6. Backtracking
-7. Heuristic, MetaHeuristic <sub>(Soft Computing)</sub>
+6. Back Tracking
+7. [Meta]Heuristic <sub>(Soft Computing)</sub>
 8. CollectiveIntelligence <sub>(Soft Computing)</sub>
 9. EvolutionaryAlgorithms <sub>(Soft Computing)</sub>
 
@@ -168,8 +168,8 @@
    - Single
    - Circular
    - Double
-4. Stack
-5. Queue
+4. Stack [LIFO]
+5. Queue [FIFO]
 6. Array
    - Matrix
 7. Hash Table (Hash Map)
@@ -180,9 +180,11 @@
 #### Formats to Store <sub>[Optional]</sub>
 
 1. CSV
-2. XML
-3. JSON
-4. ...
+1. XML
+1. JSON
+1. OWL
+1. TXT
+1. ...
 
 #### Houses <sub>[Optional]</sub>
 
@@ -240,12 +242,12 @@
 11. SQL, NoSql, ORM
 12. Test frameworks
 13. Multimedia
-14. Scientific computing
+14. Scientific Computing
 
 ## Methodologies <sub>[Optional]</sub>
 
 - Agile
-  - Scrum
+  - Scrum -> Trello?
 - Kanban
 - ...
 
