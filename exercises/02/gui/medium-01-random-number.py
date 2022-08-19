@@ -19,12 +19,15 @@ window.title("یک عدد تصادفی")
 numbers = [1, 2, 3, 4, 5, 6]
 
 ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# زمانیکه بر روی دکمه کلیک میشود این تابع صدا زده میشود
 def choose_a_random_number():
     number = random.choice(numbers)
     button.config(text=str(number))
 
 
 ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# دکمه ای ساختیم که بتوانیم از آن برای انتخاب یک عدد تصادفی
+# استفاده کنیم
 button = Button()
 button.config(text="کلیک کنید")
 button.config(command=choose_a_random_number)

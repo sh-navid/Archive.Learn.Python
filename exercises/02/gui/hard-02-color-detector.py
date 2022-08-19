@@ -27,6 +27,8 @@ def check_color():
     color_name = entry.get()
     print(color_name)
 
+    ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    # میتوانید تصور کنید در این قسمت برنامه چه اتفاقی می افتد؟
     color_name = color_name.replace("ي", "ی")
     color_name = color_name.replace("ا", "آ")
 

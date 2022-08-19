@@ -29,14 +29,16 @@
       - Rock Paper Scissors <sub>[Easy, GUI]</sub> ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
       - Random Dice <sub>[Medium, GUI]</sub> ([1](/exercises/02/gui/medium-01-random-number.py),[2](/exercises/02/gui/medium-02-random-number.py))
       - Color Detector <sub>[Optional, Hard, GUI]</sub> ([1](/exercises/02/gui/hard-01-color-detector.py),[2](/exercises/02/gui/hard-02-color-detector.py))
-      - PhoneBook <sub>[Optional, Medium, CLI]</sub>: ([1](/exercises/02/console/optional-01-phone-book.py))
-      - Web <sub>[Optional, Web]</sub>: ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
-      - Turtle <sub>[Optional, GUI]</sub>: ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
+      - PhoneBook <sub>[Optional, Medium, CLI]</sub> ([1](/exercises/02/console/optional-01-phone-book.py))
+      - Web <sub>[Optional, Web]</sub> ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
+      - Turtle <sub>[Optional, GUI]</sub> ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
 1. **Homework for Week 3**
    1. Practice with these examples:
-      - How to make a simple paint? <sub>[Easy, General]</sub> ([First part](/lessons/python/examples/paint-part1.py))
-      - How to make a simple phonebook with GUI? <sub>[Optional, Medium, General]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
-      - How to make an interpreter for a hypothetical programming language?<sub>[Optional, Hard, General]</sub> ([First part](/lessons/python/examples/interpreter-part1.py))
+      - How to make a simple paint? <sub>[Easy, GUI]</sub> ([First part](/lessons/python/examples/paint-part1.py))
+      - How to make a simple phonebook with GUI? <sub>[Optional, Medium, GUI]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
+      - How to make an interpreter for a hypothetical programming language? <sub>[Optional, Hard, CLI]</sub> ([First part](/lessons/python/examples/interpreter-part1.py))
+1. **Homework for Week 4**
+   - Plot ??
 
 ## Headings
 
@@ -49,13 +51,13 @@
    - [Trim](/lessons/python/concepts/string/trim-string.py) `strip, lstrip, rstrip`
    - [Concat](/lessons/python/concepts/string/concat-string.py) `join, concatenation`
    - [Search](/lessons/python/concepts/string/search-string.py) `endswith, startswith, find, rfind, index, rindex`
-   - Format `translate, maketrans, format, format_map`
-   - Split `partition, rpartition, splitlines, split, slice`
-   - Text `(title, capitalize), (lower, upper, swapcase, casefold), (center, ljust, rjust)`
-   - Check `in, (istitle, islower, isupper), isspace, isprintable, isidentifier, (isascii, isalpha), (isalnum, isnumeric, isdecimal, isdigit)`
-   - Other `zfill, count, replace, len, expandtabs, multi-line, loop-over-characters, reverse`
-1. Boolean
-1. Random
+   - [Format](/lessons/python/concepts/string/format-string.py) `translate, maketrans, format, format_map`
+   - [Split](/lessons/python/concepts/string/split-string.py) `partition, rpartition, splitlines, split, slice`
+   - [Text](/lessons/python/concepts/string/audit-string.py) `(title, capitalize), (lower, upper, swapcase, casefold), (center, ljust, rjust)`
+   - [Check](/lessons/python/concepts/string/check-string.py) `in, (istitle, islower, isupper), isspace, isprintable, isidentifier, (isascii, isalpha), (isalnum, isnumeric, isdecimal, isdigit)`
+   - [Other](/lessons/python/concepts/string/other-string-functions.py) `zfill, count, replace, len, expandtabs, multi-line, loop-over-characters, reverse`
+1. [Boolean](/lessons/python/concepts/boolean/boolean-concept.py)
+1. [Random](/lessons/python/concepts/random/general-random-functions.py)
    - `random(), randint(), shuffle(), choice()`
 1. [Operators](/lessons/python/concepts/operators)
    1. [Arithmetic](/lessons/python/concepts/operators/arithmetic-operators.py) `+ -` ,...
@@ -66,13 +68,13 @@
    6. [Membership](/lessons/python/concepts/operators/membership-operators.py) `in, not in`
    7. Bitwise `& | ^ ~ << >>`
 1. [Scape Chars](/lessons/python/concepts/string/scape-chars.py)
-1. DataTypes
-1. Conversion, TypeCasting
 1. Debugging (break point)
 1. List
 1. Tuple
 1. Set, FrozenSet
 1. Dictionary
+1. DataTypes
+1. Conversion, TypeCasting
 1. Input
 1. If, Elif, Else
 1. While, Break, Continue
