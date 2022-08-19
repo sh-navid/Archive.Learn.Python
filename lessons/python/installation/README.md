@@ -1,4 +1,4 @@
-# Python Installation <sub>[Farsi Version](/README-FARSI.md)</sub>
+# Python Installation <sub>[Farsi Version](README-FARSI.md)</sub>
 
 - To check and run python:
 
