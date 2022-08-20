@@ -10,9 +10,11 @@
 ## Homework
 
 1. **Homework for Week 1**
-   - Practice with these examples:
-     - [Triangles](/exercises/01/easy-01-triangle.py) <sub>[Easy, CLI]</sub>
-     - [TicTocToe](/exercises/01/hard-01-xo-game.py) <sub>[Optional, Hard, CLI]</sub>
+   1. Search for these terms:
+      - **IDE**
+   1. Practice with these examples:
+      - [Triangles](/exercises/01/easy-01-triangle.py) <sub>[Easy, CLI]</sub>
+      - [TicTocToe](/exercises/01/hard-01-xo-game.py) <sub>[Optional, Hard, CLI]</sub>
 1. **Homework for Week 2**
    1. Try to install and run `Jupyter` or `Markdown`
    1. Search for these terms and check their differences:
@@ -22,9 +24,10 @@
       - **Compiler**, **Interpreter**
       - **Syntax**, **OpenSource**, **SourceCode**
    1. Read about python [**Operators**](/lessons/python/concepts/operators)
-   1. Review and practice [**Strings**](/exercises/02/review/review-01-string.py) and **Randoms**
+   1. Review and practice [**Strings**](/lessons/python/concepts/string/) and [**Randoms**](/lessons/python/concepts/random/)
       - Find vs Index?
       - Partition vs Split?
+   1. Solve these problems [link](/exercises/exercise-general-week-02.py)
    1. Practice with these examples:
       - Rock Paper Scissors <sub>[Easy, GUI]</sub> ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
       - Random Dice <sub>[Medium, GUI]</sub> ([1](/exercises/02/gui/medium-01-random-number.py),[2](/exercises/02/gui/medium-02-random-number.py))
@@ -33,12 +36,22 @@
       - Web <sub>[Optional, Web]</sub> ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
       - Turtle <sub>[Optional, GUI]</sub> ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
 1. **Homework for Week 3**
+   1. Search for these terms:
+      - ...
+   1. Solve these problems ([link](/exercises/exercise-general-week-03.py)).
    1. Practice with these examples:
       - How to make a simple paint? <sub>[Easy, GUI]</sub> ([First part](/lessons/python/examples/paint-part1.py))
       - How to make a simple phonebook with GUI? <sub>[Optional, Medium, GUI]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
       - How to make an interpreter for a hypothetical programming language? <sub>[Optional, Hard, CLI]</sub> ([First part](/lessons/python/examples/interpreter-part1.py))
 1. **Homework for Week 4**
-   - Plot ??
+   1. Search for these terms:
+      - ...
+   1. Solve these problems ([link](/exercises/exercise-general-week-04.py)).
+      - Simulate a **queue** with a list and display the entry (InQueue) and exit (DeQueue) of 4 cars to it.
+      - Simulate a **stack** with a list and display the entry (Push) and exit (Pop) of 4 cars into it.
+   1. Practice with these examples:
+      - Simple Genetic Algorithm
+      - How to make a simple paint? <sub>[Easy, GUI]</sub> ([Second part](/lessons/python/examples/paint-part2.py))
 
 ## Headings
 
@@ -129,7 +142,8 @@
 
 1. [Recursive](/lessons/algorithm/kinds/recursive-algorithm.py)
 2. Divide and Conquer
-3. Dynamic Programming
+3. [Dynamic Programming](/lessons/algorithm/kinds/dynamic-programming.py)
+   - An array is often used to store results for reuse
 4. Greedy Algorithm
 5. Brute Force
 6. Back Tracking
@@ -194,13 +208,15 @@
 
 ## Famous Ideas and Problems <sub>[Optional]</sub>
 
-1. 8 Queens
-1. Shortest Path
-1. Fibo
+1. [Fibo](/lessons/algorithm/kinds/recursive-algorithm.py)
+1. [8 Queens](/lessons/algorithm/problems/eight-queens.py)
+1. Shortest Path Problem
 1. Tower of Hanoi
 1. Knapsack problem
 1. Travelling salesman
-1. ...
+1. Egg dropping puzzle
+1. Dijkstra's algorithm
+1.
 
 ## Roadmap <sub>[Optional]</sub>
 

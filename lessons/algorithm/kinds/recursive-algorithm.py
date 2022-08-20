@@ -11,5 +11,5 @@ def fibo_recursive(a):
 # Index -> 1 2 3 4 5 6 7   8   9
 # Value -> 1 1 2 3 5 8 13  21  34
 
-for i in range(1, 10):
+for i in range(1, 10000):
     print(f"Fibo {i}: {fibo_recursive(i)}")

@@ -4,42 +4,6 @@ print(s1.islower())
 print(s1.isupper())
 print(s1.isspace())
 
-a = "eol"
-b = "30!"
-s = "Hello-World"
-print("Translate + MakeTrans:", s.translate(s.maketrans(a, b)))
-
-
-print("Format:", "{} my {}".format("Hello", "World"))
-
-
-print("FormatMap:", "{key1} my {key2}".format_map({"key1": "Test", "key2": "Mind"}))
-
-
-print("ExpandTab:", "Hello\tWorld".expandtabs(16))
-
-
-print("Encode:", "Hello".encode(), type("Hello".encode()))
-
-
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-print("Concatenation:", "Hello" + "World")
-
-
-print("Reverse:", "Hello World"[::-1])
-
-
-print("Loop (Char Array):")
-for ch in "Hello":
-    print(ch, end=" - ")
-print()
-
-
-print("Slice:", "Hello World"[2:5])
-
-
 ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 TAB = 14
