@@ -37,15 +37,16 @@
       - Turtle <sub>[Optional, GUI]</sub> ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
 1. **Homework for Week 3**
    1. Search for these terms:
-      - ...
+      - **Stack**, **Queue**
    1. Solve these problems ([link](/exercises/exercise-general-week-03.py)).
    1. Practice with these examples:
       - How to make a simple paint? <sub>[Easy, GUI]</sub> ([First part](/lessons/python/examples/paint-part1.py))
+      - How to make a weight tracker? <sub>[Optional, Medium, CLI]</sub> ([First part](/lessons/python/examples/weight-tracker-part1.py))
       - How to make a simple phonebook with GUI? <sub>[Optional, Medium, GUI]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
       - How to make an interpreter for a hypothetical programming language? <sub>[Optional, Hard, CLI]</sub> ([First part](/lessons/python/examples/interpreter-part1.py))
 1. **Homework for Week 4**
    1. Search for these terms:
-      - ...
+      - **Function** vs **Method** in python.
    1. Solve these problems ([link](/exercises/exercise-general-week-04.py)).
       - Simulate a **queue** with a list and display the entry (InQueue) and exit (DeQueue) of 4 cars to it.
       - Simulate a **stack** with a list and display the entry (Push) and exit (Pop) of 4 cars into it.
