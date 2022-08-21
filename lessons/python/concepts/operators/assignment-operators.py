@@ -1,4 +1,5 @@
-# Assignment
+# [Assignment Operators]
+
 ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x = 10
 print("x =", x)
@@ -114,19 +115,19 @@ print("x =", x, "XOR")
 """
 x = 10
 x = 4
-x = 4 Assignment
+x = 4   Assignment
 
 x = 10
 x += 4
-x = 14 Addition
+x = 14  Addition
 
 x = 10
 x -= 4
-x = 6 Subtraction
+x = 6   Subtraction
 
 x = 10
 x *= 4
-x = 40 Multiplication
+x = 40  Multiplication
 
 x = 10
 x /= 4
@@ -134,7 +135,7 @@ x = 2.5 Division
 
 x = 10
 x //= 4
-x = 2 Floor division
+x = 2   Floor division
 
 x = 10
 x **= 4
@@ -142,19 +143,19 @@ x = 10000 Exponentiation
 
 x = 10
 x %= 4
-x = 2 Modulus
+x = 2   Modulus
 
 x = 10
 x &= 4
-x = 0 AND
+x = 0   AND
 
 x = 10
 x |= 4
-x = 14 OR
+x = 14  OR
 
 x = 10
 x ^= 4
-x = 14 XOR
+x = 14  XOR
 """
 
 ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

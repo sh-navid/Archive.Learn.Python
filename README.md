@@ -27,7 +27,7 @@
    1. Review and practice [**Strings**](/lessons/python/concepts/string/) and [**Randoms**](/lessons/python/concepts/random/)
       - Find vs Index?
       - Partition vs Split?
-   1. Solve these problems [link](/exercises/exercise-general-week-02.py)
+   1. Solve these problems ([link](/exercises/exercise-general-week-02.py))
    1. Practice with these examples:
       - Rock Paper Scissors <sub>[Easy, GUI]</sub> ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
       - Random Dice <sub>[Medium, GUI]</sub> ([1](/exercises/02/gui/medium-01-random-number.py),[2](/exercises/02/gui/medium-02-random-number.py))
@@ -40,19 +40,40 @@
       - **Stack**, **Queue**
    1. Solve these problems ([link](/exercises/exercise-general-week-03.py)).
    1. Practice with these examples:
+      - Simple 2D Game <sub>[LEVEL NOT ASSIGNED, PyGame]</sub> ([Part1](/lessons/python/examples/simple-2d-game-part1.py), [part2](/lessons/python/examples/simple-2d-game-part2.py), [part3](/lessons/python/examples/simple-2d-game-part3.py), [part4](/lessons/python/examples/simple-2d-game-part4.py))
       - How to make a simple paint? <sub>[Easy, GUI]</sub> ([First part](/lessons/python/examples/paint-part1.py))
       - How to make a weight tracker? <sub>[Optional, Medium, CLI]</sub> ([First part](/lessons/python/examples/weight-tracker-part1.py))
       - How to make a simple phonebook with GUI? <sub>[Optional, Medium, GUI]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
       - How to make an interpreter for a hypothetical programming language? <sub>[Optional, Hard, CLI]</sub> ([First part](/lessons/python/examples/interpreter-part1.py))
 1. **Homework for Week 4**
    1. Search for these terms:
+      - What is **Rafactoring**?
       - **Function** vs **Method** in python.
    1. Solve these problems ([link](/exercises/exercise-general-week-04.py)).
-      - Simulate a **queue** with a list and display the entry (InQueue) and exit (DeQueue) of 4 cars to it.
-      - Simulate a **stack** with a list and display the entry (Push) and exit (Pop) of 4 cars into it.
+      - Can you make a CLI random **MAZE**?
+      - Simulate a **Queue** with a list and display the **InQueue** and **DeQueue** of 4 cars from/to it.
+      - Simulate a **Stack** with a list and display the **Push** and exit **Pop** of 4 cars from/into it.
+      - Make a multiagent weak AI based on **Collective Intelligence** <sub>[Optional, Hard, Algoritmic, GUI/CLI]</sub>
    1. Practice with these examples:
       - Simple Genetic Algorithm
       - How to make a simple paint? <sub>[Easy, GUI]</sub> ([Second part](/lessons/python/examples/paint-part2.py))
+1. **Homework for Week 5**
+   1. Search for these terms:
+      - ...
+1. **Homework for Week 6**
+   1. Search for these terms:
+      - **Accessor** in python ???
+      - **Argument**, **Parameter**, **Variable**, **Property**
+1. **Homework for Week 7**
+   1. Search for these terms:
+      - **Shadow**
+      - **Constructor**
+      - **Implementation**
+      - **Overload**, **Override**
+      - **Inheritance**, **Instansiation**
+      - **Encapsulation**, **Polymorphism**
+      - **Method** vs **Function** vs **Lambda**
+      - [**Magic Method**, **Class Method**, **Instance Method**, **Static Method**](/lessons/python/concepts/object-oriented/types-of-methods.py)
 
 ## Headings
 
@@ -78,9 +99,9 @@
    2. [Assignment](/lessons/python/concepts/operators/assignment-operators.py) `= += -=` ,...
    3. [Comparison](/lessons/python/concepts/operators/comparison-operators.py) `== != >=` ,...
    4. [Logical](/lessons/python/concepts/operators/logical-operators.py) `and, or, not`
-   5. Identity `is, is not`
+   5. [Identity](/lessons/python/concepts/operators/identity-operators.py) `is, is not`
    6. [Membership](/lessons/python/concepts/operators/membership-operators.py) `in, not in`
-   7. Bitwise `& | ^ ~ << >>`
+   7. [Bitwise](/lessons/python/concepts/operators/bitwise-operators.py) `& | ^ ~ << >>`
 1. [Scape Chars](/lessons/python/concepts/string/scape-chars.py)
 1. Debugging (break point)
 1. List
@@ -93,7 +114,7 @@
 1. If, Elif, Else
 1. While, Break, Continue
 1. Comperhension, For
-1. Function, Lambda
+1. [Function, Method, Lambda](/lessons/python/concepts/object-oriented/types-of-methods.py)
 1. Try, Except
 1. Keywords
 1. Scope, Global, Local
@@ -102,29 +123,34 @@
 1. Math, Date
 1. Module
 1. OOP Concepts
+1. \_\_name\_\_
 
 ### Optional
 
 1. VENV
 1. PIP
    - `install, list, uninstall, freeze`, ...
-1. Eval, Exec
-1. Operator Overload ???
+1. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
+1. [Operator Overload](/lessons/python/concepts/operators/operator-overload.py)
 1. Exception, Custom Exception, Types of Errors
-1. Assertion
-1. Decorator
+1. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
+1. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
 1. MetaClasses, MetaProgramming
-1. Generator
+1. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
 1. Iterator
+   - [Iterator, Iterable](/lessons/python/concepts/advanced/simple-iterator.py)
+   - [Custom Iterator](/lessons/python/concepts/advanced/custom-iterator.py)
 1. Closure
-1. Reflection
+1. [Descriptor](/lessons/python/concepts/advanced/simple-descriptor.py)
+1. [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
 1. Regular Expression
 1. Socket
 1. Web Service, Web Socket
 1. SQL (MariaDB, Sqlite, ...)
 1. NoSQL (MongoDB, Redis, ...)
 1. ORM
-1. JSON
+1. Serialization, Deserialization
+1. JSON, CSV, XML
 
 ## Programming Paradigms <sub>[Optional]</sub>
 
@@ -148,9 +174,10 @@
 4. Greedy Algorithm
 5. Brute Force
 6. Back Tracking
-7. [Meta]Heuristic <sub>(Soft Computing)</sub>
-8. CollectiveIntelligence <sub>(Soft Computing)</sub>
-9. EvolutionaryAlgorithms <sub>(Soft Computing)</sub>
+7. Soft Computing
+   - [Meta]Heuristic
+   - CollectiveIntelligence
+   - EvolutionaryAlgorithms
 
 ### Algorithms Category <sub>[Optional]</sub>
 
@@ -217,7 +244,7 @@
 1. Travelling salesman
 1. Egg dropping puzzle
 1. Dijkstra's algorithm
-1.
+1. ...
 
 ## Roadmap <sub>[Optional]</sub>
 
@@ -246,7 +273,7 @@
    - Pillow
 8. AR, VR
 9. 2D, 3D Games
-   - PyGame
+   - PyGame([1](/lessons/python/examples/simple-2d-game-part1.py),[2](/lessons/python/examples/simple-2d-game-part2.py),[3](/lessons/python/examples/simple-2d-game-part3.py),[4](/lessons/python/examples/simple-2d-game-part4.py))
    - Open3D
 10. AI, Machine Learning
     - TF
@@ -284,6 +311,7 @@
 
 - UI
 - Unit
+  - [Assertion](/lessons/python/concepts/advanced/advanced-assertion.py)
 - Integration
 - TDD
 
