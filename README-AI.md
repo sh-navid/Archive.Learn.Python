@@ -19,7 +19,7 @@
      - KNN
      - SVM
      - NaiveBayse
-     - DesissionTree
+     - Decision Tree
 - UnsupervisedLearning
   1. Clustering
      - KMeans
@@ -53,3 +53,5 @@
 
 
 ## Game Theory? 
+   - Prisoner's dilemma
+   - ...
