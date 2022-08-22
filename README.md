@@ -82,15 +82,15 @@
    - `pep8, naming, comments, indentation, ...`
 1. Variables
 1. [Strings](/lessons/python/concepts/string)
-   - [Encode](/lessons/python/concepts/string/encode-string.py) `encode, decode`
-   - [Trim](/lessons/python/concepts/string/trim-string.py) `strip, lstrip, rstrip`
-   - [Concat](/lessons/python/concepts/string/concat-string.py) `join, concatenation`
-   - [Search](/lessons/python/concepts/string/search-string.py) `endswith, startswith, find, rfind, index, rindex`
-   - [Format](/lessons/python/concepts/string/format-string.py) `translate, maketrans, format, format_map`
-   - [Split](/lessons/python/concepts/string/split-string.py) `partition, rpartition, splitlines, split, slice`
-   - [Text](/lessons/python/concepts/string/audit-string.py) `(title, capitalize), (lower, upper, swapcase, casefold), (center, ljust, rjust)`
-   - [Check](/lessons/python/concepts/string/check-string.py) `in, (istitle, islower, isupper), isspace, isprintable, isidentifier, (isascii, isalpha), (isalnum, isnumeric, isdecimal, isdigit)`
-   - [Other](/lessons/python/concepts/string/other-string-functions.py) `zfill, count, replace, len, expandtabs, multi-line, loop-over-characters, reverse`
+   - [`encode, decode`](/lessons/python/concepts/string/encode-string.py)
+   - [`strip, lstrip, rstrip`](/lessons/python/concepts/string/trim-string.py)
+   - [`join, concatenation`](/lessons/python/concepts/string/concat-string.py)
+   - [`endswith, startswith, find, rfind, index, rindex`](/lessons/python/concepts/string/search-string.py)
+   - [`translate, maketrans, format, format_map`](/lessons/python/concepts/string/format-string.py)
+   - [`partition, rpartition, splitlines, split, slice`](/lessons/python/concepts/string/split-string.py)
+   - [`(title, capitalize), (lower, upper, swapcase, casefold), (center, ljust, rjust)`](/lessons/python/concepts/string/audit-string.py)
+   - [`in, (istitle, islower, isupper), isspace, isprintable, isidentifier, (isascii, isalpha), (isalnum, isnumeric, isdecimal, isdigit)`](/lessons/python/concepts/string/check-string.py)
+   - [`zfill, count, replace, len, expandtabs, multi-line, loop-over-characters, reverse`](/lessons/python/concepts/string/other-string-functions.py)
 1. [Boolean](/lessons/python/concepts/boolean/boolean-concept.py)
 1. [Random](/lessons/python/concepts/random/general-random-functions.py)
    - `random(), randint(), shuffle(), choice()`
@@ -105,9 +105,19 @@
 1. [Scape Chars](/lessons/python/concepts/string/scape-chars.py)
 1. Debugging (break point)
 1. List
+   - Ordered, Changeable, Indexed, Allow Duplicate
+   - [`access, assign, iterate, list(), .append(), .insert(), .remove(), del, .pop(), .copy(), .extend(), .clear(), len(), .count(), slice, join, unpack, in, .index(), .reverse(), .sort()`](/lessons/python/concepts/collections/list-access.py)
 1. Tuple
+   - Ordered, Unchangeable, Indexed, Allow Duplicate
+   - Tuples are **unchangeable**, or **immutable** so you cannot add or remove items from it
+   - [`access, tuple with one item, tuple(), iterate, del completely, len(), .count(), slice, join, unpack, in, .index()`](/lessons/python/concepts/collections/tuple-access.py)
 1. Set, FrozenSet
+   - Unordered, Unchangeable (By index, But you can add/remove), Unindexed, No Duplicate
+   - [`access, len(), set(), in, .add(), .update(), (.remove(), .discard(), .pop(), del), .copy(), .clear(), (.union(), intersection, difference, symmetric_difference), (disjoint, subset, superset)`](/lessons/python/concepts/collections/set-access.py)
+   - [`frozenset()`](/lessons/python/concepts/collections/set-frozen.py)
 1. Dictionary
+   - Ordered, Changeable, Key Value, No Duplicate
+   - [`access, assign, .update(), dict(), .keys(), .values(), .items(), zip(), len(), .pop(), .popitem(), del, .clear(), .copy(), .fromkeys(), .setdefault())`](/lessons/python/concepts/collections/dict-access.py)
 1. DataTypes
 1. Conversion, TypeCasting
 1. Input
