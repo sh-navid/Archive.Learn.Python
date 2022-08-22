@@ -40,7 +40,7 @@
       - **Stack**, **Queue**
    1. Solve these problems ([link](/exercises/exercise-general-week-03.py)).
    1. Practice with these examples:
-      - Simple 2D Game <sub>[LEVEL NOT ASSIGNED, PyGame]</sub> ([Part1](/lessons/python/examples/simple-2d-game-part1.py), [part2](/lessons/python/examples/simple-2d-game-part2.py), [part3](/lessons/python/examples/simple-2d-game-part3.py), [part4](/lessons/python/examples/simple-2d-game-part4.py))
+      - Simple 2D Game <sub>[Level not assigned, PyGame]</sub> ([Part1](/lessons/python/examples/simple-2d-game-part1.py), [part2](/lessons/python/examples/simple-2d-game-part2.py), [part3](/lessons/python/examples/simple-2d-game-part3.py), [part4](/lessons/python/examples/simple-2d-game-part4.py))
       - How to make a simple paint? <sub>[Easy, GUI]</sub> ([First part](/lessons/python/examples/paint-part1.py))
       - How to make a weight tracker? <sub>[Optional, Medium, CLI]</sub> ([First part](/lessons/python/examples/weight-tracker-part1.py))
       - How to make a simple phonebook with GUI? <sub>[Optional, Medium, GUI]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
@@ -59,11 +59,12 @@
       - How to make a simple paint? <sub>[Easy, GUI]</sub> ([Second part](/lessons/python/examples/paint-part2.py))
 1. **Homework for Week 5**
    1. Search for these terms:
-      - ...
+      - **CPython**, **Cython**, **Numba**, **JIT**
+      - Take a look at **NumPy**
 1. **Homework for Week 6**
    1. Search for these terms:
       - **Accessor** in python ???
-      - **Argument**, **Parameter**, **Variable**, **Property**
+      - **Argument**, **Attribute**, **Parameter**, **Variable**, **Property**
 1. **Homework for Week 7**
    1. Search for these terms:
       - **Shadow**
@@ -140,6 +141,7 @@
 1. VENV
 1. PIP
    - `install, list, uninstall, freeze`, ...
+1. [*argv, **kwargs](/lessons/python/concepts/advanced/argv-kwargs.py)
 1. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
 1. [Operator Overload](/lessons/python/concepts/operators/operator-overload.py)
 1. Exception, Custom Exception, Types of Errors
