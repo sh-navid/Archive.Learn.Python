@@ -11,7 +11,9 @@ def my_function():
 my_lambda = lambda num: print(f"This is from my lambda {num}")
 
 my_function()
+print(type(my_function))
 my_lambda(12)
+print(type(my_lambda))
 
 
 class MyClass:

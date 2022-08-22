@@ -79,7 +79,6 @@ while True:
     screen.fill(BACKGROUND_COLOR)
 
     choose_a_new_random_position_for_circle()
-    choose_a_new_random_position_for_circle()
     change_speed_of_circle_movement()
     move_circle_in_x_direction()
     move_circle_in_y_direction()
