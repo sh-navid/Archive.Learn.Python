@@ -1,4 +1,4 @@
-# Python Class
+# Python Instructor
 
 - An article to complete the Python course.
 - **Notice:** Wherever you see the word **[*Optional*]**, it means that it is not a part of your introductory class, but you can check and study as you wish.
@@ -12,6 +12,7 @@
 1. **Homework for Week 1**
    1. Search for these terms:
       - **IDE**
+      - **Compiler**, **Interpreter**
    1. Practice with these examples:
       - [Triangles](/exercises/01/easy-01-triangle.py) <sub>[Easy, CLI]</sub>
       - [TicTocToe](/exercises/01/hard-01-xo-game.py) <sub>[Optional, Hard, CLI]</sub>
@@ -21,42 +22,44 @@
       - **CLI**, **GUI**
       - **Bit**, **Byte**
       - **Error**, **Debug**
-      - **Compiler**, **Interpreter**
-      - **Syntax**, **OpenSource**, **SourceCode**
    1. Read about python [**Operators**](/lessons/python/concepts/operators)
    1. Review and practice [**Strings**](/lessons/python/concepts/string/) and [**Randoms**](/lessons/python/concepts/random/)
       - Find vs Index?
       - Partition vs Split?
    1. Solve these problems ([link](/exercises/exercise-general-week-02.py))
-   1. Practice with these examples:
-      - Rock Paper Scissors <sub>[Easy, GUI]</sub> ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
-      - Random Dice <sub>[Medium, GUI]</sub> ([1](/exercises/02/gui/medium-01-random-number.py),[2](/exercises/02/gui/medium-02-random-number.py))
-      - Color Detector <sub>[Optional, Hard, GUI]</sub> ([1](/exercises/02/gui/hard-01-color-detector.py),[2](/exercises/02/gui/hard-02-color-detector.py))
-      - PhoneBook <sub>[Optional, Medium, CLI]</sub> ([1](/exercises/02/console/optional-01-phone-book.py))
-      - Web <sub>[Optional, Web]</sub> ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
-      - Turtle <sub>[Optional, GUI]</sub> ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
 1. **Homework for Week 3**
+   1. Answers to the questions of the previous session of the students:
+      - [What is the difference between bin, oct and hex?](/lessons/algorithm/base/base-of-numbers.py)
+      - [What is seed in random?](/students/questions/random-seed.py)
+      - [What is set_state() and get_state() in random](/students/questions/random-get-set-state.py)
+      - [What is a module?](/students/questions/module-import.py)
+      - How to run an example?
+      - [What is the difference between choice() vs choices()](/students/questions/random-choice-vs-choices.py)
+      - [What is the difference between randint() vs randrange()](/students/questions/random-randint-vs-randrange.py), Step?
+      - How to install and run jupyter?, Jupiter does not install and gives an error
+      - [How to use .join() in string?](/students/questions/string-join.py)
+      - [How to insert ascii chars to list with a loop?](/students/questions/string-ascii-loop.py)
+      - [How to convert farsi chars to english chars with replace?](/students/questions/string-replace-english-numbers.py)
+      - [How to convert 1.25 or 1.75 to 2.0?](/students/questions/math-ceil.py)
+      - [How to calculate the square root of numbers?](/students/questions/math-sqrt.py)
    1. Search for these terms:
-      - **Stack**, **Queue**
+      - **Genetic Algorithm**
+      - **Array**, **Stack**, **Queue**, **Tree**, **Graph**
+      - **Syntax**, **OpenSource**, **SourceCode**
+      - [**Ons's Complement** and **Two's Complement**](/lessons/data-structure/ones-twos-complement.py)
+   1. Read about python [**Collections**](/lessons/python/concepts/collections/)
+   1. Review and practice [**Operators**](/lessons/python/concepts/operators)
    1. Solve these problems ([link](/exercises/exercise-general-week-03.py)).
-   1. Practice with these examples:
-      - Simple 2D Game <sub>[Level not assigned, PyGame]</sub> ([Part1](/lessons/python/examples/simple-2d-game-part1.py), [part2](/lessons/python/examples/simple-2d-game-part2.py), [part3](/lessons/python/examples/simple-2d-game-part3.py), [part4](/lessons/python/examples/simple-2d-game-part4.py))
-      - How to make a simple paint? <sub>[Easy, GUI]</sub> ([First part](/lessons/python/examples/paint-part1.py))
-      - How to make a weight tracker? <sub>[Optional, Medium, CLI]</sub> ([First part](/lessons/python/examples/weight-tracker-part1.py))
-      - How to make a simple phonebook with GUI? <sub>[Optional, Medium, GUI]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
-      - How to make an interpreter for a hypothetical programming language? <sub>[Optional, Hard, CLI]</sub> ([First part](/lessons/python/examples/interpreter-part1.py))
 1. **Homework for Week 4**
    1. Search for these terms:
-      - What is **Rafactoring**?
+      - What is **Refactoring**?
       - **Function** vs **Method** in python.
+      - [**Oct**, **Hex**, **Binary**, **Decimal**, **Character**, **ASCII**](/lessons/algorithm/base/base-of-numbers.py)
    1. Solve these problems ([link](/exercises/exercise-general-week-04.py)).
-      - Can you make a CLI random **MAZE**?
       - Simulate a **Queue** with a list and display the **InQueue** and **DeQueue** of 4 cars from/to it.
       - Simulate a **Stack** with a list and display the **Push** and exit **Pop** of 4 cars from/into it.
       - Make a multiagent weak AI based on **Collective Intelligence** <sub>[Optional, Hard, Algoritmic, GUI/CLI]</sub>
-   1. Practice with these examples:
-      - Simple Genetic Algorithm
-      - How to make a simple paint? <sub>[Easy, GUI]</sub> ([Second part](/lessons/python/examples/paint-part2.py))
+      - Make a CLI random **MAZE**?
 1. **Homework for Week 5**
    1. Search for these terms:
       - **CPython**, **Cython**, **Numba**, **JIT**
@@ -71,10 +74,25 @@
       - **Constructor**
       - **Implementation**
       - **Overload**, **Override**
-      - **Inheritance**, **Instansiation**
+      - **Inheritance**, **Instantiation**
       - **Encapsulation**, **Polymorphism**
       - **Method** vs **Function** vs **Lambda**
       - [**Magic Method**, **Class Method**, **Instance Method**, **Static Method**](/lessons/python/concepts/object-oriented/types-of-methods.py)
+
+## Practice with these examples: <sub>[Optional]</sub>
+- [Triangles](/exercises/01/easy-01-triangle.py) <sub>[Easy, CLI]</sub>
+- [TicTocToe](/exercises/01/hard-01-xo-game.py) <sub>[Optional, Hard, CLI]</sub>
+- Rock Paper Scissors <sub>[Easy, GUI]</sub> ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
+- Random Dice <sub>[Medium, GUI]</sub> ([1](/exercises/02/gui/medium-01-random-number.py),[2](/exercises/02/gui/medium-02-random-number.py))
+- Color Detector <sub>[Optional, Hard, GUI]</sub> ([1](/exercises/02/gui/hard-01-color-detector.py),[2](/exercises/02/gui/hard-02-color-detector.py))
+- PhoneBook <sub>[Optional, Medium, CLI]</sub> ([1](/exercises/02/console/optional-01-phone-book.py))
+- Web <sub>[Optional, Web]</sub> ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
+- Turtle <sub>[Optional, GUI]</sub> ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
+- Simple 2D Game <sub>[Easy, PyGame]</sub> ([Part1](/lessons/python/examples/simple-2d-game-part1.py), [part2](/lessons/python/examples/simple-2d-game-part2.py), [part3](/lessons/python/examples/simple-2d-game-part3.py), [part4](/lessons/python/examples/simple-2d-game-part4.py))
+- How to make a simple paint? <sub>[Easy, GUI]</sub> ([First part](/lessons/python/examples/paint-part1.py))
+- How to make a weight tracker? <sub>[Optional, Medium, CLI]</sub> ([First part](/lessons/python/examples/weight-tracker-part1.py))
+- How to make a simple phonebook with GUI? <sub>[Optional, Medium, GUI]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
+- How to make an interpreter for a hypothetical programming language? <sub>[Optional, Hard, CLI]</sub> ([First part](/lessons/python/examples/interpreter-part1.py))
 
 ## Headings
 
@@ -92,6 +110,7 @@
    - [`(title, capitalize), (lower, upper, swapcase, casefold), (center, ljust, rjust)`](/lessons/python/concepts/string/audit-string.py)
    - [`in, (istitle, islower, isupper), isspace, isprintable, isidentifier, (isascii, isalpha), (isalnum, isnumeric, isdecimal, isdigit)`](/lessons/python/concepts/string/check-string.py)
    - [`zfill, count, replace, len, expandtabs, multi-line, loop-over-characters, reverse`](/lessons/python/concepts/string/other-string-functions.py)
+   - [Scape Chars `\t \f \" \n \r \b \oct \hex`](/lessons/python/concepts/string/scape-chars.py)
 1. [Boolean](/lessons/python/concepts/boolean/boolean-concept.py)
 1. [Random](/lessons/python/concepts/random/general-random-functions.py)
    - `random(), randint(), shuffle(), choice()`
@@ -103,7 +122,6 @@
    5. [Identity](/lessons/python/concepts/operators/identity-operators.py) `is, is not`
    6. [Membership](/lessons/python/concepts/operators/membership-operators.py) `in, not in`
    7. [Bitwise](/lessons/python/concepts/operators/bitwise-operators.py) `& | ^ ~ << >>`
-1. [Scape Chars](/lessons/python/concepts/string/scape-chars.py)
 1. Debugging (break point)
 1. List
    - Ordered, Changeable, Indexed, Allow Duplicate
