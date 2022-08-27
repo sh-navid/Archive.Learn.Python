@@ -1,5 +1,7 @@
 # [Bitwise Operators]
 
+import numpy as np
+
 ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 def calc(a, b, op, op_name):
     result = eval(f"{a}{op}{b}")
@@ -51,26 +53,18 @@ calc(10, 4, "^", "XOR")
 # XOR -> 1110 -> 14
 
 ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Unary operator works only on one operator like -
-# ~ unary bitwise complement operator -> bitwise one's complement operator
+# Unary operator works only on one operator like ~
+# ~ bitwise one's complement operator
 print(~0)  # -1
 print(~1)  # -2
 
-print(~10)  # -11 [DOUBLE CHECK THIS]!
+print(~10)  # -11
 # Sign Bit   -   Magnitude
 # 0              0101       ->  +5
 # 1              1010       ->  -5
-# One's Complement: Inverting each bit
-# Two's Complement: Inverting the bits and adding one
-# ----------
-# 10 -> 1010
-# inv
-# ----------
-#       0101
-#      +   1
-# ----------
-#       0110
-print(int("0b0110", 2))
+# One's Complement: Inverting each bit                |-> One's 5 = -6
+# Two's Complement: Inverting the bits and adding one |-> Two's 5 = -5
+print("One's 12 ->",~12) # One's 12 -> -13
 
 ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 def shift(a, op, b):
@@ -78,7 +72,7 @@ def shift(a, op, b):
     if op == ">>":
         op_name = "Right Shift"
     result = eval(f"{a}{op}{b}")
-    print(f"{a} {op} {b} = {result}\t\t{bin(result)}\t\t{op_name}".expandtabs(10))
+    print(f"{a} {op} {b} = {result}\t\t{np.binary_repr(result).zfill(8)}\t\t{op_name}".expandtabs(10))
 
 
 shift(10, "<<", 0)
@@ -86,6 +80,9 @@ shift(10, "<<", 1)
 shift(10, "<<", 2)
 shift(10, "<<", 3)
 shift(10, "<<", 4)
+shift(10, "<<", 5)
+shift(10, "<<", 6)
+shift(10, ">>", 0)
 shift(10, ">>", 1)
 shift(10, ">>", 2)
 shift(10, ">>", 3)
@@ -94,14 +91,18 @@ shift(10, ">>", 4)
 """
    OP     Decimal             Binary              Operator Name
 ------------------------
-10 << 0 = 10                  0b1010              Left Shift
-10 << 1 = 20                  0b10100             Left Shift
-10 << 2 = 40                  0b101000            Left Shift
-10 << 3 = 80                  0b1010000           Left Shift
-10 << 4 = 160                 0b10100000          Left Shift
-10 >> 1 = 5                   0b101               Right Shift
-10 >> 2 = 2                   0b10                Right Shift
-10 >> 3 = 1                   0b1                 Right Shift
-10 >> 4 = 0                   0b0                 Right Shift
+10 << 0 = 10                  00001010            Left Shift
+10 << 1 = 20                  00010100            Left Shift
+10 << 2 = 40                  00101000            Left Shift
+10 << 3 = 80                  01010000            Left Shift
+10 << 4 = 160                 10100000            Left Shift
+10 << 5 = 320                 101000000           Left Shift
+10 << 6 = 640                 1010000000          Left Shift
+------------------------
+10 >> 0 = 10                  00001010            Right Shift
+10 >> 1 = 5                   00000101            Right Shift
+10 >> 2 = 2                   00000010            Right Shift
+10 >> 3 = 1                   00000001            Right Shift
+10 >> 4 = 0                   00000000            Right Shift
 ------------------------
 """

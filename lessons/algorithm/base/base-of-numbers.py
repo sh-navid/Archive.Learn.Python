@@ -1,7 +1,7 @@
 import base64
 
 LJUST = 10
-RJUST=10
+RJUST = 10
 
 def clear(byte_arr):
     txt = byte_arr.decode()  # convert to string from bytes
@@ -10,15 +10,15 @@ def clear(byte_arr):
 
 
 def calc(number):
-    ch=chr(number)
-    txt=chr(number) if ch.isprintable() and ch.isascii() else " "
+    ch = chr(number)
+    txt = chr(number) if ch.isprintable() and ch.isascii() else " "
     print(
         str(number).ljust(8),
         txt.ljust(6),
         str(ch.isascii()).ljust(7),
-        ((bin(number).rjust(RJUST)).ljust(LJUST)).replace("0b",""),
-        ((oct(number).rjust(7)).ljust(LJUST)).replace("0o",""),
-        ((hex(number).rjust(RJUST//3)).ljust(LJUST)).replace("0x",""),
+        ((bin(number).rjust(RJUST)).ljust(LJUST)).replace("0b", ""),
+        ((oct(number).rjust(7)).ljust(LJUST)).replace("0o", ""),
+        ((hex(number).rjust(RJUST // 3)).ljust(LJUST)).replace("0x", ""),
         clear(base64.b16encode(str(number).encode())).ljust(LJUST),
         clear(base64.b32encode(str(number).encode())).ljust(LJUST),
         clear(base64.b64encode(str(number).encode())).ljust(LJUST),

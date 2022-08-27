@@ -6,6 +6,7 @@
 ## How to _install_ and _run_ python?
 
 - Check this [link](/lessons/python/installation/README.md) ([farsi](/lessons/python/installation/README-FARSI.md)) to install and run Python.
+- [How to use pip?](/lessons/python/installation/README-PIP.md)
 
 ## Homework
 
@@ -28,20 +29,20 @@
       - Partition vs Split?
    1. Solve these problems ([link](/exercises/exercise-general-week-02.py))
 1. **Homework for Week 3**
-   1. Answers to the questions of the previous session of the students:
-      - [What is the difference between bin, oct and hex?](/lessons/algorithm/base/base-of-numbers.py)
-      - [What is seed in random?](/students/questions/random-seed.py)
-      - [What is set_state() and get_state() in random](/students/questions/random-get-set-state.py)
+   1. Answers to the questions of previous session of students:
       - [What is a module?](/students/questions/module-import.py)
       - How to run an example?
-      - [What is the difference between choice() vs choices()](/students/questions/random-choice-vs-choices.py)
-      - [What is the difference between randint() vs randrange()](/students/questions/random-randint-vs-randrange.py), Step?
-      - How to install and run jupyter?, Jupiter does not install and gives an error
+      - [What is seed in random?](/students/questions/random-seed.py)
       - [How to use .join() in string?](/students/questions/string-join.py)
-      - [How to insert ascii chars to list with a loop?](/students/questions/string-ascii-loop.py)
-      - [How to convert farsi chars to english chars with replace?](/students/questions/string-replace-english-numbers.py)
+      - [How to install and run jupyter?](/lessons/python/installation/README-FARSI.md)
       - [How to convert 1.25 or 1.75 to 2.0?](/students/questions/math-ceil.py)
+      - [How to insert ascii chars to list with a loop?](/students/questions/string-ascii-loop.py)
       - [How to calculate the square root of numbers?](/students/questions/math-sqrt.py)
+      - [What is .set_state() and .get_state() in random?](/students/questions/random-get-set-state.py)
+      - [What is the difference between bin, oct and hex?](/lessons/algorithm/base/base-of-numbers.py)
+      - [What is the difference between .choice() vs .choices()](/students/questions/random-choice-vs-choices.py)
+      - [How to convert **farsi** chars to **english** chars with replace?](/students/questions/string-replace-english-numbers.py)
+      - [What is the difference between .randint() vs .randrange()](/students/questions/random-randint-vs-randrange.py)
    1. Search for these terms:
       - **Genetic Algorithm**
       - **Array**, **Stack**, **Queue**, **Tree**, **Graph**
@@ -49,7 +50,7 @@
       - [**Ons's Complement** and **Two's Complement**](/lessons/data-structure/ones-twos-complement.py)
    1. Read about python [**Collections**](/lessons/python/concepts/collections/)
    1. Review and practice [**Operators**](/lessons/python/concepts/operators)
-   1. Solve these problems ([link](/exercises/exercise-general-week-03.py)).
+   1. Solve these problems ([link](/exercises/exercise-general-week-03.py)) <sub>[Updated]</sub>.
 1. **Homework for Week 4**
    1. Search for these terms:
       - What is **Refactoring**?
@@ -93,6 +94,10 @@
 - How to make a weight tracker? <sub>[Optional, Medium, CLI]</sub> ([First part](/lessons/python/examples/weight-tracker-part1.py))
 - How to make a simple phonebook with GUI? <sub>[Optional, Medium, GUI]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
 - How to make an interpreter for a hypothetical programming language? <sub>[Optional, Hard, CLI]</sub> ([First part](/lessons/python/examples/interpreter-part1.py))
+- [--------NEW--------]
+- [Table Generator](/lessons/python/examples/simple-table-generator.py) for Terminal
+- Simple [service](/lessons/python/examples/simple-bad-practice-authenticator.py) to authenticate users <sub>[Not a good practice, Just to teach something]</sub>, And a simple script to [login](/lessons/python/examples/simple-bad-practice-login-script.py) to this service.
+- Simple "Rock", "Paper", "Scissors" Game with Socket [Client](/lessons/python/examples/simple-socket-client.py) and Socket [Server](simple-socket-server.py)
 
 ## Headings
 
@@ -138,6 +143,7 @@
    - Ordered, Changeable, Key Value, No Duplicate
    - [`access, assign, .update(), dict(), .keys(), .values(), .items(), zip(), len(), .pop(), .popitem(), del, .clear(), .copy(), .fromkeys(), .setdefault())`](/lessons/python/concepts/collections/dict-access.py)
 1. DataTypes
+1. Module
 1. Conversion, TypeCasting
 1. Input
 1. If, Elif, Else
@@ -150,13 +156,12 @@
    - `locals(), globals()`
 1. Read File, Write File, Pickle
 1. Math, Date
-1. Module
 1. OOP Concepts
-1. \_\_name\_\_
 
 ### Optional
 
 1. VENV
+1. \_\_name\_\_
 1. PIP
    - `install, list, uninstall, freeze`, ...
 1. [*argv, **kwargs](/lessons/python/concepts/advanced/argv-kwargs.py)
@@ -297,7 +302,7 @@
 4. Mobile Application
    - Kivy
 5. Hardware
-6. Software Security
+6. [Software Security](/README-SECURITY.md)
 7. Image Processing, Computer Vision
    - OpenCV
    - Pillow
@@ -305,7 +310,7 @@
 9. 2D, 3D Games
    - PyGame([1](/lessons/python/examples/simple-2d-game-part1.py),[2](/lessons/python/examples/simple-2d-game-part2.py),[3](/lessons/python/examples/simple-2d-game-part3.py),[4](/lessons/python/examples/simple-2d-game-part4.py))
    - Open3D
-10. AI, Machine Learning
+10. [AI, Machine Learning](/README-AI.md)
     - TF
     - PyTorch
     - Keras

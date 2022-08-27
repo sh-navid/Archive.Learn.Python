@@ -1,12 +1,12 @@
 import random
 
-N=100
+N = 100
 
-randint_list=[]
+randint_list = []
 for i in range(N):
     # خود عدد 3 هم شامل شده
-    randint_list.append(random.randint(0,3)) # [0,3]
-print(randint_list,"\n")
+    randint_list.append(random.randint(0, 3))  # [0,3]
+print(randint_list, "\n")
 """
 [1, 2, 2, 2, 1, 2, 2, 2, 1, 2, 1, 2, 1, 3, 2, 2, 0, 2, 3, 2, 0, 3, 
  2, 3, 0, 0, 2, 1, 1, 1, 3, 1, 0, 1, 2, 2, 2, 3, 3, 1, 0, 2, 1, 1, 
@@ -16,10 +16,10 @@ print(randint_list,"\n")
 """
 
 
-randrange_list=[]
+randrange_list = []
 for i in range(N):
     # خود عدد 3 شامل نشده
-    randrange_list.append(random.randrange(0,3)) # [0,3)
+    randrange_list.append(random.randrange(0, 3))  # [0,3)
 print(randrange_list)
 """
 [0, 2, 1, 1, 2, 0, 0, 2, 0, 1, 0, 1, 1, 1, 2, 1, 1, 0, 1, 1, 2, 2, 
@@ -27,4 +27,21 @@ print(randrange_list)
  1, 1, 2, 0, 2, 0, 0, 1, 2, 1, 2, 2, 0, 2, 2, 2, 1, 1, 2, 1, 0, 0, 
  1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 2, 2, 1, 0, 2, 1, 2, 1, 0, 0, 1, 1, 
  2, 2, 1, 2, 1, 0, 2, 0, 0, 0, 0, 0]
+"""
+
+
+# Step
+even_list=[]
+print()
+for i in range(100):
+    # Step=2 to generate EVEN number
+    even_list.append(random.randrange(0,100, step=2))
+print(even_list)
+"""
+[66, 12, 10, 74, 50, 18, 42, 78, 44, 48, 24, 18, 52, 92, 96, 34, 60, 
+ 34, 28, 8, 32, 36, 52, 4, 48, 32, 20, 8, 60, 88, 8, 96, 14, 48, 48, 
+ 38, 96, 54, 98, 76, 82, 74, 54, 40, 48, 14, 76, 32, 54, 86, 88, 2, 
+ 0, 10, 56, 14, 84, 26, 52, 46, 68, 82, 24, 58, 44, 2, 88, 64, 78, 
+ 76, 82, 36, 98, 32, 76, 78, 18, 26, 66, 82, 84, 46, 30, 68, 92, 80, 
+ 74, 20, 20, 76, 54, 54, 86, 64, 76, 88, 74, 74, 52, 16]
 """
