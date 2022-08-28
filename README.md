@@ -31,6 +31,7 @@
 1. **Homework for Week 3**
    1. Answers to the questions of previous session of students:
       - [What is a module?](/students/questions/module-import.py)
+      - [Normal distribution](/students/statistics/distribution/normal-distribution.py)
       - How to run an example?
       - [What is seed in random?](/students/questions/random-seed.py)
       - [How to use .join() in string?](/students/questions/string-join.py)
@@ -94,10 +95,11 @@
 - How to make a weight tracker? <sub>[Optional, Medium, CLI]</sub> ([First part](/lessons/python/examples/weight-tracker-part1.py))
 - How to make a simple phonebook with GUI? <sub>[Optional, Medium, GUI]</sub> ([First part](/lessons/python/examples/phonebook-gui-part1.py))
 - How to make an interpreter for a hypothetical programming language? <sub>[Optional, Hard, CLI]</sub> ([First part](/lessons/python/examples/interpreter-part1.py))
-- [--------NEW--------]
-- [Table Generator](/lessons/python/examples/simple-table-generator.py) for Terminal
-- Simple [service](/lessons/python/examples/simple-bad-practice-authenticator.py) to authenticate users <sub>[Not a good practice, Just to teach something]</sub>, And a simple script to [login](/lessons/python/examples/simple-bad-practice-login-script.py) to this service.
-- Simple "Rock", "Paper", "Scissors" Game with Socket [Client](/lessons/python/examples/simple-socket-client.py) and Socket [Server](simple-socket-server.py)
+- [--------**NEW**--------]
+- [Table generator](/lessons/python/examples/simple-table-generator.py) for Terminal
+- Simple [service](/lessons/python/examples/simple-bad-practice-authenticator.py) to authenticate users, and a simple script to [login](/lessons/python/examples/simple-bad-practice-login-script.py) to this service.
+- Simple "Rock", "Paper", "Scissors" Game with Socket [Client](/lessons/python/examples/simple-socket-client.py) and Socket [Server](/lessons/python/examples/simple-socket-server.py)
+- Simple [talking bot](/lessons/python/examples/simple-talking-bot.py) example
 
 ## Headings
 
