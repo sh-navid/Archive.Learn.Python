@@ -1,6 +1,36 @@
 # [List]
 
 ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print([], type([]))
+print((), type(()))
+print({}, type({}))
+print({"x", "y"}, type({"x", "y"}))
+print(frozenset({"x", "y"}), type(frozenset({"x", "y"})))
+# Output
+"""
+[] <class 'list'>
+() <class 'tuple'>
+{} <class 'dict'>
+{'y', 'x'} <class 'set'>
+frozenset({'y', 'x'}) <class 'frozenset'>
+"""
+
+###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print(list((1, 2, 3)))
+print(tuple((1, 2, 3)))
+print(set((1, 2, 3)))
+print(frozenset((1, 2, 3)))
+print(dict(key=12, test=True))
+# Output:
+"""
+[1, 2, 3]
+(1, 2, 3)
+{1, 2, 3}
+frozenset({1, 2, 3})
+{'key': 12, 'test': True}
+"""
+
+###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Access Item
 my_list = ["A", "B", "C"]
 print("Access Item:", my_list[1], type(my_list))

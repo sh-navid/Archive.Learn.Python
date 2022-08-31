@@ -23,3 +23,12 @@
 - Range of IPs
 - V4 vs V6
 - Port
+- Subnet, Gateway
+
+## Firewall
+
+## Devices
+- Router
+- Repeater
+- AccessPoint
+- ...
