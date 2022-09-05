@@ -21,7 +21,7 @@
       - Partition vs Split?
    1. Solve these problems ([link](/exercises/exercise-general-week-02.py))
 1. **Homework for Week 3**
-   1. Answers to the questions of previous session of students:
+   1. Answers to the questions of students:
       - [What is a module?](/students/questions/module-import.py)
       - [Normal distribution](/students/statistics/distribution/normal-distribution.py)
       - [What is seed in random?](/students/questions/random-seed.py)
@@ -44,6 +44,8 @@
    1. Review and practice [**Operators**](/lessons/python/concepts/operators)
    1. Solve these problems ([link](/exercises/exercise-general-week-03.py)) <sub>[Updated]</sub>.
 1. **Homework for Week 4**
+   1. Answers to the questions of students:
+      - [Get object by id()](/students/questions/object-get-by-id.py)
    1. Search for these terms:
       - What is **Refactoring**?
       - **Function** vs **Method** in python.
@@ -51,11 +53,11 @@
    1. Solve these problems ([link](/exercises/exercise-general-week-04.py)).
       - Simulate a **Queue** with a list and display the **InQueue** and **DeQueue** of 4 cars from/to it.
       - Simulate a **Stack** with a list and display the **Push** and exit **Pop** of 4 cars from/into it.
-      - Make a multiagent weak AI based on **Collective Intelligence** <sub>[Optional, Hard, Algoritmic, GUI/CLI]</sub>
 1. **Homework for Week 5**
    1. Search for these terms:
-      - **CPython**, **Cython**, **Numba**, **JIT**
+      - [**CPython**, **Cython**](/lessons/python/runtimes/test-cython.py), [**Numba**, **JIT**](/lessons/python/runtimes/test-numba.py)
       - Take a look at **NumPy**
+   1. Learn [Tkinter](/lessons/python/modules/tkinter/README.md) more.
 1. **Homework for Week 6**
    1. Search for these terms:
       - **Accessor** in python ???

@@ -2,6 +2,8 @@
 ## This idea is very simple; you can expand it with AI[ML, Expert System, ...]
 ## Name of this bot is آوآ
 
+import random
+
 
 def similarity(text, sub_text):
     text = text.split(" ")
@@ -25,50 +27,61 @@ def clean_text(text: str):
     return text
 
 
+class Q:  # Question
+    def __init__(self, value: str, links: list) -> None:
+        self.value = value
+        self.links = links
+
+
+class A:  # Answer
+    def __init__(self, key: str, value: str, answers: tuple) -> None:
+        self.key = key
+        self.value = value
+        self.answers = answers
+
+
 # TODO: Add weight to each question and answer
 # TODO: Save and load this bot dictionary somewhere; he/she should learn more
 # TODO: Store chain of conversations to analyse later
 # TODO: Questions also should be a collection; hello, hi, Greetings, are in the same category
 # TODO: What if someone says "Hello, How are you?"; should i answer to hello? and also answer to How are you? Think!
 # TODO: Should i use regular expressions to find the similarity patterns?
-# TODO: Make a CLASS structure to store different types of information about each ENTITY
-bot_data = {
-    "how @ are you &": {
-        "old": {"answer": "[CMD:BIRTH]", "patterns": ["I am @ days old","I am @", "@ days"]}
-    },
-    "what is your @": {
-        "name": {"answer": "AavAa", "patterns": ["My name is @", "I am @", "@"]},
-        "pets name": {
-            "answer": "",
-            "patterns": ["I do not have one", "I do not have any"],
-        },
-    },
-    "do you have a @": {
-        "pet": {
-            "answer": "",
-            "patterns": ["No, I do not have one", "No, I do not have any"],
-        },
-    },
-}
+
+q1a0 = A("", "well", ["I am @", "@"])
+q1a1 = A("old", "7", ["I am @ days old", "I am @", "@ days"])
+q1a2 = A("tall", "", ["I do not know the answer"])
+q1a3 = A("happy", "", ["I do not know the answer"])
+q1 = Q("how @ are you &", [q1a0, q1a1, q1a2, q1a3])
+
+q2a1 = A("name", "AvA", ["My name is @", "I am @", "@"])
+q2a2 = A("child name", "", ["I do not have a child"])
+q2 = Q("what is your @", [q2a1, q2a2])
+
+knowledge = [q1, q2]
+
 
 while True:
     answer = clean_text(input("Write something for me: "))
 
-    selected_key = None
-    selected_sim = -1
+    q_selected = None
+    q_similarity = -1
     MIN_SIMILARITY_TRESH = 0.59
 
-    for key in bot_data.keys():
-        key = clean_text(key)
+    for q in knowledge:
+        key = clean_text(q.value)
         sim = similarity(key, answer)
         print(sim, key)
 
         if sim > MIN_SIMILARITY_TRESH:
-            if selected_key is None:
-                selected_key = key
-                selected_sim = sim
-            elif selected_sim < sim:
-                selected_key = key
-                selected_sim = sim
+            if q_selected is None or q_similarity < sim:
+                q_selected = q
+                q_similarity = sim
 
-    print(selected_key, selected_sim)
+    print("-----")
+    print(q_selected.value, q_similarity)
+
+    # FIXME: complete this section
+    if q_selected is not None:
+        for a in q_selected.links:
+            say = random.choice(a.answers).replace("@", a.value)
+            print("Possible Answers:", say)

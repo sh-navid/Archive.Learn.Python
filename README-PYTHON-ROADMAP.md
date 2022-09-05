@@ -6,7 +6,7 @@
    - Pandas
    - Matplotlib
 2. GUI (Desktop) Applications
-   - [Tkinter](/exercises/02/gui/)
+   - [Tkinter](/lessons/python/modules/tkinter/README.md)
    - PyQT
    - Kivy
 3. Web [[Read About This in Detail](/README-WEB.md)]

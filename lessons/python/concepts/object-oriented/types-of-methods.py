@@ -7,15 +7,17 @@ def my_function():
     print("This is from my function")
 
 
+# --------------------------------------------------
 # [Lambda]
 my_lambda = lambda num: print(f"This is from my lambda {num}")
 
+# --------------------------------------------------
 my_function()
 print(type(my_function))
 my_lambda(12)
 print(type(my_lambda))
 
-
+# --------------------------------------------------
 class MyClass:
     variable_of_class = 12  # For class and all instances
 
@@ -42,6 +44,7 @@ class MyClass:
         )
 
 
+# --------------------------------------------------
 MyClass.my_static_method()
 MyClass.my_class_method()
 
@@ -65,3 +68,14 @@ instance1.my_instance_method()
 instance2.my_static_method()
 instance2.my_class_method()
 instance2.my_instance_method()
+
+
+# --------------------------------------------------
+import types
+
+x = lambda a, b, c: a * b * c
+print(x(1, 2, 3), type(x))
+print(types.LambdaType is x.__class__, types.LambdaType, x.__class__)
+print(types.FunctionType is x.__class__, types.FunctionType, x.__class__)
+print(types.FunctionType is types.LambdaType, types.FunctionType, types.LambdaType)
+print(types.FunctionType is types.MethodType, types.FunctionType, types.MethodType)

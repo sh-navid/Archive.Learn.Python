@@ -79,25 +79,25 @@
 1. Conversion, TypeCasting
 1. Input
 1. Keywords
-   - if, elif, else
-   - for
-   - while, continue, break
-   - try, except, finally
-   - and, or, not, in, is
+   - [if, elif, else](/lessons/python/concepts/keywords/keywords-if-elif.py)
+   - [for](/lessons/python/concepts/keywords/keywords-for.py)
+   - [while, continue, break](/lessons/python/concepts/keywords/keywords-while.py)
+   - [try, except, finally](/lessons/python/concepts/keywords/keywords-try-except.py)
+   - [and, or, not, in, is](/lessons/python/concepts/keywords/keywords-and-or-not-in-is.py)
    - [import, from, as](/lessons/python/concepts/keywords/keywords-import.py)
-   - class, def, lambda, pass, return, del
+   - [class, def, lambda, pass, return, del](/lessons/python/concepts/keywords/keywords-class-def-lambda-pass-ret-del.py)
    - [global, nonlocal](/lessons/python/concepts/keywords/keywords-scope.py)
-   - assert<sub>[Optonal]</sub>, raise<sub>[Optonal]</sub>
-   - with <sub>[Optonal]</sub>
+   - [assert](/lessons/python/concepts/keywords/keywords-assert.py) <sub>[Optonal]</sub>, [raise](/lessons/python/concepts/keywords/keywords-raise.py) <sub>[Optonal]</sub>
+   - [with](/lessons/python/concepts/keywords/keywords-with.py) <sub>[Optonal]</sub>
    - [yield](/lessons/python/concepts/keywords/keywords-yield.py) <sub>[Optonal]</sub>
 1. [Function, Method, Lambda](/lessons/python/concepts/object-oriented/types-of-methods.py)
-1. Comperhension
+1. [Comperhension](/lessons/python/concepts/collections/comperhension.py)
 1. Scope, Globals, Locals
-   - `locals(), globals()`
-1. Read File, Write File, Pickle
-1. Math
+   - [`locals(), globals()`](/lessons/python/concepts/variables/scope.py)
+1. [Read File, Write File](/lessons/python/examples/read-write-file.py), [Pickle](/lessons/python/examples/read-write-pickle.py)
+1. [Math](/lessons/python/examples/test-math.py)
 1. Date
-1. OOP Concepts
+1. [OOP Concepts](/lessons/python/concepts/object-oriented/object-oriented.py)
 
 ### Optional
 
@@ -105,6 +105,7 @@
 1. \_\_name\_\_
 1. PIP
    - [`install, list, uninstall, freeze`, ...](/lessons/python/installation/README-PIP.md)
+1. Type of Errors
 1. Arguments
    - [`*argv`, `**kwargs`](/lessons/python/concepts/advanced/argv-kwargs.py)
 1. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
@@ -120,6 +121,7 @@
 1. Closure
 1. [Descriptor](/lessons/python/concepts/advanced/simple-descriptor.py)
 1. [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
+1. [Context Manager](/lessons/python/concepts/keywords/keywords-with.py)
 1. Regular Expression
 1. Socket [`client`](/lessons/python/examples/simple-socket-client.py), [`server`](/lessons/python/examples/simple-socket-server.py)
 1. Web Service, Web Socket
