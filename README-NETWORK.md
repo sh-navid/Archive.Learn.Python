@@ -21,7 +21,7 @@
 ## IP
 - IP (Internet Protocol): Address to identify any device in network
 - MAC (Media Access Control): Physical Address
-- IP vs MAC: ?
+- IP vs MAC ?
 - IP Classes
    - Class A: <sub>8bit network part, 24 bit host part</sub>
       - 0.0.0.0 - 127.255.255.255

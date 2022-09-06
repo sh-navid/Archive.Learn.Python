@@ -11,8 +11,14 @@
 - Backend
   - Python
     - Django
-    - Flask (SocketIO, ...)
+    - Flask, Jinja, ...
+    - NodeJS, NextJS, SocketIO, ...
   - Database
-    - SQL, NoSql, ORM <sub>(Prisma, Sequelize, ...)</sub>, JSON, XML
+    - SQL, NoSql, ORM <sub>(Prisma, Sequelize, SQLAlchemy, ...)</sub>, JSON, XML
   - Web Services Architecture <sub>COAP, SOAP, RestAPI, GraphQL, ...</sub>
 - Deploy, Monitoring, ...
+
+
+
+____
+- [ ] TODO: Link each entity to its original source, or explain it here

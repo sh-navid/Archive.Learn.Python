@@ -36,3 +36,8 @@ print("mean", mean([10, 20]))
 
 print(factorial(3)) # 1*2*3     -> 6
 print(factorial(5)) # 1*2*3*4*5 -> 120
+
+
+# FIXME: Complete this section
+# Read more here:
+# https://docs.python.org/3/library/math.html

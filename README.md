@@ -1,27 +1,16 @@
 # Python Instructor
 
 - An article to complete the Python course.
-- **Notice:** Wherever you see the word **[*Optional*]**, it means that it is not a part of your introductory class, but you can check and study as you wish.
 - **Disclaimer:** _The content of this repository is only for testing and training and is provided at the discretion of the author; So it may not be suitable for production or other conditions._
-
-## How to _install_ and _run_ python?
-
 - Check this [link](/lessons/python/installation/README.md) ([farsi](/lessons/python/installation/README-FARSI.md)) to install and run Python.
 
 ## Homework
 
 - Check [this link](/README-PYTHON-HOMEWORKS.md)
 
-## Examples <sub>[Optional]</sub>
+## Examples
 
 - Check [this link](/README-PYTHON-EXAMPLES.md)
-
-## Roadmaps
-
-- [Python](/README-PYTHON-ROADMAP.md)
-- [Web](/README-WEB.md)
-- [Network <sub>Basic Concepts</sub>](/README-NETWORK.md)
-- [More](/README-MORE.md)
 
 ## Headings
 
@@ -131,19 +120,3 @@
 1. Serialization, Deserialization
 1. JSON, CSV, XML
 1. Mutable vs Immutable in practice
-
-### Modules, Libs, SDKs, ... <sub>[Advance]</sub>
-
-- Tkinter
-- NumPy
-- PyGame
-- OpenCV
-- Django
-- Flask
-- Kivy
-- Pillow
-- PyAutoGUI
-- PyTorch
-- TF
-- Chain
-- ...

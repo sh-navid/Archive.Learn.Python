@@ -71,3 +71,11 @@ with MyMath() as math:
     print(math.div(30, 10))  # Not called
 
 print("End of program")
+
+
+## Read more from here:
+# https://stackoverflow.com/questions/3012488/what-is-the-python-with-statement-designed-for
+# https://stackoverflow.com/questions/1984325/explaining-pythons-enter-and-exit
+# https://docs.python.org/2/reference/datamodel.html#with-statement-context-managers
+# https://stackoverflow.com/questions/26907175/how-to-manipulate-the-exception-in-exit-of-a-context-manager
+# https://www.geeksforgeeks.org/__exit__-in-python/
