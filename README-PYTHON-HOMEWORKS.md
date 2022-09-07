@@ -38,8 +38,8 @@
    2. ***Solve these problems:***
       - Solve dictionary problem ([**link**](/exercises/exercise-general-week-05-01.py))
       - Solve class problem ([**link**](/exercises/exercise-general-week-05-02.py))
-      - A ([**link**](/exercises/exercise-general-week-05-03.py))
-      - A ([**link**](/exercises/exercise-general-week-05-04.py))
+      - Solve ball problem ([**link**](/exercises/exercise-general-week-05-03.py))
+      - Solve ball Grid problem ([**link**](/exercises/exercise-general-week-05-04.py))
       - A ([**link**](/exercises/exercise-general-week-05-05.py))
       - A ([**link**](/exercises/exercise-general-week-05-06.py))
       - A ([**link**](/exercises/exercise-general-week-05-07.py))
