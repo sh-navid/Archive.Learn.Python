@@ -148,7 +148,8 @@
 - Seaborn
 - PyAutoGUI
 
-## Roadmaps
+## Know More About
 - [**AI**](/README-AI.md)
 - [**Web**](/README-WEB.md)
 - [**Network** <sub>(Basic Concepts)</sub>](/README-NETWORK.md)
+- [**Linux**](/README-LINUX.md)

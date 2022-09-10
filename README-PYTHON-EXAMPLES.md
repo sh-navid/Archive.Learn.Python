@@ -25,5 +25,5 @@
 - Simple [talking bot](/lessons/python/examples/simple-talking-bot.py) example
 - Simple [Maze](/lessons/python/examples/simple-cli-maze-generator.py) Generator
   - <img src="lessons/python/examples/snapshots/simple-cli-maze-generator.png">
-- Set [color in console](/lessons/python/examples/console-color.py)
+- Set [color in console](/lessons/python/concepts/enum/color-enum.py); how to [use](/lessons/python/examples/console-color.py) this.
 - Simple [GET, POST](/lessons/python/examples/simple-get-post-service.py) service and also [Request1](/lessons/python/examples/simple-get-post-request.py), [Request2](/lessons/python/examples/simple-get-post-request2.py)

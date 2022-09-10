@@ -15,37 +15,39 @@ class Color(Enum):
     def set(color: Enum):
         print(f"\033[9{color.value}m", end="")
 
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-print(Color.BLUE, Color.BLUE.value)
 
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Color.set(Color.YELLOW)
-print("Text in yellow")
+if __name__ == "__main__":
+    ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    print(Color.BLUE, Color.BLUE.value)
 
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Color.set(Color.BLUE)
-print("Text in blue")
+    ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Color.set(Color.YELLOW)
+    print("Text in yellow")
 
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Color.set(Color.GREEN)
-print("Text in green")
+    ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Color.set(Color.BLUE)
+    print("Text in blue")
 
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Color.set(Color.RED)
-print("Text in red")
+    ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Color.set(Color.GREEN)
+    print("Text in green")
 
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Color.set(Color.MAGENTA)
-print("Text in magenta")
+    ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Color.set(Color.RED)
+    print("Text in red")
 
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Color.set(Color.WHITE)
-print("Text in white")
+    ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Color.set(Color.MAGENTA)
+    print("Text in magenta")
 
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Color.set(Color.GRAY)
-print("Text in gray")
+    ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Color.set(Color.WHITE)
+    print("Text in white")
 
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Color.set(Color.LIGHTBLUE)
-print("Text in lightblue")
+    ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Color.set(Color.GRAY)
+    print("Text in gray")
+
+    ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Color.set(Color.LIGHTBLUE)
+    print("Text in lightblue")

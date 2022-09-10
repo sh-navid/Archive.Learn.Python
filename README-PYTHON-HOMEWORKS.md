@@ -5,34 +5,35 @@
 1. **Homework for Week 1**
    1. Search for these terms:
       - IDE, Compiler, Interpreter
+   1. ***Solve these problems***:
+      - [**Triangles**](/exercises/01/easy-01-triangle.py) <sub>[[ANSWER1](/exercises/01/easy-01-triangle-answer.py)]</sub>, <sub>[[ANSWER2](/exercises/01/easy-01-triangle-answer2.py)]</sub>
    1. Read, Review and practice:
-      - [**Triangles**](/exercises/01/easy-01-triangle.py)
       - [**TicTocToe**](/exercises/01/hard-01-xo-game.py)
-1. **Homework for Week 2**
+2. **Homework for Week 2**
    1. Search for these terms:
       - CLI, GUI
       - Bit, Byte
       - Error, Debug
    2. Read, Review and practice [**Operators**](/lessons/python/concepts/operators), [**Strings**](/lessons/python/concepts/string/) and [**Randoms**](/lessons/python/concepts/random/)
-   3. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-02.py))
+   3. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-02.py)) <sub>[[ANSWER](/exercises/exercise-general-week-02-answer.py)]</sub>
       - In Strings
         - Find vs Index?
         - Partition vs Split?
-1. **Homework for Week 3**
+3. **Homework for Week 3**
    1. Search for these terms:
       - Array, Stack, Queue, Tree, Graph
       - Syntax, OpenSource, SourceCode
       - [**Ons's Complement** and **Two's Complement**](/lessons/data-structure/ones-twos-complement.py)
    2. Read about python [**Collections**](/lessons/python/concepts/collections/)
    3. Review and practice [**Operators**](/lessons/python/concepts/operators)
-   4. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-03.py))
-1. **Homework for Week 4**
+   4. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-03.py)) <sub>[[ANSWER](/exercises/exercise-general-week-03-answer.py)]</sub>
+4. **Homework for Week 4**
    1. Search for these terms:
       - Refactor, Reformat
       - Function, Method
       - [**Oct**, **Hex**, **Binary**, **Decimal**, **Character**, **ASCII**](/lessons/algorithm/base/base-of-numbers.py)
-   2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-04.py))
-2. **Homework for Week 5**
+   2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-04.py)) <sub>[[ANSWER](/exercises/exercise-general-week-04-answer.py)]</sub>
+5. **Homework for Week 5**
    1. Search for these terms:
       - [**CPython**, **Cython**](/lessons/python/runtimes/test-cython.py), [**Numba**, **JIT**](/lessons/python/runtimes/test-numba.py)
    2. ***Solve these problems:***
@@ -40,17 +41,17 @@
       - Solve class problem ([**link**](/exercises/exercise-general-week-05-02.py))
       - Solve ball problem ([**link**](/exercises/exercise-general-week-05-03.py))
       - Solve ball Grid problem ([**link**](/exercises/exercise-general-week-05-04.py))
-      - A ([**link**](/exercises/exercise-general-week-05-05.py))
-      - A ([**link**](/exercises/exercise-general-week-05-06.py))
-      - A ([**link**](/exercises/exercise-general-week-05-07.py))
-      - A ([**link**](/exercises/exercise-general-week-05-08.py))
-      - A ([**link**](/exercises/exercise-general-week-05-09.py))
-      - A ([**link**](/exercises/exercise-general-week-05-10.py))
-3. **Homework for Week 6**
+      - Solve phone book problem ([**link**](/exercises/exercise-general-week-05-05.py))
+      - [Not Completed Yet] ([**link**](/exercises/exercise-general-week-05-06.py))
+      - [Not Completed Yet] ([**link**](/exercises/exercise-general-week-05-07.py))
+      - [Not Completed Yet] ([**link**](/exercises/exercise-general-week-05-08.py))
+      - [Not Completed Yet] ([**link**](/exercises/exercise-general-week-05-09.py))
+      - [Not Completed Yet] ([**link**](/exercises/exercise-general-week-05-10.py))
+6. **Homework for Week 6**
    1. Search for these terms:
       - **Argument**, **Attribute**, **Parameter**, **Variable**, **Property**
    2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-06.py))
-4. **Homework for Week 7**
+7. **Homework for Week 7**
    1. Search for these terms:
       - **Shadow**
       - **Constructor**
@@ -60,11 +61,11 @@
       - **Encapsulation**, **Polymorphism**
       - [**Magic Method**, **Class Method**, **Instance Method**, **Static Method**](/lessons/python/concepts/object-oriented/types-of-methods.py)
    2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-07.py))
-5. **Homework for Week 8**
+8. **Homework for Week 8**
    1. Search for these terms:
       - ...
    2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-08.py))
-6. **Homework for Week 9**
+9. **Homework for Week 9**
    1. Search for these terms:
       - ...
    2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-09.py))
