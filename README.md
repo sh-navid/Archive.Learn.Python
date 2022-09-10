@@ -13,12 +13,14 @@
 - Check [this link](/README-PYTHON-EXAMPLES.md)
 
 ## Headings
-
 1. Introduction
 1. Syntax
    - `pep8, naming, comments, indentation, ...`
 1. Variables
-1. [Strings](/lessons/python/concepts/string)
+1. <details>
+   <summary><strong>String</strong></summary>
+
+   - [Strings](/lessons/python/concepts/string)
    - [`encode, decode`](/lessons/python/concepts/string/encode-string.py)
    - [`strip, lstrip, rstrip`](/lessons/python/concepts/string/trim-string.py)
    - [`join, concatenation`](/lessons/python/concepts/string/concat-string.py)
@@ -29,55 +31,86 @@
    - [`in, (istitle, islower, isupper), isspace, isprintable, isidentifier, (isascii, isalpha), (isalnum, isnumeric, isdecimal, isdigit)`](/lessons/python/concepts/string/check-string.py)
    - [`zfill, count, replace, len, expandtabs, multi-line, loop-over-characters, reverse`](/lessons/python/concepts/string/other-string-functions.py)
    - [Scape Chars `\t \f \" \n \r \b \oct \hex`](/lessons/python/concepts/string/scape-chars.py)
+   </details>
 2. [Random](/lessons/python/concepts/random/general-random-functions.py)
    - `random(), randint(), shuffle(), choice()`
-3. [Operators](/lessons/python/concepts/operators)
-   1. [Arithmetic](/lessons/python/concepts/operators/arithmetic-operators.py) `+ -` ,...
-   2. [Assignment](/lessons/python/concepts/operators/assignment-operators.py) `= += -=` ,...
-   3. [Comparison](/lessons/python/concepts/operators/comparison-operators.py) `== != >=` ,...
-   4. [Logical](/lessons/python/concepts/operators/logical-operators.py) `and, or, not`
-   5. [Identity](/lessons/python/concepts/operators/identity-operators.py) `is, is not`
-   6. [Membership](/lessons/python/concepts/operators/membership-operators.py) `in, not in`
-   7. [Bitwise](/lessons/python/concepts/operators/bitwise-operators.py) `& | ^ ~ << >>`
+3. <details>
+      <summary><strong>Operators</strong></summary>
+
+      - [Operators](/lessons/python/concepts/operators)
+      1. [Arithmetic](/lessons/python/concepts/operators/arithmetic-operators.py) `+ -` ,...
+      2. [Assignment](/lessons/python/concepts/operators/assignment-operators.py) `= += -=` ,...
+      3. [Comparison](/lessons/python/concepts/operators/comparison-operators.py) `== != >=` ,...
+      4. [Logical](/lessons/python/concepts/operators/logical-operators.py) `and, or, not`
+      5. [Identity](/lessons/python/concepts/operators/identity-operators.py) `is, is not`
+      6. [Membership](/lessons/python/concepts/operators/membership-operators.py) `in, not in`
+      7. [Bitwise](/lessons/python/concepts/operators/bitwise-operators.py) `& | ^ ~ << >>`
+      </details>
 4. Debugging (break point)
-5. List
-   - Ordered, Changeable, Indexed, Allow Duplicate
-   - [`access, assign, iterate, list(), .append(), .insert(), .remove(), del, .pop(), .copy(), .extend(), .clear(), len(), .count(), slice, join, unpack, in, .index(), .reverse(), .sort()`](/lessons/python/concepts/collections/list-access.py)
-6. Tuple
-   - Ordered, Unchangeable, Indexed, Allow Duplicate
-   - Tuples are **unchangeable**, or **immutable** so you cannot add or remove items from it
-   - [`access, tuple with one item, tuple(), iterate, del completely, len(), .count(), slice, join, unpack, in, .index()`](/lessons/python/concepts/collections/tuple-access.py)
-7. Set, FrozenSet
-   - Unordered, Unchangeable (By index, But you can add/remove), Unindexed, No Duplicate
-   - [`access, len(), set(), in, .add(), .update(), (.remove(), .discard(), .pop(), del), .copy(), .clear(), (.union(), intersection, difference, symmetric_difference), (disjoint, subset, superset)`](/lessons/python/concepts/collections/set-access.py)
-   - [`frozenset()`](/lessons/python/concepts/collections/set-frozen.py)
-8. Dictionary
-   - Ordered, Changeable, Key Value, No Duplicate
-   - [`access, assign, .update(), dict(), .keys(), .values(), .items(), zip(), len(), .pop(), .popitem(), del, .clear(), .copy(), .fromkeys(), .setdefault())`](/lessons/python/concepts/collections/dict-access.py)
-9. DataTypes
-   - Numbers: [`Integer, Float, Complex`](/lessons/python/concepts/data-types/data-type-number.py)
-   - Sequence: [`String`](/lessons/python/concepts/data-types/data-type-string.py), [`Range`](/lessons/python/concepts/data-types/data-type-range.py), [`List`](/lessons/python/concepts/collections/list-access.py), [`Tuple`](/lessons/python/concepts/collections/tuple-access.py.py), `Bytes`, `ByteArray`
-   - Set: [`Set`](/lessons/python/concepts/collections/set-access.py), [`FrozenSet`](/lessons/python/concepts/collections/set-frozen.py)
-   - Map: [`Dictionary`](/lessons/python/concepts/collections/dict-access.py)
-   - Nothing: `None`
-   - Boolean: [`Boolean`](/lessons/python/concepts/boolean/boolean-concept.py)
-   - Binary: [`Bytes, ByteArray, MemoryView`](/lessons/python/concepts/data-types/data-type-bytes.py)
-     - `bytes` is immutable; however `bytearray` is mutable
+5. <details>
+      <summary><strong>List</strong></summary>
+      
+      - Ordered, Changeable, Indexed, Allow Duplicate
+      - [`access, assign, iterate, list(), .append(), .insert(), .remove(), del, .pop(), .copy(), .extend(), .clear(), len(), .count(), slice, join, unpack, in, .index(), .reverse(), .sort()`](/lessons/python/concepts/collections/list-access.py)
+      </details>
+6. <details>
+      <summary><strong>Tuple</strong></summary>
+      
+      - Ordered, Unchangeable, Indexed, Allow Duplicate
+      - Tuples are **unchangeable**, or **immutable** so you cannot add or remove items from it
+      - [`access, tuple with one item, tuple(), iterate, del completely, len(), .count(), slice, join, unpack, in, .index()`](/lessons/python/concepts/collections/tuple-access.py)
+      </details>
+7. <details>
+      <summary><strong>Set</strong></summary>
+      
+      - Unordered, Unchangeable (By index, But you can add/remove), Unindexed, No Duplicate
+      - [`access, len(), set(), in, .add(), .update(), (.remove(), .discard(), .pop(), del), .copy(), .clear(), (.union(), intersection, difference, symmetric_difference), (disjoint, subset, superset)`](/lessons/python/concepts/collections/set-access.py)
+      - [`frozenset()`](/lessons/python/concepts/collections/set-frozen.py)
+      </details>
+8. <details>
+      <summary><strong>Dictionary</strong></summary>
+      
+      - Ordered, Changeable, Key Value, No Duplicate
+      - [`access, assign, .update(), dict(), .keys(), .values(), .items(), zip(), len(), .pop(), .popitem(), del, .clear(), .copy(), .fromkeys(), .setdefault())`](/lessons/python/concepts/collections/dict-access.py)
+      </details>
+9.  <details>
+      <summary><strong>DataTypes</strong></summary>
+      
+      - Numbers: [`Integer, Float, Complex`](/lessons/python/concepts/data-types/data-type-number.py)
+      - Sequence: [`String`](/lessons/python/concepts/data-types/data-type-string.py), [`Range`](/lessons/python/concepts/data-types/data-type-range.py), [`List`](/lessons/python/concepts/collections/list-access.py), [`Tuple`](/lessons/python/concepts/collections/tuple-access.py.py), `Bytes`, `ByteArray`
+      - Set: [`Set`](/lessons/python/concepts/collections/set-access.py), [`FrozenSet`](/lessons/python/concepts/collections/set-frozen.py)
+      - Map: [`Dictionary`](/lessons/python/concepts/collections/dict-access.py)
+      - Nothing: `None`
+      - Boolean: [`Boolean`](/lessons/python/concepts/boolean/boolean-concept.py)
+      - Binary: [`Bytes, ByteArray, MemoryView`](/lessons/python/concepts/data-types/data-type-bytes.py)
+      - `bytes` is immutable; however `bytearray` is mutable
+      </details>
 10. Module
+      <details open>
+      <summary><strong>-----------------------------------------</strong></summary>
+
+      </details>
 11. Conversion, TypeCasting
+    <details open>
+      <summary><strong>-----------------------------------------</strong></summary>
+
+      </details>
 12. Input
-13. Keywords
-    - [if, elif, else](/lessons/python/concepts/keywords/keywords-if-elif.py)
-    - [for](/lessons/python/concepts/keywords/keywords-for.py)
-    - [while, continue, break](/lessons/python/concepts/keywords/keywords-while.py)
-    - [try, except, finally](/lessons/python/concepts/keywords/keywords-try-except.py)
-    - [and, or, not, in, is](/lessons/python/concepts/keywords/keywords-and-or-not-in-is.py)
-    - [import, from, as](/lessons/python/concepts/keywords/keywords-import.py)
-    - [class, def, lambda, pass, return, del](/lessons/python/concepts/keywords/keywords-class-def-lambda-pass-ret-del.py)
-    - [global, nonlocal](/lessons/python/concepts/keywords/keywords-scope.py)
-    - [assert](/lessons/python/concepts/keywords/keywords-assert.py) <sub>[Optonal]</sub>, [raise](/lessons/python/concepts/keywords/keywords-raise.py) <sub>[Optonal]</sub>
-    - [with](/lessons/python/concepts/keywords/keywords-with.py) <sub>[Optonal]</sub>
-    - [yield](/lessons/python/concepts/keywords/keywords-yield.py) <sub>[Optonal]</sub>
+13. <details>
+      <summary><strong>Keywords</strong></summary>
+
+      - [if, elif, else](/lessons/python/concepts/keywords/keywords-if-elif.py)
+      - [for](/lessons/python/concepts/keywords/keywords-for.py)
+      - [while, continue, break](/lessons/python/concepts/keywords/keywords-while.py)
+      - [try, except, finally](/lessons/python/concepts/keywords/keywords-try-except.py)
+      - [and, or, not, in, is](/lessons/python/concepts/keywords/keywords-and-or-not-in-is.py)
+      - [import, from, as](/lessons/python/concepts/keywords/keywords-import.py)
+      - [class, def, lambda, pass, return, del](/lessons/python/concepts/keywords/keywords-class-def-lambda-pass-ret-del.py)
+      - [global, nonlocal](/lessons/python/concepts/keywords/keywords-scope.py)
+      - [assert](/lessons/python/concepts/keywords/keywords-assert.py) <sub>[Optonal]</sub>, [raise](/lessons/python/concepts/keywords/keywords-raise.py) <sub>[Optonal]</sub>
+      - [with](/lessons/python/concepts/keywords/keywords-with.py) <sub>[Optonal]</sub>
+      - [yield](/lessons/python/concepts/keywords/keywords-yield.py) <sub>[Optonal]</sub>
+      </details>
 14. [Function, Method, Lambda](/lessons/python/concepts/object-oriented/types-of-methods.py)
 15. [Comperhension](/lessons/python/concepts/collections/comperhension.py)
 16. Scope, Globals, Locals
@@ -88,7 +121,6 @@
 20. [OOP Concepts](/lessons/python/concepts/object-oriented/object-oriented.py)
 
 ### Optional
-
 1. VENV
 2. PIP
     - [`install, list, uninstall, freeze`, ...](/lessons/python/installation/README-PIP.md)
@@ -101,23 +133,23 @@
 8. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
 9. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
 10. MetaClasses, MetaProgramming
-9. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
-10. Iterator
+11. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
+12. Iterator
     - [Iterator, Iterable](/lessons/python/concepts/advanced/simple-iterator.py)
     - [Custom Iterator](/lessons/python/concepts/advanced/custom-iterator.py)
-11. Closure
-12. [Descriptor](/lessons/python/concepts/advanced/simple-descriptor.py)
-13. [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
-14. [Context Manager](/lessons/python/concepts/keywords/keywords-with.py)
-15. Regular Expression
-16. Socket [`client`](/lessons/python/examples/simple-socket-client.py), [`server`](/lessons/python/examples/simple-socket-server.py)
-17. Web Service, Web Socket
-18. SQL (MariaDB, Sqlite, ...)
-19. NoSQL (MongoDB, Redis, ...)
-20. ORM
-21. Serialization, Deserialization
-22. JSON, CSV, XML
-23. Mutable vs Immutable in practice
+13. Closure
+14. [Descriptor](/lessons/python/concepts/advanced/simple-descriptor.py)
+15. [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
+16. [Context Manager](/lessons/python/concepts/keywords/keywords-with.py)
+17. Regular Expression
+18. Socket [`client`](/lessons/python/examples/simple-socket-client.py), [`server`](/lessons/python/examples/simple-socket-server.py)
+19. Web Service, Web Socket
+20. SQL (MariaDB, Sqlite, ...)
+21. NoSQL (MongoDB, Redis, ...)
+22. ORM
+23. Serialization, Deserialization
+24. JSON, CSV, XML
+25. Mutable vs Immutable in practice
 
 
 ## Modules, Packages, Libs, ...
@@ -150,6 +182,6 @@
 ## Know More About
 - [**AI**](/README-AI.md)
 - [**Web**](/README-WEB.md)
+- [**Linux** <sub>(Basic Concepts)</sub>](/README-LINUX.md)
 - [**Network** <sub>(Basic Concepts)</sub>](/README-NETWORK.md)
-- [**Linux**](/README-LINUX.md)
 - [**Security** <sub>(Basic Concepts)</sub>](/README-SECURITY.md)
