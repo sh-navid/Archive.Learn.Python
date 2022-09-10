@@ -37,20 +37,20 @@
    1. Search for these terms:
       - [**CPython**, **Cython**](/lessons/python/runtimes/test-cython.py), [**Numba**, **JIT**](/lessons/python/runtimes/test-numba.py)
    2. ***Solve these problems:***
+      - Solve Dice problem ([**link**](/exercises/exercise-general-week-05-08.py))
       - Solve dictionary problem ([**link**](/exercises/exercise-general-week-05-01.py))
       - Solve class problem ([**link**](/exercises/exercise-general-week-05-02.py))
+      - Solve phone book problem ([**link**](/exercises/exercise-general-week-05-05.py))
+      - Solve player problem ([**link**](/exercises/exercise-general-week-05-07.py))
+      - Solve Task problem ([**link**](/exercises/exercise-general-week-05-09.py))
+      - Solve baby-name problem ([**link**](/exercises/exercise-general-week-05-10.py))
       - Solve ball problem ([**link**](/exercises/exercise-general-week-05-03.py))
       - Solve ball Grid problem ([**link**](/exercises/exercise-general-week-05-04.py))
-      - Solve phone book problem ([**link**](/exercises/exercise-general-week-05-05.py))
-      - [Not Completed Yet] ([**link**](/exercises/exercise-general-week-05-06.py))
-      - [Not Completed Yet] ([**link**](/exercises/exercise-general-week-05-07.py))
-      - [Not Completed Yet] ([**link**](/exercises/exercise-general-week-05-08.py))
-      - [Not Completed Yet] ([**link**](/exercises/exercise-general-week-05-09.py))
-      - [Not Completed Yet] ([**link**](/exercises/exercise-general-week-05-10.py))
 6. **Homework for Week 6**
    1. Search for these terms:
       - **Argument**, **Attribute**, **Parameter**, **Variable**, **Property**
-   2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-06.py))
+   2. ***Solve these problems:***
+      - Solve animal problem ([**link**](/exercises/exercise-general-week-05-06.py))
 7. **Homework for Week 7**
    1. Search for these terms:
       - **Shadow**
@@ -65,10 +65,10 @@
    1. Search for these terms:
       - ...
    2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-08.py))
-9. **Homework for Week 9**
-   1. Search for these terms:
+9.  **Homework for Week 9**
+   3. Search for these terms:
       - ...
-   2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-09.py))
+   4. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-09.py))
 
 ## Answers to the questions of students
 - [What is a **module**?](/students/questions/module-import.py)
@@ -87,4 +87,4 @@
 - [Get **object** by **id()**](/students/questions/object-get-by-id.py)
 - Usage of **ord()** to find **range of chars**?
 - In paint example how to change the color with button?
-- How to make input modal in tkinter?
+- How to make input modal in tkinter? [Built-in](/lessons/python/modules/tkinter/tkinter_ask_with_input.py), [Custom](/lessons/python/modules/tkinter/tkinter_ask_with_custom_input.py)

@@ -67,21 +67,21 @@
 11. Conversion, TypeCasting
 12. Input
 13. Keywords
-   - [if, elif, else](/lessons/python/concepts/keywords/keywords-if-elif.py)
-   - [for](/lessons/python/concepts/keywords/keywords-for.py)
-   - [while, continue, break](/lessons/python/concepts/keywords/keywords-while.py)
-   - [try, except, finally](/lessons/python/concepts/keywords/keywords-try-except.py)
-   - [and, or, not, in, is](/lessons/python/concepts/keywords/keywords-and-or-not-in-is.py)
-   - [import, from, as](/lessons/python/concepts/keywords/keywords-import.py)
-   - [class, def, lambda, pass, return, del](/lessons/python/concepts/keywords/keywords-class-def-lambda-pass-ret-del.py)
-   - [global, nonlocal](/lessons/python/concepts/keywords/keywords-scope.py)
-   - [assert](/lessons/python/concepts/keywords/keywords-assert.py) <sub>[Optonal]</sub>, [raise](/lessons/python/concepts/keywords/keywords-raise.py) <sub>[Optonal]</sub>
-   - [with](/lessons/python/concepts/keywords/keywords-with.py) <sub>[Optonal]</sub>
-   - [yield](/lessons/python/concepts/keywords/keywords-yield.py) <sub>[Optonal]</sub>
+    - [if, elif, else](/lessons/python/concepts/keywords/keywords-if-elif.py)
+    - [for](/lessons/python/concepts/keywords/keywords-for.py)
+    - [while, continue, break](/lessons/python/concepts/keywords/keywords-while.py)
+    - [try, except, finally](/lessons/python/concepts/keywords/keywords-try-except.py)
+    - [and, or, not, in, is](/lessons/python/concepts/keywords/keywords-and-or-not-in-is.py)
+    - [import, from, as](/lessons/python/concepts/keywords/keywords-import.py)
+    - [class, def, lambda, pass, return, del](/lessons/python/concepts/keywords/keywords-class-def-lambda-pass-ret-del.py)
+    - [global, nonlocal](/lessons/python/concepts/keywords/keywords-scope.py)
+    - [assert](/lessons/python/concepts/keywords/keywords-assert.py) <sub>[Optonal]</sub>, [raise](/lessons/python/concepts/keywords/keywords-raise.py) <sub>[Optonal]</sub>
+    - [with](/lessons/python/concepts/keywords/keywords-with.py) <sub>[Optonal]</sub>
+    - [yield](/lessons/python/concepts/keywords/keywords-yield.py) <sub>[Optonal]</sub>
 14. [Function, Method, Lambda](/lessons/python/concepts/object-oriented/types-of-methods.py)
 15. [Comperhension](/lessons/python/concepts/collections/comperhension.py)
 16. Scope, Globals, Locals
-   - [`locals(), globals()`](/lessons/python/concepts/variables/scope.py)
+       - [`locals(), globals()`](/lessons/python/concepts/variables/scope.py)
 17. [Read File, Write File](/lessons/python/examples/read-write-file.py), [Pickle](/lessons/python/examples/read-write-pickle.py)
 18. [Math](/lessons/python/examples/test-math.py)
 19. Date
@@ -90,22 +90,21 @@
 ### Optional
 
 1. VENV
-1. \_\_name\_\_
-1. PIP
-   - [`install, list, uninstall, freeze`, ...](/lessons/python/installation/README-PIP.md)
-1. [Enum](/lessons/python/concepts/enum/color-enum.py)
-2. Arguments
-   - [`*argv`, `**kwargs`](/lessons/python/concepts/advanced/argv-kwargs.py)
-3. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
-4. [Operator Overload](/lessons/python/concepts/operators/operator-overload.py)
-5. Exception, Custom Exception, Types of Errors
-6. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
-7. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
-8. MetaClasses, MetaProgramming
+2. PIP
+    - [`install, list, uninstall, freeze`, ...](/lessons/python/installation/README-PIP.md)
+3. [Enum](/lessons/python/concepts/enum/color-enum.py)
+4. Arguments
+    - [`*argv`, `**kwargs`](/lessons/python/concepts/advanced/argv-kwargs.py)
+5. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
+6. [Operator Overload](/lessons/python/concepts/operators/operator-overload.py)
+7. Exception, Custom Exception, Types of Errors
+8. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
+9. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
+10. MetaClasses, MetaProgramming
 9. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
 10. Iterator
-   - [Iterator, Iterable](/lessons/python/concepts/advanced/simple-iterator.py)
-   - [Custom Iterator](/lessons/python/concepts/advanced/custom-iterator.py)
+    - [Iterator, Iterable](/lessons/python/concepts/advanced/simple-iterator.py)
+    - [Custom Iterator](/lessons/python/concepts/advanced/custom-iterator.py)
 11. Closure
 12. [Descriptor](/lessons/python/concepts/advanced/simple-descriptor.py)
 13. [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
@@ -115,10 +114,10 @@
 17. Web Service, Web Socket
 18. SQL (MariaDB, Sqlite, ...)
 19. NoSQL (MongoDB, Redis, ...)
-1. ORM
-1. Serialization, Deserialization
-2. JSON, CSV, XML
-3. Mutable vs Immutable in practice
+20. ORM
+21. Serialization, Deserialization
+22. JSON, CSV, XML
+23. Mutable vs Immutable in practice
 
 
 ## Modules, Packages, Libs, ...
@@ -153,3 +152,4 @@
 - [**Web**](/README-WEB.md)
 - [**Network** <sub>(Basic Concepts)</sub>](/README-NETWORK.md)
 - [**Linux**](/README-LINUX.md)
+- [**Security** <sub>(Basic Concepts)</sub>](/README-SECURITY.md)
