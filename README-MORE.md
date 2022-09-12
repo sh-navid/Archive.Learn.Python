@@ -121,3 +121,9 @@
 ## Deploy Tools <sub>[Optional]</sub>
 
 - ...
+
+
+## More uncategorized concepts
+- Locks
+  - Mutex
+  - Semaphore

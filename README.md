@@ -86,15 +86,7 @@
       - `bytes` is immutable; however `bytearray` is mutable
       </details>
 10. Module
-      <details open>
-      <summary><strong>-----------------------------------------</strong></summary>
-
-      </details>
 11. Conversion, TypeCasting
-    <details open>
-      <summary><strong>-----------------------------------------</strong></summary>
-
-      </details>
 12. Input
 13. <details>
       <summary><strong>Keywords</strong></summary>
@@ -154,12 +146,13 @@
 
 ## Modules, Packages, Libs, ...
 - [**Tkinter**](/lessons/python/modules/tkinter/README.md)
-- NumPy
+- [**Turtle**](/lessons/python/modules/turtle/README.md)
+- [**NumPy**](/lessons/python/modules/numpy/README.md)
 - Pandas
 - Matplotlib
 - PyQT
 - Kivy
-- Django
+- DJango
 - [**Flask**](/exercises/02/web/)
 - Scrapy
 - BeautifulSoup
@@ -172,10 +165,7 @@
 - PyTorch
 - Keras
 - Scikit-learn
-- NumPy
-- Pandas
 - SciPy
-- Matplotlib
 - Seaborn
 - PyAutoGUI
 

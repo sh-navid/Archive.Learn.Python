@@ -1,0 +1,33 @@
+# JS
+## Headings
+- Variables vs Literals <sub>(Fixed Values)</sub>
+  - Variable Naming `A-Z,a-z,$,_`, `CamelCase`
+  - `var`, `let`<sub>ES6</sub>, `const`<sub>ES6</sub>
+- Comment
+  - `//`, `/**/`
+- Output:
+  - [`document.write(), alert(), console.log(), innerText, innerHTML`]()
+- DataTypes:
+  - Primitive
+    - `Strings`, `Numbers`, `Booleans`, `undefined`
+  - `Objects`, `Arrays`
+- Operators:
+  - Arithmetic `+ -` ,...
+  - Assignment `= += -=` ,...
+  - Comparison `== != === !== ?`, ...
+  - Logical `&& || !`
+  - Bitwise `& | ^ ~ << >> >>>`
+- Function, Arrow Function
+- Keywords:
+  - [`return, yield`](concepts/keywords/js-keywords.test.js)
+  - [`import, export`]()
+  - [`null, true, false`]()
+  - [`var, let, const`]()
+  - [`async, await`]()
+  - [`do, while, for, continue, break`]()
+  - [`try, catch, finally, throw`]()
+  - [`if, else, case, switch, default, with`]()
+  - [`instanceof, typeof`]()
+  - [`class, extends, new, function, this, super, static`]()
+  - [`void, debugger, in, delete`]()
+- Callback, Promise, ...
