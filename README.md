@@ -133,7 +133,7 @@
 15. [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
 16. [Context Manager](/lessons/python/concepts/keywords/keywords-with.py)
 17. Regular Expression
-18. Socket [`client`](/lessons/python/examples/simple-socket-client.py), [`server`](/lessons/python/examples/simple-socket-server.py)
+18. Socket [`client`](/lessons/python/examples/sample/socket/simple-socket-client.py), [`server`](/lessons/python/examples/sample/socket/simple-socket-server.py)
 19. Web Service, Web Socket
 20. SQL (MariaDB, Sqlite, ...)
 21. NoSQL (MongoDB, Redis, ...)
