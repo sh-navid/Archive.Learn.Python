@@ -8,9 +8,7 @@
    1. Search for these terms:
       - IDE, Compiler, Interpreter
    2. ***Solve these problems***:
-      - [**Triangles**](/exercises/01/easy-01-triangle.py) <sub>[[ANSWERS 1](/exercises/01/easy-01-triangle-answer.py)]</sub>, <sub>[[ANSWERS 2](/exercises/01/easy-01-triangle-answer2.py)]</sub>
-   3. Read, Review and practice:
-      - [**TicTocToe**](/exercises/01/hard-01-xo-game.py)
+      - [**Triangles**](/lessons/python/exercises/exercise-general-week-01-triangle.py) <sub>[[ANSWERS 1](/lessons/python/exercises/exercise-general-week-01-triangle-answer.py)]</sub>, <sub>[[ANSWERS 2](/lessons/python/exercises/exercise-general-week-01-triangle-answer2.py)]</sub>
 </details>
 
 <details>
@@ -21,7 +19,7 @@
       - Bit, Byte
       - Error, Debug
    2. Read, Review and practice [**Operators**](/lessons/python/concepts/operators), [**Strings**](/lessons/python/concepts/string/) and [**Randoms**](/lessons/python/concepts/random/)
-   3. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-02.py)) <sub>[[ANSWERS](/exercises/exercise-general-week-02-answer.py)]</sub>
+   3. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-02.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-02-answer.py)]</sub>
       - In Strings
         - Find vs Index?
         - Partition vs Split?
