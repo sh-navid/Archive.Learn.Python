@@ -31,10 +31,11 @@
 - Simple [interpreter](/lessons/python/examples/apps/interpreter/interpreter.py) for a hypothetical programming language from scratch using pure python
 - [Table generator](/lessons/python/examples/apps/generator/simple-table-generator.py) for Terminal
 - Simple [service](/lessons/python/examples/sample/auth_service/simple-bad-practice-authenticator.py) to authenticate users, and a simple script to [login](/lessons/python/examples/sample/auth_service/simple-bad-practice-login-script.py) to this service.
+- Simple implementation of "Rock", "Paper", "Scissors" game with Socket [Client](/lessons/python/examples/sample/socket/simple-socket-client.py) and Socket [Server](/lessons/python/examples/sample/socket/simple-socket-server.py)
 
 ---
 
-- Simple "Rock", "Paper", "Scissors" Game with Socket [Client](/lessons/python/examples/simple-socket-client.py) and Socket [Server](/lessons/python/examples/simple-socket-server.py)
+
 - Simple [talking bot](/lessons/python/examples/simple-talking-bot.py) example
 - Simple [Maze](/lessons/python/examples/simple-cli-maze-generator.py) Generator
   - <img src="lessons/python/examples/snapshots/simple-cli-maze-generator.png">
