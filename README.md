@@ -171,9 +171,9 @@
 - PyAutoGUI
 
 ## Know More About
-- [**AI**](/README-AI.md)
-- [**Web**](/README-WEB.md)
-- [**Linux** <sub>(Basic Concepts)</sub>](/README-LINUX.md)
-- [**Network** <sub>(Basic Concepts)</sub>](/README-NETWORK.md)
-- [**Security** <sub>(Basic Concepts)</sub>](/README-SECURITY.md)
-- [**SQL**](/README-SQL.md)
+- [**AI**](lessons/ai/README.md)
+- [**Web**](lessons/frontend/README.md)
+- [**Linux** <sub>(Basic Concepts)</sub>](lessons/linux/README.md)
+- [**Network** <sub>(Basic Concepts)</sub>](lessons/network/README.md)
+- [**Security** <sub>(Basic Concepts)</sub>](lessons/network/README.md)
+- [**SQL**](lessons/sql/README.md)
