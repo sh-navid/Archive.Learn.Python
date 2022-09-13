@@ -44,7 +44,7 @@
       - Refactor, Reformat
       - Function, Method
       - [**Oct**, **Hex**, **Binary**, **Decimal**, **Character**, **ASCII**](/lessons/algorithm/base/base-of-numbers.py)
-   2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-04.py)) <sub>[[ANSWERS](/exercises/exercise-general-week-04-answer.py)]</sub>
+   2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-04.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-04-answer.py)]</sub>
 </details>
 
 <details open>
