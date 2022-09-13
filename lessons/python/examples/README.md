@@ -27,13 +27,13 @@
 - Simple PhoneBook using python and tkinter ([CLI](/lessons/python/examples/apps/phone_book/phone-book-cli.py), [GUI](/lessons/python/examples/apps/phone_book/phone-book-gui.py))
 - Simple 2D Ball Game <sub>[***DOCUMENTED***]</sub> ([1](/lessons/python/examples/sample/game_engine/simple-2d-game-part1.py), [2](/lessons/python/examples/sample/game_engine/simple-2d-game-part2.py), [3](/lessons/python/examples/sample/game_engine/simple-2d-game-part3.py), [4](/lessons/python/examples/sample/game_engine/simple-2d-game-part4.py))
 - Simple ([paint](/lessons/python/examples/apps/color/paint-01.py)) using python and tkinter
-- Simple weekly CLI [weight tracker](/lessons/python/examples/apps/gym/weight-tracker-01.py))
+- Simple weekly CLI [weight tracker](/lessons/python/examples/apps/gym/weight-tracker-01.py)
 - Simple [interpreter](/lessons/python/examples/apps/interpreter/interpreter.py) for a hypothetical programming language from scratch using pure python
+- [Table generator](/lessons/python/examples/apps/generator/simple-table-generator.py) for Terminal
+- Simple [service](/lessons/python/examples/sample/auth_service/simple-bad-practice-authenticator.py) to authenticate users, and a simple script to [login](/lessons/python/examples/sample/auth_service/simple-bad-practice-login-script.py) to this service.
 
 ---
 
-- [Table generator](/lessons/python/examples/simple-table-generator.py) for Terminal
-- Simple [service](/lessons/python/examples/simple-bad-practice-authenticator.py) to authenticate users, and a simple script to [login](/lessons/python/examples/simple-bad-practice-login-script.py) to this service.
 - Simple "Rock", "Paper", "Scissors" Game with Socket [Client](/lessons/python/examples/simple-socket-client.py) and Socket [Server](/lessons/python/examples/simple-socket-server.py)
 - Simple [talking bot](/lessons/python/examples/simple-talking-bot.py) example
 - Simple [Maze](/lessons/python/examples/simple-cli-maze-generator.py) Generator
