@@ -53,15 +53,15 @@
    1. Search for these terms:
       - [**CPython**, **Cython**](/lessons/python/runtimes/test-cython.py), [**Numba**, **JIT**](/lessons/python/runtimes/test-numba.py)
    2. ***Solve these problems:***
-      - Solve Dice problem ([**link**](/exercises/exercise-general-week-05-08.py))
-      - Solve dictionary problem ([**link**](/exercises/exercise-general-week-05-01.py))
-      - Solve class problem ([**link**](/exercises/exercise-general-week-05-02.py))
-      - Solve phone book problem ([**link**](/exercises/exercise-general-week-05-05.py))
-      - Solve player problem ([**link**](/exercises/exercise-general-week-05-07.py))
-      - Solve Task problem ([**link**](/exercises/exercise-general-week-05-09.py))
-      - Solve baby-name problem ([**link**](/exercises/exercise-general-week-05-10.py))
-      - Solve ball problem ([**link**](/exercises/exercise-general-week-05-03.py))
-      - Solve ball Grid problem ([**link**](/exercises/exercise-general-week-05-04.py))
+      - Solve Dice problem ([**link**](/lessons/python/exercises/exercise-general-week-05-08.py))
+      - Solve dictionary problem ([**link**](/lessons/python/exercises/exercise-general-week-05-01.py))
+      - Solve class problem ([**link**](/lessons/python/exercises/exercise-general-week-05-02.py))
+      - Solve phone book problem ([**link**](/lessons/python/exercises/exercise-general-week-05-05.py))
+      - Solve player problem ([**link**](/lessons/python/exercises/exercise-general-week-05-07.py))
+      - Solve Task problem ([**link**](/lessons/python/exercises/exercise-general-week-05-09.py))
+      - Solve baby-name problem ([**link**](/lessons/python/exercises/exercise-general-week-05-10.py))
+      - Solve ball problem ([**link**](/lessons/python/exercises/exercise-general-week-05-03.py))
+      - Solve ball Grid problem ([**link**](/lessons/python/exercises/exercise-general-week-05-04.py))
 </details>
 
 <details>
@@ -70,7 +70,7 @@
    1. Search for these terms:
       - **Argument**, **Attribute**, **Parameter**, **Variable**, **Property**
    2. ***Solve these problems:***
-      - Solve animal problem ([**link**](/exercises/exercise-general-week-05-06.py))
+      - Solve animal problem ([**link**](/lessons/python/exercises/exercise-general-week-05-06.py))
 </details>
 
 <details>
@@ -84,7 +84,7 @@
       - **Inheritance**, **Instantiation**
       - **Encapsulation**, **Polymorphism**
       - [**Magic Method**, **Class Method**, **Instance Method**, **Static Method**](/lessons/python/concepts/object-oriented/types-of-methods.py)
-   2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-07.py))
+   2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-07.py))
 </details>
 
 <details>
@@ -92,7 +92,7 @@
    
    1. Search for these terms:
       - ...
-   2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-08.py))
+   2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-08.py))
 </details>
 
 <details>
@@ -100,7 +100,7 @@
    
    1. Search for these terms:
       - ...
-   2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-09.py))
+   2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-09.py))
 </details>
 
 <details>
@@ -108,7 +108,7 @@
    
    1. Search for these terms:
       - ...
-   2. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-10.py))
+   2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-10.py))
 </details>
 
 
