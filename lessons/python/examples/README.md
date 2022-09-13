@@ -34,6 +34,6 @@
 - Simple implementation of "Rock", "Paper", "Scissors" game with Socket [Client](/lessons/python/examples/sample/socket/simple-socket-client.py) and Socket [Server](/lessons/python/examples/sample/socket/simple-socket-server.py)
 - Simple [talking bot](/lessons/python/examples/apps/bot/simple-talking-bot.py) example
 - Simple [Maze](/lessons/python/examples/games/maze/simple-cli-maze-generator.py) Generator
-  - <img src="lessons/python/examples/games/maze/simple-cli-maze-generator.png">
+    - ![](/lessons/python/examples/games/maze/simple-cli-maze-generator.png)
 - Set [color in console](/lessons/python/concepts/enum/color-enum.py); how to [use](/lessons/python/examples/apps/color/console-color.py) this.
 - Simple [GET, POST](/lessons/python/examples/sample/get_post_service/simple-get-post-service.py) service and also [Request1](/lessons/python/examples/sample/get_post_service/simple-get-post-request.py), [Request2](/lessons/python/examples/sample/get_post_service/simple-get-post-request2.py)
