@@ -34,7 +34,7 @@
       - [**Ons's Complement** and **Two's Complement**](/lessons/data-structure/ones-twos-complement.py)
    2. Read about python [**Collections**](/lessons/python/concepts/collections/)
    3. Review and practice [**Operators**](/lessons/python/concepts/operators)
-   4. ***Solve these problems*** ([**link**](/exercises/exercise-general-week-03.py)) <sub>[[ANSWERS](/exercises/exercise-general-week-03-answer.py)]</sub>
+   4. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-03.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-03-answer.py)]</sub>
 </details>
 
 <details>
