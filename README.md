@@ -106,8 +106,8 @@
 15. [Comperhension](/lessons/python/concepts/collections/comperhension.py)
 16. Scope, Globals, Locals
        - [`locals(), globals()`](/lessons/python/concepts/variables/scope.py)
-17. [Read File, Write File](/lessons/python/examples/read-write-file.py), [Pickle](/lessons/python/examples/read-write-pickle.py)
-18. [Math](/lessons/python/examples/test-math.py)
+17. [Read File, Write File](/lessons/python/examples/sample/file/read-write-file.py), [Pickle](/lessons/python/examples/sample/file/read-write-pickle.py)
+18. Math
 19. Date
 20. [OOP Concepts](/lessons/python/concepts/object-oriented/object-oriented.py)
 
