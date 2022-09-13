@@ -5,7 +5,7 @@
 - [Dot Shooter](games/dot_shooter/dot-shooter.py)
 
 ## Tkinter, Flask
-- [Online Rock, Paper, Scissers Game using Flask Web Service](games/rock_paper_scissers_online/runner.py), [All Files](games/rock_paper_scissers_online/)  
+- Online Rock, Paper, Scissers Game using Flask Web Service: [Runner](games/rock_paper_scissers_online/runner.py), [All Files](games/rock_paper_scissers_online/)  
 
 
 ![](games/rock_paper_scissers_online/snapshot.png)
