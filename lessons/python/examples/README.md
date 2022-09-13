@@ -24,16 +24,14 @@
 - Simple GUI implementation of Rock Paper Scissors ([1](/lessons/python/examples/games/rock_paper_scissers/rock-paper-scissors-gui-01.py),[2](/lessons/python/examples/games/rock_paper_scissers/rock-paper-scissors-gui-02.py),[3](/lessons/python/examples/games/rock_paper_scissers/rock-paper-scissors-gui-03.py))
 - Very simple GUI Random Dice using python and tkinter ([1](/lessons/python/examples/apps/random_dice/random-dice-01.py),[2](/lessons/python/examples/apps/random_dice/random-dice-02.py))
 - Color Detector ([1](/lessons/python/examples/apps/color/color-detector-01.py),[2](/lessons/python/examples/apps/color/color-detector-02.py))
-- Simple PhoneBook using python and tkinter ([CLI](/lessons/python/examples/apps/phone_book/phone-book-cli.py),[GUI](/lessons/python/examples/apps/phone_book/phone-book-gui.py))
+- Simple PhoneBook using python and tkinter ([CLI](/lessons/python/examples/apps/phone_book/phone-book-cli.py), [GUI](/lessons/python/examples/apps/phone_book/phone-book-gui.py))
+- Simple 2D Ball Game <sub>[***DOCUMENTED***]</sub> ([1](/lessons/python/examples/sample/game_engine/simple-2d-game-part1.py), [2](/lessons/python/examples/sample/game_engine/simple-2d-game-part2.py), [3](/lessons/python/examples/sample/game_engine/simple-2d-game-part3.py), [4](/lessons/python/examples/sample/game_engine/simple-2d-game-part4.py))
+- Simple ([paint](/lessons/python/examples/apps/color/paint-01.py)) using python and tkinter
+- Simple weekly CLI [weight tracker](/lessons/python/examples/apps/gym/weight-tracker-01.py))
+- Simple [interpreter](/lessons/python/examples/apps/interpreter/interpreter.py) for a hypothetical programming language from scratch using pure python
 
+---
 
-
-
-
-- Simple 2D Ball Game <sub>[***DOCUMENTED***]</sub> ([1](/lessons/python/examples/simple-2d-game-part1.py), [2](/lessons/python/examples/simple-2d-game-part2.py), [3](/lessons/python/examples/simple-2d-game-part3.py), [4](/lessons/python/examples/simple-2d-game-part4.py))
-- How to make a simple paint? ([First part](/lessons/python/examples/paint-part1.py))
-- How to make a weight tracker? ([First part](/lessons/python/examples/weight-tracker-part1.py))
-- How to make an interpreter for a hypothetical programming language? ([First part](/lessons/python/examples/interpreter-part1.py))
 - [Table generator](/lessons/python/examples/simple-table-generator.py) for Terminal
 - Simple [service](/lessons/python/examples/simple-bad-practice-authenticator.py) to authenticate users, and a simple script to [login](/lessons/python/examples/simple-bad-practice-login-script.py) to this service.
 - Simple "Rock", "Paper", "Scissors" Game with Socket [Client](/lessons/python/examples/simple-socket-client.py) and Socket [Server](/lessons/python/examples/simple-socket-server.py)
