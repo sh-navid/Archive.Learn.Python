@@ -5,8 +5,7 @@
 - Check this [link](/lessons/python/installation/README.md) ([farsi](/lessons/python/installation/README-FARSI.md)) to install and run Python.
 
 ## Python Code Examples
-- [Python micro code examples](/lessons/python/examples/README.md)
-- Also check [this link](/README-PYTHON-EXAMPLES.md)
+- [Python micro code examples](/lessons/python/examples/README.md)ss
 
 ## Homework
 
