@@ -15,7 +15,8 @@
 
 ----
 ## Older Uncategorized Examples
-- [Triangles](/exercises/01/easy-01-triangle.py)
+- Show triangles([1](/lessons/python/exercises/exercise-general-week-01-triangle.py),[2](/lessons/python/exercises/exercise-general-week-01-triangle-answer.py)) with python in terminal
+
 - [TicTocToe](/exercises/01/hard-01-xo-game.py)
 - [Dictionary](/exercises/exercise-general-week-05-01.py)
 - Web ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
