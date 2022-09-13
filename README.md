@@ -5,7 +5,7 @@
 - Check this [link](/lessons/python/installation/README.md) ([farsi](/lessons/python/installation/README-FARSI.md)) to install and run Python.
 
 ## Python Code Examples
-- [Python micro code examples](/lessons/python/examples/README.md)ss
+- [Python micro code examples](/lessons/python/examples/README.md)
 
 ## Homework
 
@@ -76,7 +76,7 @@
       <summary><strong>DataTypes</strong></summary>
       
       - Numbers: [`Integer, Float, Complex`](/lessons/python/concepts/data-types/data-type-number.py)
-      - Sequence: [`String`](/lessons/python/concepts/data-types/data-type-string.py), [`Range`](/lessons/python/concepts/data-types/data-type-range.py), [`List`](/lessons/python/concepts/collections/list-access.py), [`Tuple`](/lessons/python/concepts/collections/tuple-access.py.py), `Bytes`, `ByteArray`
+      - Sequence: [`String`](/lessons/python/concepts/data-types/data-type-string.py), [`Range`](/lessons/python/concepts/data-types/data-type-range.py), [`List`](/lessons/python/concepts/collections/list-access.py), [`Tuple`](/lessons/python/concepts/collections/tuple-access.py), `Bytes`, `ByteArray`
       - Set: [`Set`](/lessons/python/concepts/collections/set-access.py), [`FrozenSet`](/lessons/python/concepts/collections/set-frozen.py)
       - Map: [`Dictionary`](/lessons/python/concepts/collections/dict-access.py)
       - Nothing: `None`
