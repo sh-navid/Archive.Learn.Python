@@ -4,11 +4,14 @@
 - **Disclaimer:** _The content of this repository is only for testing and training and is provided at the discretion of the author; So it may not be suitable for production or other conditions._
 - Check this [link](/lessons/python/installation/README.md) ([farsi](/lessons/python/installation/README-FARSI.md)) to install and run Python.
 
+## Python Code Examples
+- [Python, practical micro code examples](/lessons/python/examples/README.md)
+
 ## Homework
 
 - Check [this link](/README-PYTHON-HOMEWORKS.md)
 
-## Examples
+## Python Course Examples
 
 - Check [this link](/README-PYTHON-EXAMPLES.md)
 
@@ -142,6 +145,8 @@
 23. Serialization, Deserialization
 24. JSON, CSV, XML
 25. Mutable vs Immutable in practice
+26. Multi Thread
+27. Multi Process
 
 
 ## Modules, Packages, Libs, ...
@@ -175,3 +180,4 @@
 - [**Linux** <sub>(Basic Concepts)</sub>](/README-LINUX.md)
 - [**Network** <sub>(Basic Concepts)</sub>](/README-NETWORK.md)
 - [**Security** <sub>(Basic Concepts)</sub>](/README-SECURITY.md)
+- [**SQL**](/README-SQL.md)
