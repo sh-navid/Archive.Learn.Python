@@ -21,16 +21,18 @@
 - Simple web service sample using python and flask ([1](/lessons/python/examples/web/flask-01.py),[2](/lessons/python/examples/web/flask-02.py))
 - Examples of Turtle ([1](/lessons/python/examples/sample/turtle/turtle-01.py),[2](/lessons/python/examples/sample/turtle/turtle-02.py))
 - Implementation of simple [Genetic Algorithm](/lessons/algorithm/kinds/evolutionary/simple-genetic-algorithm.py) using pure python
+- Simple GUI implementation of Rock Paper Scissors ([1](/lessons/python/examples/games/rock_paper_scissers/rock-paper-scissors-gui-01.py),[2](/lessons/python/examples/games/rock_paper_scissers/rock-paper-scissors-gui-02.py),[3](/lessons/python/examples/games/rock_paper_scissers/rock-paper-scissors-gui-03.py))
+- Very simple GUI Random Dice using python and tkinter ([1](/lessons/python/examples/apps/random_dice/random-dice-01.py),[2](/lessons/python/examples/apps/random_dice/random-dice-02.py))
+- Color Detector ([1](/lessons/python/examples/apps/color/color-detector-01.py),[2](/lessons/python/examples/apps/color/color-detector-02.py))
+- Simple PhoneBook using python and tkinter ([CLI](/lessons/python/examples/apps/phone_book/phone-book-cli.py),[GUI](/lessons/python/examples/apps/phone_book/phone-book-gui.py))
 
 
-- Rock Paper Scissors ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
-- Random Dice ([1](/exercises/02/gui/medium-01-random-number.py),[2](/exercises/02/gui/medium-02-random-number.py))
-- Color Detector ([1](/exercises/02/gui/hard-01-color-detector.py),[2](/exercises/02/gui/hard-02-color-detector.py))
-- PhoneBook ([1](/exercises/02/console/optional-01-phone-book.py))
+
+
+
 - Simple 2D Ball Game <sub>[***DOCUMENTED***]</sub> ([1](/lessons/python/examples/simple-2d-game-part1.py), [2](/lessons/python/examples/simple-2d-game-part2.py), [3](/lessons/python/examples/simple-2d-game-part3.py), [4](/lessons/python/examples/simple-2d-game-part4.py))
 - How to make a simple paint? ([First part](/lessons/python/examples/paint-part1.py))
 - How to make a weight tracker? ([First part](/lessons/python/examples/weight-tracker-part1.py))
-- How to make a simple phonebook with GUI? ([First part](/lessons/python/examples/phonebook-gui-part1.py))
 - How to make an interpreter for a hypothetical programming language? ([First part](/lessons/python/examples/interpreter-part1.py))
 - [Table generator](/lessons/python/examples/simple-table-generator.py) for Terminal
 - Simple [service](/lessons/python/examples/simple-bad-practice-authenticator.py) to authenticate users, and a simple script to [login](/lessons/python/examples/simple-bad-practice-login-script.py) to this service.
