@@ -17,9 +17,12 @@
 ## Older Uncategorized Examples
 - Show triangles([1](/lessons/python/exercises/exercise-general-week-01-triangle.py),[2](/lessons/python/exercises/exercise-general-week-01-triangle-answer.py)) with python in terminal
 - Sample CLI [TicTocToe](/lessons/python/examples/games/tic_toc_toe/tic-toc-toe-cli.py) game with python
-- [Dictionary](/lessons/python/exercises/exercise-general-week-05-01.py)
+- Simple GUI [Dictionary](/lessons/python/exercises/exercise-general-week-05-01.py) application using python and tkinter
+- Simple web service sample using python and flask ([1](/lessons/python/examples/web/flask-01.py),[2](/lessons/python/examples/web/flask-02.py))
 
-- Web ([1](/exercises/02/web/optional-01-flask.py),[2](/exercises/02/web/optional-02-flask.py))
+
+
+
 - Turtle ([1](/exercises/02/turtle/optional-01-turtle.py),[2](/exercises/02/turtle/optional-02-turtle.py))
 - [Genetic Algorithm](/lessons/algorithm/kinds/evolutionary/simple-genetic-algorithm.py)
 - Rock Paper Scissors ([1](/exercises/02/gui/easy-01-rock-paper.py),[2](/exercises/02/gui/easy-02-rock-paper.py),[3](/exercises/02/gui/easy-03-rock-paper.py))
