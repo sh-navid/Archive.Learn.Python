@@ -153,14 +153,14 @@
 - Matplotlib
 - PyQT
 - Kivy
-- DJango
-- [**Flask**](/exercises/02/web/)
+- [**DJango**](/lessons/python/modules/django/README.md)
+- [**Flask**](/lessons/python/modules/flask/README.md)
 - Scrapy
 - BeautifulSoup
 - Selenium
-- OpenCV
+- [**OpenCV**](/lessons/python/modules/opencv/README.md)
 - Pillow
-- **PyGame** ([1](/lessons/python/examples/simple-2d-game-part1.py),[2](/lessons/python/examples/simple-2d-game-part2.py),[3](/lessons/python/examples/simple-2d-game-part3.py),[4](/lessons/python/examples/simple-2d-game-part4.py))
+- **PyGame** ([1](/lessons/python/examples/sample/game_engine/simple-2d-game-part1.py),[2](/lessons/python/examples/sample/game_engine/simple-2d-game-part2.py),[3](/lessons/python/examples/sample/game_engine/simple-2d-game-part3.py),[4](/lessons/python/examples/sample/game_engine/simple-2d-game-part4.py))
 - Open3D
 - TF
 - PyTorch
