@@ -1,8 +1,6 @@
 import turtle
 import random
 
-# چه تغییری در این برنامه می توانید اعمال کنید؟
-
 ###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ts = [turtle.Turtle(), turtle.Turtle(), turtle.Turtle(), turtle.Turtle()]
 

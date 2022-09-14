@@ -26,7 +26,11 @@ player2 = "o"
 player1 = "x"
 while True:
     show()
-    answer = int(input(f"Player({player1}) should play: "))
+    try:
+        answer = int(input(f"Player({player1}) should play: "))
+    except:
+        continue
+    
     if answer < 1 or answer > 9:
         continue
 

@@ -24,7 +24,6 @@
   
 ## Attacks and TTPS (Tactics, Techniques, and Procedures)
 [REMOVED FROM THIS VERSION]
-
 ## Degrees ??
 - CISSP
 - CSSLP
@@ -34,7 +33,16 @@
 - Security+
 
 ## Uncategorized Keywords
-[REMOVED FROM THIS VERSION]
+- Cloud Security ??
+- SaaS, PaaS, ...
+- Cryptographic Systems -> SGX, SEV ??
+- Cyber Threat Intelligence ??
+- Security Orchestration ??
+- Threat modeling ??
+- Vulnerability assessments ??
+- [REMOVED FROM THIS VERSION]
+- PKI, TPM ??
+- CTF competitions, CVE research, Bug Bounty ??
 
 ## Needed Qualifications, Skills
 - API Testing
@@ -47,19 +55,21 @@
 - Knowledge of IDE, build tools, source control, system administration.
 - Knowledge of Cloud service providers (AWS, GCP, Azure)
 - Knowledge of data structures, algorithms, object-oriented, design patterns.
-- Knowledge of Performance, Scale considerations.
+- Knowledge of performance/scale considerations.
 - Knowledge of CommandLine, Shell, Shell-Script
 
 ## List of Vulnerabilities
 - CVE
 - OWASP
-- [REMOVED FROM THIS VERSION]
+- Whitehat List
   
 ## Tasks
-[REMOVED FROM THIS VERSION]
+- Identify 3rd-Party dependency vulnerabilities
 
 ## Langs
 - JS, Python, Node, Java, Go, Ruby, ...
 
 ## Other
-[REMOVED FROM THIS VERSION]
+- SQL, Redis, Hive, Spark, Kubernetes, K8s, Docker, Kafka, ZeroMQ, NSQ, ...
+- JSON, gRPC
+- JWT, JWE, OpenID, ...
