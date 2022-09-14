@@ -1,14 +1,23 @@
-# If input is not working in VSCode Terminal, add this
-### -> "code-runner.runInTerminal": true
-# to Settings.json
+##---------------------------------------------------------------------------##
+# DOCUMENTATION
+# If input is not working in "VSCode" Terminal, add this
+# "code-runner.runInTerminal": true
+# to Settings.json in .vscode folder
+
+##---------------------------------------------------------------------------##
+# MUTABLES
 my_weights = ["78", "75", "65"]
 
 
+##---------------------------------------------------------------------------##
+# FUNCTIONS
 def print_text_chart():
     for i, number in enumerate(my_weights):
         print(f"Week {i+1}", "-" * int(int(number) / 2), ">", number)
 
 
+##---------------------------------------------------------------------------##
+# APPLICATION
 while True:
     print("*" * 79)
     print("*" + "My Weight Application".center(77) + "*")
@@ -26,6 +35,8 @@ while True:
         my_weights.append(weight)
 
 
+##---------------------------------------------------------------------------##
+# OUTPUT
 """
 *******************************************************************************
 *                            My Weight Application                            *
