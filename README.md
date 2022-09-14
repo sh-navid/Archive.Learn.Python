@@ -137,12 +137,13 @@
 19. Web Service, Web Socket
 20. SQL (MariaDB, Sqlite, ...)
 21. NoSQL (MongoDB, Redis, ...)
-22. ORM
+22. ORM (SQLAlchemy)
 23. Serialization, Deserialization
 24. JSON, CSV, XML
 25. Mutable vs Immutable in practice
 26. Multi Thread
 27. Multi Process
+28. Test Concepts
 
 
 ## Modules, Packages, Libs, ...
@@ -170,10 +171,11 @@
 - Seaborn
 - PyAutoGUI
 
-## Know More About
+## More
 - [**AI**](lessons/ai/README.md)
 - [**Web**](lessons/frontend/README.md)
 - [**Linux** <sub>(Basic Concepts)</sub>](lessons/linux/README.md)
 - [**Network** <sub>(Basic Concepts)</sub>](lessons/network/README.md)
 - [**Security** <sub>(Basic Concepts)</sub>](lessons/network/README.md)
 - [**SQL**](lessons/sql/README.md)
+- [**DevOPS**](lessons/dev-ops/README.md)
