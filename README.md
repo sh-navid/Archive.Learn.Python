@@ -102,14 +102,28 @@
       - [with](/lessons/python/concepts/keywords/keywords-with.py) <sub>[Optonal]</sub>
       - [yield](/lessons/python/concepts/keywords/keywords-yield.py) <sub>[Optonal]</sub>
       </details>
-14. [Function, Method, Lambda](/lessons/python/concepts/object-oriented/types-of-methods.py)
 15. [Comperhension](/lessons/python/concepts/collections/comperhension.py)
 16. Scope, Globals, Locals
        - [`locals(), globals()`](/lessons/python/concepts/variables/scope.py)
 17. [Read File, Write File](/lessons/python/examples/sample/file/read-write-file.py), [Pickle](/lessons/python/examples/sample/file/read-write-pickle.py)
 18. Math
-19. Date
-20. [OOP Concepts](/lessons/python/concepts/object-oriented/object-oriented.py)
+19. [Date, Time](/lessons/python/concepts/date-time/date-time.py)
+14. [Function, Method, Lambda](/lessons/python/concepts/object-oriented/types-of-methods.py)
+20. [OOP](/lessons/python/concepts/object-oriented/object-oriented.py)
+    - Class, Object
+    - Constructor
+    - ToString, Representation
+    - Methods
+      - Object Method
+      - Static Method
+      - Class Method
+    - Inheritance
+    - Override
+    - Overload
+      - [Function Overloading](/lessons/python/concepts/object-oriented/function-overloading.py)
+          -  Python does not support function overloading
+      - [Operator Overloading](/lessons/python/concepts/operators/operator-overload.py) <sub>[OPTIONAL]</sub>
+    - Getter, Setter ???
 
 ### Optional
 1. VENV
@@ -119,11 +133,14 @@
 4. Arguments
     - [`*argv`, `**kwargs`](/lessons/python/concepts/advanced/argv-kwargs.py)
 5. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
-6. [Operator Overload](/lessons/python/concepts/operators/operator-overload.py)
-7. Exception, Custom Exception, Types of Errors
+7. Exception
+   1. Custom Exception
+   2. Types of Errors
 8. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
-9. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
-10. MetaClasses, MetaProgramming
+9.  [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
+10. Meta
+    1.  Meta Classes
+    2.  Meta Programming
 11. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
 12. Iterator
     - [Iterator, Iterable](/lessons/python/concepts/advanced/simple-iterator.py)
@@ -134,31 +151,33 @@
 16. [Context Manager](/lessons/python/concepts/keywords/keywords-with.py)
 17. Regular Expression
 18. Socket [`client`](/lessons/python/examples/sample/socket/simple-socket-client.py), [`server`](/lessons/python/examples/sample/socket/simple-socket-server.py)
-19. Web Service, Web Socket
-20. SQL (MariaDB, Sqlite, ...)
-21. NoSQL (MongoDB, Redis, ...)
-22. ORM (SQLAlchemy)
-23. Serialization, Deserialization
-24. JSON, CSV, XML
-25. Mutable vs Immutable in practice
-26. Multi Thread
-27. Multi Process
-28. Test Concepts
+19. Data
+    1.  SQL, NoSQL, ORM (SQLAlchemy)
+    2.  JSON, CSV, XML, OWL, ...
+20. Serialization, Deserialization
+21. Test Concepts
 
+### Advanced
+1. Dependency Injection
+2. Inversion of Control
+3. MSG Passing
+4. Multi Threading
+5. Multi Processing
+6. Semaphore, Lock, Mutex
 
 ## Modules, Packages, Libs, ...
 - [**Tkinter**](/lessons/python/modules/tkinter/README.md)
 - [**Turtle**](/lessons/python/modules/turtle/README.md)
 - [**NumPy**](/lessons/python/modules/numpy/README.md)
-- Pandas
+- [**Pandas**](/lessons/python/modules/pandas/README.md)
 - Matplotlib
 - PyQT
 - Kivy
 - [**DJango**](/lessons/python/modules/django/README.md)
 - [**Flask**](/lessons/python/modules/flask/README.md)
 - Scrapy
-- BeautifulSoup
 - Selenium
+- BeautifulSoup
 - [**OpenCV**](/lessons/python/modules/opencv/README.md)
 - Pillow
 - **PyGame** ([1](/lessons/python/examples/sample/game_engine/simple-2d-game-part1.py),[2](/lessons/python/examples/sample/game_engine/simple-2d-game-part2.py),[3](/lessons/python/examples/sample/game_engine/simple-2d-game-part3.py),[4](/lessons/python/examples/sample/game_engine/simple-2d-game-part4.py))
@@ -176,6 +195,6 @@
 - [**Web**](lessons/frontend/README.md)
 - [**Linux** <sub>(Basic Concepts)</sub>](lessons/linux/README.md)
 - [**Network** <sub>(Basic Concepts)</sub>](lessons/network/README.md)
-- [**Security** <sub>(Basic Concepts)</sub>](lessons/network/README.md)
+- [**Security** <sub>(Basic Concepts)</sub>](lessons/security/README.md)
 - [**SQL**](lessons/sql/README.md)
 - [**DevOPS**](lessons/dev-ops/README.md)
