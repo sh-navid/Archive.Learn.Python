@@ -24,10 +24,39 @@
   - Label
   - Button
   - ---
+  - Geometry Managers
+    - [Pack](tkinter_geometry_manager_pack.py)
+      - Options
+        - `anchor="center"|"n"|"e"|"ne"|"nw"|"s"|"se"|"sw"|"w"`
+        - `side="top"|"bottom"|"left"|"right"`
+        - Internal Padding
+          - `ipadx=value`, `ipady=value`
+        - External Padding
+          - `padx=value`, `pady=value`
+        - `expand=True|False`
+        - `fill="none"|"both"|"x"|"y"`
+    - [Grid](tkinter_geometry_manager_grid.py)
+      - Options
+        - `row=value`, `rowspan=value`
+        - `column=value`, `columnspan=value`
+        - Internal Padding
+          - `ipadx=value`, `ipady=value`
+        - External Padding
+          - `padx=value`, `pady=value`
+        - `sticky="n"|"e"|"ne"|"nw"|"s"|"se"|"sw"|"w"` more useful-> `"ns"|"ew"`
+    - [Place](tkinter_geometry_manager_place.py)
+      - Options
+        - `anchor="center"|"n"|"e"|"ne"|"nw"|"s"|"se"|"sw"|"w"`
+        - `bordermode="outside"|"inside"`
+        - `x=value`, `y=value`
+        - `relx=0 to 1`, `rely=0 to 1`
+        - `width=value`, `height=value`
+        - `relwidth=0 to 1`, `relheight=0 to 1`
   - Find config of a widget
-    - [`set(btn.configure().keys()`](tkinter_widget_find_config.py)
+    - [`set(btn.configure().keys())`](tkinter_widget_find_config.py)
 
 
 ## Note:
 - [ ] TODO: Continue reading the [Official Link](https://docs.python.org/3/library/tkinter.html) 
 - [ ] TODO: Read more about [TTK](https://docs.python.org/3/library/tkinter.ttk.html#module-tkinter.ttk)
+- [ ] TODO: Read more about [Winfo](https://www.tcl.tk/man/tcl8.6/TkCmd/winfo.html)

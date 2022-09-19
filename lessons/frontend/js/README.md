@@ -30,4 +30,48 @@
   - [`instanceof, typeof`]()
   - [`class, extends, new, function, this, super, static`]()
   - [`void, debugger, in, delete`]()
-- Callback, Promise, ...
+- Objects
+- Strings
+  - Actions
+    - Access, Assign
+  - Properties
+    - `.length`
+  - Classes 
+    - `String()`
+  - Methods
+    - `.toString(), .split(), .concat(), .trim(), .trimStart(), .trimEnd(), .padStart(), .padEnd(), .replace(), .slice(), .substring(), .substr(), .toUpperCase(), .toLowerCase(), .charAt(), .charCodeAt()`
+    - `.search(), .indexOf(), .lastIndexOf(), .startsWith(), .endsWith()`
+  - [Escape Chars](../../python/concepts/string/scape-chars.py)
+  - Template (Format)
+    - \`${}\`
+- Numbers
+- Collections
+  - Array
+  - Set
+  - Map
+- If, Else, Switch
+- For, While, Break, Continue
+- Random
+- Date
+- Math
+- Class
+- Event, Callback, Promise, ...
+- Regular Expression
+- HttpRequest, Ajax, Fetch
+- ES6
+
+## TP Week1
+- Output
+  - `console.log()`
+  - `window.alert()`
+  - `window.print()`
+  - `document.write()`
+- Id, Tag, Class, Name
+  - `document.getElementById()`
+- Show/Hide Elements with JS
+- Change back/fore color of element
+- Change Text/HTML content of element
+
+## TP Week2
+- External JS
+  - ` <script src="script.js"></script> `

@@ -47,7 +47,7 @@
    2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-04.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-04-answer.py)]</sub>
 </details>
 
-<details open>
+<details>
    <summary><strong>Week 5</strong></summary>
    
    1. Search for these terms:
@@ -64,16 +64,18 @@
       - Solve ball Grid problem ([**link**](/lessons/python/exercises/exercise-general-week-05-04.py))
 </details>
 
-<details>
+<details open>
    <summary><strong>Week 6</strong></summary>
 
    1. Search for these terms:
       - **Argument**, **Attribute**, **Parameter**, **Variable**, **Property**
    2. ***Solve these problems:***
       - Solve animal problem ([**link**](/lessons/python/exercises/exercise-general-week-05-06.py))
+      - Solve this problem ([**link**](/lessons/python/exercises/exercise-general-week-06-01.py))
+      - Unveil the first version of your project
 </details>
 
-<details>
+<details open>
    <summary><strong>Week 7</strong></summary>
 
    1. Search for these terms:
@@ -85,6 +87,7 @@
       - **Encapsulation**, **Polymorphism**
       - [**Magic Method**, **Class Method**, **Instance Method**, **Static Method**](/lessons/python/concepts/object-oriented/types-of-methods.py)
    2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-07.py))
+      - Solve this problem ([**link**](/lessons/python/exercises/exercise-general-week-07-01.py))
 </details>
 
 <details>

@@ -1,27 +1,24 @@
-<style>
-img[src$="center"] {
-  display:block;
-  margin: 0 auto;
-}
-</style>
-
-
-
-
-
 # Python Micro Code Examples
-- ***Disclaimer**: The content of this repository is provided for learning purposes only and as a code example.*
+- ***Disclaimer**: The content of this repository is provided for teaching and learning purposes only and as a code example.*
 
-## PyGame
-- [Dot Shooter](games/dot_shooter/dot-shooter.py)
+## Simple Tank Game
+- [Tank Game](games/tank/tank.py)
+- [Movement and Rotation](games/dot_shooter/dot-shooter.py) of simple character
+  - User A and D for rotation
+- Simple 2D Ball ([1](/lessons/python/examples/sample/game_engine/simple-2d-game-part1.py), [2](/lessons/python/examples/sample/game_engine/simple-2d-game-part2.py), [3](/lessons/python/examples/sample/game_engine/simple-2d-game-part3.py), [4](/lessons/python/examples/sample/game_engine/simple-2d-game-part4.py))
 
-## Tkinter, Flask
+![](games/tank/snapshot.png)
+
+## Online Communication Between Applications
 - Online Rock, Paper, Scissers Game using Flask Web Service: [Runner](games/rock_paper_scissers_online/runner.py), [All Files](games/rock_paper_scissers_online/)  
 
 
 ![](games/rock_paper_scissers_online/snapshot.png?style=center)
 
-
+## Paint
+- Simple paint ([1](/lessons/python/examples/apps/color/paint-01.py), [2](/lessons/python/examples/apps/color/paint-02.py)) using python and tkinter
+  
+![](/lessons/python/examples/apps/color/paint-02.png?style=center)
 
 
 ----
@@ -44,10 +41,7 @@ img[src$="center"] {
 - Very simple GUI Random Dice using python and tkinter ([1](/lessons/python/examples/apps/random_dice/random-dice-01.py), [2](/lessons/python/examples/apps/random_dice/random-dice-02.py))
 - Color Detector ([1](/lessons/python/examples/apps/color/color-detector-01.py), [2](/lessons/python/examples/apps/color/color-detector-02.py))
 - Simple PhoneBook using python and tkinter ([CLI](/lessons/python/examples/apps/phone_book/phone-book-cli.py), [GUI](/lessons/python/examples/apps/phone_book/phone-book-gui.py))
-- Simple 2D Ball Game ([1](/lessons/python/examples/sample/game_engine/simple-2d-game-part1.py), [2](/lessons/python/examples/sample/game_engine/simple-2d-game-part2.py), [3](/lessons/python/examples/sample/game_engine/simple-2d-game-part3.py), [4](/lessons/python/examples/sample/game_engine/simple-2d-game-part4.py))
-- Simple paint ([1](/lessons/python/examples/apps/color/paint-01.py), [2](/lessons/python/examples/apps/color/paint-02.py)) using python and tkinter
-  
-  ![](/lessons/python/examples/apps/color/paint-02.png?style=center)
+
 - Simple weekly CLI weight tracker ([1](/lessons/python/examples/apps/gym/weight-tracker-01.py), [2](/lessons/python/examples/apps/gym/weight-tracker-02.py))
 
 ![](/lessons/python/examples/apps/gym/weight-tracker-02.png?style=center)

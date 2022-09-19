@@ -50,6 +50,9 @@
 - Port
 - Subnet, Gateway
 - ARP
+- Configure by DHCP or Manually
+- Subnet Mask
+  - Split address into host and network
 
 ---
 ## Network Security

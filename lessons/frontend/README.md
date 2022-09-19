@@ -1,20 +1,43 @@
-# WebSite, WebApp, WebService
+# Web
+- Site
+- App (PWA)
+- Service
+- ---
+- CMS
+- Web Frameworks
 
+## Web Roadmap
 - Frontend
-  - HTML, CSS <sub>(SCSS, SASS, ...)</sub>, JS <sub>(JQ, [ReactJS, VueJS, AngularJS], ThreeJS, BabylonJS, AnimeJS, PixiJS, ...)</sub>, TS
-  - Bootstrap, Materialize, Framework7, ...
+  - HTML
+  - CSS 
+    - SCSS
+    - SASS
+    - CSS Frameworks
+      - Bootstrap
+      - Materialize CSS
+      - Framework7
+  - [JS](js/README.md) 
+    - [JQ](jq/README.md),
+    - UI Web Application Framework ??
+      - [ReactJS](react/README.md)
+      - VueJS
+      - AngularJS
+    - ThreeJS, BabylonJS, AnimeJS, PixiJS, ... 
+  - TS
 - Tools
   - Babel, Webpack, NPM, ...
 - Concepts
-  - Basic Networking <sub>(Host, Domain, VPS, DNS, HTTP, HTTPS, FTP, SSH, ...)</sub>
+  - [Basic Networking](../network/README.md) <sub>(Host, Domain, VPS, DNS, HTTP, HTTPS, FTP, SSH, ...)</sub>
   - PWA, SPA, [SSR, CSR, SSG, ISR]
 - Backend
   - Python
-    - Django
-    - Flask, Jinja, ...
+    - [Django](../python/modules/django/README.md)
+    - [Flask](../python/modules/flask/README.md)
     - NodeJS, NextJS, SocketIO, ...
+  - Template Engine
+    - Jinja
   - Database
-    - SQL, NoSql, ORM <sub>(Prisma, Sequelize, SQLAlchemy, ...)</sub>, JSON, XML
+    - [SQL](../sql/README.md), NoSql, ORM <sub>(Prisma, Sequelize, SQLAlchemy, ...)</sub>, JSON, XML
   - Web Services Architecture <sub>COAP, SOAP, RestAPI, GraphQL, ...</sub>
 - Deploy, Monitoring, ...
 
