@@ -1,1 +1,14 @@
 # SQL
+## Database
+- CREATE
+## Table
+- CREATE
+- ALTER
+- SELECT
+- INSERT
+- UPDATE
+- DELETE
+___
+- JOIN
+- CONSTRAINT
+- GRANT

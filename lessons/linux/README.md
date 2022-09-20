@@ -1,4 +1,84 @@
 # Linux
 ## Ubuntu
 ### Terminal
-- Open explorer with command `nautilus --browser <PATH>`
+- Open explorer with command 
+  - `nautilus --browser <PATH>`
+- Open explorer in current dirctory using terminal
+  - `xdg-open .`
+
+### Keywords
+- [ ] cron
+- [x] man <sub>_Manual of command_</sub>
+- [x] df <sub>_Disk space usage_</sub>
+- [ ] network
+  - [x] ping
+  - [x] nslookup <sub>_Query name servers_</sub>
+  - [ ] netstat
+  - [ ] netcat
+  - [ ] ifconfig
+- [ ] dir <sub>__</sub>
+  - [x] cd <sub>_Change directory_</sub>
+  - [x] ls <sub>_List all files and folders (Colorful)_</sub>
+    - `ls -l` <sub>_With long, more detailed output_</sub>
+    - `ls -a` <sub>_Including hidden files_</sub>
+  - [x] mkdir
+  - [x] rmdir <sub>_Remove directory_</sub>
+  - [ ] rm
+  - [ ] mv
+  - [ ] cp
+  - [ ] cut
+  - [ ] touch
+  - [ ] locate <sub>_Locate a file_</sub>
+  - [ ] ln <sub>_Physical link between 2 files_</sub>
+  - [ ] ln -s <sub>_Symbolic link between 2 files_</sub>
+- [ ] is
+- [ ] grep <sub>_Search text in file_</sub>
+- [ ] sort
+- [ ] wc <sub>_Count words or chars in file_</sub>
+- [ ] dd
+- [ ] traceroute
+- [ ] vi
+- [ ] chmod
+- [ ] chown
+- [ ] chgrp
+- [ ] init
+- [ ] kill
+- [ ] gzip
+- [ ] bzip2
+- [ ] tar
+- [ ] find
+- [ ] wget
+- [ ] chown
+- [ ] su
+  - [ ] sudo
+- [ ] mount
+  - [ ] umount
+- [ ] fdisk
+- [ ] nohup
+- [x] whoami
+- [ ] tail
+- [ ] dpkg
+- [ ] xargs
+- [x] pwd <sub>_Present working directory_</sub>
+- [ ] chroot
+- [ ] tty
+- [ ] fsck
+- [ ] env
+- [x] du <sub>_Show disk usage_</sub>
+- [ ] dmesg
+- [ ] useradd
+- [ ] passwd
+- [x] md5sum <sub>_Check md5_</sub>
+  - `md5sum file.ext`
+    - This will return the md5 hash of that file
+- [x] sleep <sub>_Delay_</sub>
+  -  `sleep 10s`
+- [ ] tee
+- [ ] modprobe
+- [x] cat
+  - `cat file1.ext file2.ext`
+    - To combine and show content of both
+  - `cat>file.ext`
+    - After this you can write text to file and exit with `CTRL+C`
+- [x] echo <sub>_Display text_</sub>
+- [x] getopt <sub>_Parse command options_</sub>
