@@ -19,39 +19,48 @@
   - [ ] TODO: Complete this section
 - Layouts
 - Widgets
-  - Frame
-  - Entry
-  - Label
-  - Button
+  - [Frame](tkinter_frame.py)
+    - ![](tkinter_frame.png)
+  - [Entry](tkinter_entry.py)
+    - ![](tkinter_entry.png)
+  - [Label](tkinter_label.py)
+    - ![](tkinter_label.png)
+  - [Button](tkinter_button.py)
+    - ![](tkinter_button.png)
+  - [Image](tkinter_image.py)
+    - ![](tkinter_image.png)
   - ---
   - Geometry Managers
     - [Pack](tkinter_geometry_manager_pack.py)
       - Options
-        - `anchor="center"|"n"|"e"|"ne"|"nw"|"s"|"se"|"sw"|"w"`
-        - `side="top"|"bottom"|"left"|"right"`
+        - `anchor="center", "n", "e", "ne", "nw", "s", "se", "sw", "w"`
+        - `side="top", "bottom", "left", "right"`
         - Internal Padding
-          - `ipadx=value`, `ipady=value`
+          - `ipadx=N`, `ipady=N`
         - External Padding
-          - `padx=value`, `pady=value`
-        - `expand=True|False`
-        - `fill="none"|"both"|"x"|"y"`
+          - `padx=N`, `pady=N`
+        - `expand=True, False`
+        - `fill="none", "both", "x", "y"`
+      - ![](tkinter_geometry_manager_pack.png)
     - [Grid](tkinter_geometry_manager_grid.py)
       - Options
-        - `row=value`, `rowspan=value`
-        - `column=value`, `columnspan=value`
+        - `row=N`, `rowspan=N`
+        - `column=N`, `columnspan=N`
         - Internal Padding
-          - `ipadx=value`, `ipady=value`
+          - `ipadx=N`, `ipady=N`
         - External Padding
-          - `padx=value`, `pady=value`
-        - `sticky="n"|"e"|"ne"|"nw"|"s"|"se"|"sw"|"w"` more useful-> `"ns"|"ew"`
+          - `padx=N`, `pady=N`
+        - `sticky="n", "e", "ne", "nw", "s", "se", "sw", "w"` and `"ns", "ew"`
+      - ![](tkinter_geometry_manager_grid.png)
     - [Place](tkinter_geometry_manager_place.py)
       - Options
-        - `anchor="center"|"n"|"e"|"ne"|"nw"|"s"|"se"|"sw"|"w"`
-        - `bordermode="outside"|"inside"`
-        - `x=value`, `y=value`
-        - `relx=0 to 1`, `rely=0 to 1`
-        - `width=value`, `height=value`
-        - `relwidth=0 to 1`, `relheight=0 to 1`
+        - `anchor="center", "n", "e", "ne", "nw", "s", "se", "sw", "w"`
+        - `bordermode="outside", "inside"`
+        - `x=N`, `y=N`
+        - `relx=0-1`, `rely=0-1`
+        - `width=N`, `height=N`
+        - `relwidth=0-1`, `relheight=0-1`
+      - ![](tkinter_geometry_manager_place.png)
   - Find config of a widget
     - [`set(btn.configure().keys())`](tkinter_widget_find_config.py)
 
