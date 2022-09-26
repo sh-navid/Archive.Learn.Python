@@ -88,6 +88,8 @@
       - [**Magic Method**, **Class Method**, **Instance Method**, **Static Method**](/lessons/python/concepts/object-oriented/types-of-methods.py)
    2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-07.py))
       - Solve this problem ([**link**](/lessons/python/exercises/exercise-general-week-07-01.py))
+      - Solve this problem ([**link**](/lessons/python/exercises/exercise-general-week-07-02.py))
+      - Solve this problem ([**link**](/lessons/python/exercises/exercise-general-week-07-03.py))
 </details>
 
 <details>
@@ -134,3 +136,4 @@
 - Usage of **ord()** to find **range of chars** ?
 - In paint example how to change the color with button ?
 - How to make input modal in tkinter ? [Built-in](/lessons/python/modules/tkinter/tkinter_ask_with_input.py), [Custom](/lessons/python/modules/tkinter/tkinter_ask_with_custom_input.py)
+- Swap [key and valuses](/students/questions/swap-keys-and-values-of-dictionary.py) in dictionary.
