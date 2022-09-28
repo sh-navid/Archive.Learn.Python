@@ -7,7 +7,3 @@ print(set(dir(button)))
 print("-" * 79)
 
 print(set(button.configure().keys()))
-
-
-
-
