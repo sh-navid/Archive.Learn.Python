@@ -1,21 +1,50 @@
-CREATE DATABASE IF NOT EXISTS MyDatabase;
-USE MyDatabase;
+SOURCE db_default.sql
 
 
-DROP TABLE IF EXISTS Test;
+SELECT FirstName FROM User;
+/*
++-----------+
+| FirstName |
++-----------+
+| Hamid     |
+| Saeed     |
+| Majid     |
+| Jamshid   |
+| Jamshid   |
+| Jamshid   |
++-----------+
+*/
 
+SELECT DISTINCT Id,UserName FROM User;
+/*
++----+----------+
+| Id | UserName |
++----+----------+
+|  3 | EYES     |
+|  1 | HamidA   |
+|  4 | Jina001  |
+|  6 | JM       |
+|  5 | Tk       |
+|  2 | TTop     |
++----+----------+
+*/
 
-CREATE TABLE IF NOT EXISTS Test(
-    id  INTEGER
-);
+SELECT COUNT(DISTINCT id) FROM User;
+/*
++--------------------+
+| COUNT(DISTINCT id) |
++--------------------+
+|                  6 |
++--------------------+
+*/
 
-
-INSERT INTO Test (id) values(1);
-INSERT INTO Test (id) values(2);
-INSERT INTO Test (id) values(2);
-INSERT INTO Test (id) values(2);
-INSERT INTO Test (id) values(3);
-
-
-SELECT * FROM Test;
-SELECT DISTINCT * FROM Test;
+SELECT * FROM User LIMIT 3;
+/*
++----+-----------+----------+----------+----------+
+| Id | FirstName | LastName | UserName | GenderId |
++----+-----------+----------+----------+----------+
+|  1 | Hamid     |          | HamidA   |        3 |
+|  2 | Saeed     |          | TTop     |        3 |
+|  3 | Majid     |          | EYES     |        3 |
++----+-----------+----------+----------+----------+
+*/
