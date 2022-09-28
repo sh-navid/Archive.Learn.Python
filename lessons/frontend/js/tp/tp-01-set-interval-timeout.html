@@ -1,0 +1,27 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <span id="my-span">Hello</span>
+    <hr />
+    <label id="counter">0</label>
+    <script>
+        mySpan = document.getElementById("my-span")
+        setTimeout(() => {
+            mySpan.innerHTML = "We are counting right now"
+        }, 5000)
+
+        myCounter = document.getElementById("counter")
+        setInterval(() => {
+            let value = myCounter.innerText;
+            value = parseInt(value);
+            value += 1;
+            myCounter.innerText = value;
+        }, 1000)
+    </script>
+</body>
+
+</html>

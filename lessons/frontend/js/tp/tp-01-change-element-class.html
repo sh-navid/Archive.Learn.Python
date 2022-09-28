@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <style>
+        .class-a {
+            color: tomato;
+            padding: 1em;
+            border: 1px solid black;
+            margin-top: 2em;
+            display: block;
+            border-radius: .5em;
+        }
+
+        .class-b {
+            color: steelblue;
+            padding: 2em;
+            border: 5px solid orange;
+            margin-top: 3em;
+            display: inline-block;
+            border-radius: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <label id="my-label" class="class-a" onclick="changeClass()">Click here to change class</label>
+    <script>
+        const changeClass = () => {
+            myLabel = document.getElementById("my-label");
+            myLabel.className = "class-b";
+        }
+    </script>
+</body>
+
+</html>
