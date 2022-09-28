@@ -47,21 +47,21 @@
    2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-04.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-04-answer.py)]</sub>
 </details>
 
-<details>
+<details open>
    <summary><strong>Week 5</strong></summary>
    
    1. Search for these terms:
       - [**CPython**, **Cython**](/lessons/python/runtimes/test-cython.py), [**Numba**, **JIT**](/lessons/python/runtimes/test-numba.py)
    2. ***Solve these problems:***
-      - Solve Dice problem ([**link**](/lessons/python/exercises/exercise-general-week-05-08.py))
-      - Solve dictionary problem ([**link**](/lessons/python/exercises/exercise-general-week-05-01.py))
-      - Solve class problem ([**link**](/lessons/python/exercises/exercise-general-week-05-02.py))
-      - Solve phone book problem ([**link**](/lessons/python/exercises/exercise-general-week-05-05.py))
-      - Solve player problem ([**link**](/lessons/python/exercises/exercise-general-week-05-07.py))
-      - Solve Task problem ([**link**](/lessons/python/exercises/exercise-general-week-05-09.py))
-      - Solve baby-name problem ([**link**](/lessons/python/exercises/exercise-general-week-05-10.py))
-      - Solve ball problem ([**link**](/lessons/python/exercises/exercise-general-week-05-03.py))
-      - Solve ball Grid problem ([**link**](/lessons/python/exercises/exercise-general-week-05-04.py))
+      - Solve Dice problem ([**link**](/lessons/python/exercises/exercise-general-week-05-08.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-05-08-answer.py)]</sub>
+      - Solve dictionary problem ([**link**](/lessons/python/exercises/exercise-general-week-05-01.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-05-01-answer.py)]</sub>
+      - Solve class problem ([**link**](/lessons/python/exercises/exercise-general-week-05-02.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-05-02-answer.py)]</sub>
+      - Solve phone book problem ([**link**](/lessons/python/exercises/exercise-general-week-05-05.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-05-05-answer.py)]</sub>
+      - Solve player problem ([**link**](/lessons/python/exercises/exercise-general-week-05-07.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-05-07-answer.py)]</sub>
+      - Solve Task problem ([**link**](/lessons/python/exercises/exercise-general-week-05-09.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-05-09-answer.py)]</sub>
+      - Solve baby-name problem ([**link**](/lessons/python/exercises/exercise-general-week-05-10.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-05-10-answer.py)]</sub>
+      - Solve ball problem ([**link**](/lessons/python/exercises/exercise-general-week-05-03.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-05-03-answer.py)]</sub>
+      - Solve ball Grid problem ([**link**](/lessons/python/exercises/exercise-general-week-05-04.py)) <sub>[[ANSWERS](/lessons/python/exercises/exercise-general-week-05-04-answer.py)]</sub>
 </details>
 
 <details open>

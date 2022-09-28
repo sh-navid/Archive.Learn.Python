@@ -160,7 +160,7 @@
 ### Advanced
 1. Dependency Injection
 2. Inversion of Control
-3. MSG Passing
+3. Message Passing
 4. Multi Threading
 5. Multi Processing
 6. Semaphore, Lock, Mutex
