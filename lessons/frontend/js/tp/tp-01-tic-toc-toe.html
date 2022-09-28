@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <style>
+        td {
+            width: 2em;
+            height: 2em;
+            border: 1px solid royalblue;
+            border-radius: .2em;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        next = 1
+        const call = (el) => {
+            if (el.innerText != "-") return
+            if (next == 1) {
+                el.innerText = "X"
+            } else {
+                el.innerText = "O"
+            }
+            next = -next;
+        }
+    </script>
+    <table>
+        <tr>
+            <td onclick="call(this)">-</td>
+            <td onclick="call(this)">-</td>
+            <td onclick="call(this)">-</td>
+        </tr>
+        <tr>
+            <td onclick="call(this)">-</td>
+            <td onclick="call(this)">-</td>
+            <td onclick="call(this)">-</td>
+        </tr>
+        <tr>
+            <td onclick="call(this)">-</td>
+            <td onclick="call(this)">-</td>
+            <td onclick="call(this)">-</td>
+        </tr>
+    </table>
+</body>
+
+</html>

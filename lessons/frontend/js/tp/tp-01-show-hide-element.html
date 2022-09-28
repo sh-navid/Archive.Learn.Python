@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <style>
+        :root {
+            --COLOR1: orangered;
+        }
+
+        * {
+            user-select: none;
+        }
+
+        .holder {
+            margin-top: 2em;
+            display: block;
+        }
+
+        label {
+            padding: 1em;
+            border: 1px solid var(--COLOR1);
+            border-radius: 1em;
+            color: var(--COLOR1);
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        label:hover {
+            background-color: var(--COLOR1);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <span id="my-text">Hello</span>
+    <hr />
+    <div class="holder">
+        <label onclick="show()">Show</label>
+        <label onclick="hide()">Hide</label>
+        <script>
+            let myText = document.getElementById("my-text");
+
+            const show = () => {
+                myText.style.display = "block"
+            }
+
+            const hide = () => {
+                myText.style.display = "none"
+            }
+        </script>
+    </div>
+    <script>
+
+    </script>
+</body>
+
+</html>
