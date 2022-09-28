@@ -7,19 +7,28 @@
 ## Database
 - CREATE
 ## Table
-- CREATE
-- DROP
+- [CREATE]() 
+- [DROP]()
 - ALTER
-- INSERT
-- [SELECT](/commands/db_select.sql)
-    - `SELECT * FROM [TABLE NAME]`
-    - `SELECT [COLUMN 1], [COLUMN 1], ... FROM [TABLE NAME]`
-- [SELECT DISTINCT](/commands/db_select.sql)
-    - `SELECT DISTINCT * FROM [TABLE NAME]`
-    - `SELECT DISTINCT [COLUMN 1], [COLUMN 1], ... FROM [TABLE NAME]`
-- UPDATE
-- DELETE
-- WHERE
+- [INSERT]() 
+  - `INTO`
+- [SELECT](commands/db_select.sql) 
+- [UPDATE](commands/db_update.sql)
+- [DELETE](commands/db_delete.sql)
+- [ORDER BY](commands/db_order.sql)
+  - `ASC`, `DESC`
+- [WHERE](commands/db_where.sql)
+  - `LIKE`, `BETWEEN`, `IN`, `IS`, `AND`, `OR`, `NOT`, `NULL`, `=`, `<>`, `>`, `<`, `>=`, `<=`
+- IF
+- EXISTS
+- DISTINCT
+- [LIMIT](commands/db_limit.sql)
+- [Functions](commands/db_functions.sql)
+  - `min`, `avg`, `max`, `count`, `sum`, `mod`, `ceil`, `round`, `abs`, `floor`, `sign`
+  - `concat`, `trim`, `upper`, `lower`, `length`,
+  - `least`, `greatest`
+- Date Functions
+  - `date_trunc`, `extract`
 ___
 - JOIN
 - CONSTRAINT
