@@ -10,10 +10,49 @@
 - Frontend
   - HTML
   - CSS 
-    - SCSS
-    - SASS
+    ~~~css
+    :root{
+      --v:#000;
+    }
+
+    #style{
+      color:var(--v);
+    }
+    ~~~
+    - Preprocessors <sup>[[link](https://www.lambdatest.com/blog/css-preprocessors-sass-vs-less-vs-stylus-with-examples/)]</sup>
+      - SCSS
+        ~~~css
+        $v: #000;
+
+        #style{
+          color: $v;
+        }
+        ~~~
+      - SASS
+        ~~~css
+        $v: #000
+
+        #style
+          color: $v
+        ~~~
+      - LESS <sub>Leaner Style Sheets</sub>
+        ~~~css
+        @v: #000;
+
+        #style{
+          color: @v;
+        }
+        ~~~
+      - Stylus
+        ~~~css
+        v = #000;
+
+        #style{
+          color: v;
+        }
+        ~~~
     - CSS Frameworks
-      - Bootstrap
+      - [Bootstrap](bootstrap/alert.html)
       - Materialize CSS
       - Framework7
   - [JS](js/README.md) 
