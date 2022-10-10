@@ -48,3 +48,42 @@ def calc(*args):
 calc(1)
 calc(1, 2)
 calc(1, 2, 3, 4, 5)
+
+
+###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+def check_type_decorator(func):
+    def inner(*args):
+        for a in args:
+            print(a, type(a))
+        return func(*args)
+
+    return inner
+
+
+@check_type_decorator
+def my_mean_function(a: int, b: int, c: int):
+    return (a + b + c) / 3
+
+
+print(my_mean_function(4, 5, 6))
+
+
+###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+def clean_input_decorator(func):
+    def inner(*args):
+        L = list(args)
+        for index, arg in enumerate(L):
+            L[index] = arg.replace(" ", "")
+        return func(*L)
+
+    return inner
+
+
+@clean_input_decorator
+def f1(a, b, c):
+    print(a)
+    print(b)
+    print(c)
+
+
+f1("  hello  ", "hello world", "good bye")

@@ -104,7 +104,7 @@
       </details>
 15. [Comperhension](/lessons/python/concepts/collections/comperhension.py)
 16. Scope, Globals, Locals
-       - [`locals(), globals()`](/lessons/python/concepts/variables/scope.py)
+    - [`locals(), globals()`](/lessons/python/concepts/variables/scope.py)
 17. [Read File, Write File](/lessons/python/examples/sample/file/read-write-file.py), [Pickle](/lessons/python/examples/sample/file/read-write-pickle.py)
 18. Math
 19. [Date, Time](/lessons/python/concepts/date-time/date-time.py)
@@ -124,24 +124,25 @@
           -  Python does not support function overloading
       - [Operator Overloading](/lessons/python/concepts/operators/operator-overload.py) <sub>[OPTIONAL]</sub>
     - Getter, Setter ???
+    - [Enum](/lessons/python/concepts/enum/color-enum.py)
+1. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
+1. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
+1. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
+1. PIP
+    - [`install, list, uninstall, freeze`, ...](/lessons/python/installation/README-PIP.md)
+1. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
+
 
 ### Optional
 1. VENV
-2. PIP
-    - [`install, list, uninstall, freeze`, ...](/lessons/python/installation/README-PIP.md)
-3. [Enum](/lessons/python/concepts/enum/color-enum.py)
 4. Arguments
     - [`*argv`, `**kwargs`](/lessons/python/concepts/advanced/argv-kwargs.py)
-5. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
 7. Exception
    1. Custom Exception
    2. Types of Errors
-8. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
-9.  [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
 10. Meta
     1.  Meta Classes
     2.  Meta Programming
-11. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
 12. Iterator
     - [Iterator, Iterable](/lessons/python/concepts/advanced/simple-iterator.py)
     - [Custom Iterator](/lessons/python/concepts/advanced/custom-iterator.py)

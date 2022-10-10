@@ -120,7 +120,10 @@
 ## TP08
 - Date, Time, Format
 - Math
+- def, lambda
+- argv, kwargs
 - Inheritance
+- Decorator
 - NumPy
 - ...
 
