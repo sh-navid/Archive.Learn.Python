@@ -117,6 +117,13 @@
 </details>
 
 
+## TP08
+- Date, Time, Format
+- Math
+- Inheritance
+- NumPy
+- ...
+
 
 ## Answers to the questions of students
 - [Get **object** by **id**()](/students/questions/object-get-by-id.py)
