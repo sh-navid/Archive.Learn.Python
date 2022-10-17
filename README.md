@@ -109,7 +109,7 @@
 18. Math
 19. [Date, Time](/lessons/python/concepts/date-time/date-time.py)
 14. [Function, Method, Lambda](/lessons/python/concepts/object-oriented/types-of-methods.py)
-20. [OOP](/lessons/python/concepts/object-oriented/object-oriented.py)
+20. [OOP](/lessons/python/concepts/object-oriented/README.md)
     - Class, Object
     - Constructor
     - ToString, Representation

@@ -121,10 +121,13 @@
 - Date, Time, Format
 - Math
 - def, lambda
+- Review concepts
+
+## TP09
+- [OOP](lessons/python/concepts/object-oriented/README.md)
+- [Decorator](lessons/python/concepts/advanced/simple-decorator.py)
+- [NumPy](lessons/python/modules/numpy/README.md)
 - argv, kwargs
-- Inheritance
-- Decorator
-- NumPy
 - ...
 
 
