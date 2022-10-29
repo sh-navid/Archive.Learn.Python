@@ -100,6 +100,7 @@
       - Solve 2 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--02.py))
       - Solve 3 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--03.py))
       - Solve 4 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--04.py))
+      - Solve 5 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--04.py))
 </details>
 
 
