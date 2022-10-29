@@ -23,7 +23,7 @@ class Color(Enum):
     GRAY = auto()
 
 
-class BRAND(Enum):
+class Brand(Enum):
     BRAND_A = auto()
     BRAND_B = auto()
     BRAND_C = auto()
@@ -33,9 +33,32 @@ class BRAND(Enum):
 
 
 class Cloth:
-    def move(self):
-        pass
+    name=""
+    size: Size
+    brand: Brand
 
 
-class Items:
-    products: list[Cloth] = []
+class Skirt(Cloth):
+    name="Skirt"
+
+
+class Hat(Cloth):
+    name="Hat"
+
+
+class Pants(Cloth):
+    name="Pants"
+
+
+class Coat(Cloth):
+    name="Coat"
+
+
+class Product:
+    cloth: Cloth
+    count: int
+    color: Color
+
+
+class Products:
+    collection:list(Product)
