@@ -36,12 +36,12 @@ class Brand(Enum):
 
 
 class Type(Enum):
-    UNDEFINED= auto()
-    COAT= auto()
-    PANTS= auto()
-    SKIRT= auto()
-    SHIRT= auto()
-    HAT= auto()
+    UNDEFINED = auto()
+    COAT = auto()
+    PANTS = auto()
+    SKIRT = auto()
+    SHIRT = auto()
+    HAT = auto()
 
 
 class Reflector:
