@@ -35,48 +35,63 @@ class Brand(Enum):
     UNDEFINED = auto()
 
 
-class Reflect:
+class Type(Enum):
+    UNDEFINED: auto()
+    COAT: auto()
+    PANTS: auto()
+    SKIRT: auto()
+    SHIRT: auto()
+    HAT: auto()
+
+
+class Reflector:
     def __str__(self) -> str:
-        V=vars(self)
+        V = dir(self)
+        S = ""
+        for v in V:
+            if not v.startswith("__"):
+                S += v+", "
+        return f"[{S[:-2] if len(S)>=2 else S}]"
 
     def __repr__(self) -> str:
         return self.__str__()
 
 
-class Cloth:
+class Cloth(Reflector):
     name = ""
-    brand: Brand
+    type: Type
+
+    def __init__(self, name: str, type: Type) -> None:
+        super().__init__()
+        self.name = name
+        self.type = type
 
 
-class Skirt(Cloth):
-    name = "Skirt"
-
-
-class Hat(Cloth):
-    name = "Hat"
-
-
-class Pants(Cloth):
-    name = "Pants"
-
-
-class Coat(Cloth):
-    name = "Coat"
-
-
-class Variant:
+class Variant(Reflector):
     size: Size
     color: Color
 
+    def __init__(self, size: Size, color: Color) -> None:
+        super().__init__()
+        self.size = size
+        self.color = color
 
-class Product:
+
+class Product(Reflector):
     cloth: Cloth
     variant: Variant
+    brand: Brand
 
 
-class Products:
-    collection: list(Product)
+V = {
+    1001: Variant(Size.FREE_SIZE,Color.BLACK),
+    1002: Variant(Size.FREE_SIZE,Color.GRAY),
+    1003: Variant(Size.MEDIUM,Color.BLACK),
+    1004: Variant(Size.MEDIUM,Color.BLUE),
+    1005: Variant(Size.X_LARGE,Color.MULTICOLOR),
+    1006: Variant(Size.X_SMALL,Color.MULTICOLOR),
+}
 
-    @classmethod
-    def add(cls, name: str, size: list[Size], brand: Brand, color: Color, count: int):
-        cloth
+C= {
+    2001:Cloth("Round Hat",Type.HAT)
+}
