@@ -100,11 +100,6 @@
       - Solve 2 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--02.py))
       - Solve 3 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--03.py))
       - Solve 4 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--04.py))
-      - Solve 5 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--05.py))
-      - Solve 6 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--06.py))
-      - Solve 7 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--07.py))
-      - Solve 8 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--08.py))
-      - Solve 9 ([**link**](/lessons/python/exercises/exercise-general-week-08-012--09.py))
 </details>
 
 
