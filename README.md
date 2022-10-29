@@ -198,4 +198,3 @@
 - [**Network** <sub>(Basic Concepts)</sub>](lessons/network/README.md)
 - [**Security** <sub>(Basic Concepts)</sub>](lessons/security/README.md)
 - [**SQL**](lessons/sql/README.md)
-- [**DevOPS**](lessons/dev-ops/README.md)
