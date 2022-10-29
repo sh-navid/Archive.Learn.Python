@@ -93,42 +93,10 @@
 </details>
 
 <details>
-   <summary><strong>Week 8</strong></summary>
-   
-   1. Search for these terms:
-      - ...
-   2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-08.py))
+   <summary><strong>Week 8-12</strong></summary>
+
+   1. ***Solve these problems***
 </details>
-
-<details>
-   <summary><strong>Week 9</strong></summary>
-   
-   1. Search for these terms:
-      - ...
-   2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-09.py))
-</details>
-
-<details>
-   <summary><strong>Week 10</strong></summary>
-   
-   1. Search for these terms:
-      - ...
-   2. ***Solve these problems*** ([**link**](/lessons/python/exercises/exercise-general-week-10.py))
-</details>
-
-
-## TP08
-- Date, Time, Format
-- Math
-- def, lambda
-- Review concepts
-
-## TP09
-- [OOP](lessons/python/concepts/object-oriented/README.md)
-- [Decorator](lessons/python/concepts/advanced/simple-decorator.py)
-- [NumPy](lessons/python/modules/numpy/README.md)
-- argv, kwargs
-- ...
 
 
 ## Answers to the questions of students
