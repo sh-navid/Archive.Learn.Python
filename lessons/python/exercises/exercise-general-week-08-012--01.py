@@ -36,12 +36,12 @@ class Brand(Enum):
 
 
 class Type(Enum):
-    UNDEFINED: auto()
-    COAT: auto()
-    PANTS: auto()
-    SKIRT: auto()
-    SHIRT: auto()
-    HAT: auto()
+    UNDEFINED= auto()
+    COAT= auto()
+    PANTS= auto()
+    SKIRT= auto()
+    SHIRT= auto()
+    HAT= auto()
 
 
 class Reflector:
@@ -50,7 +50,7 @@ class Reflector:
         S = ""
         for v in V:
             if not v.startswith("__"):
-                S += v+", "
+                S += f"{self.__getattribute__(v)}, "
         return f"[{S[:-2] if len(S)>=2 else S}]"
 
     def __repr__(self) -> str:
