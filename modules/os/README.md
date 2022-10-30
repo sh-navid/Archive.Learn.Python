@@ -3,7 +3,8 @@
 - Import
     - `import os`
 - Attributes
-    - `os.name`
+    - [`os.name`](os_name.py)
+    - [`os.environ['HOME']`](os_environ.py)
 - Methods
     - `os.getcwd()`
         - Current working directory
@@ -17,3 +18,4 @@
     - Path
         - `os.path.join()`
         - `os.path.exists()`
+        - `os.path.getsize()`
