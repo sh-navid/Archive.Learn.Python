@@ -24,3 +24,9 @@
   - `.reshape()`
   - `np.concatenate()`
   - `np.stack(), np.hstack(), np.vstack(), np.dstack()`
+- Filter
+  - [Where](numpy_filter_values.py)
+- Access
+  - One Row
+  - One Column
+  - Box
