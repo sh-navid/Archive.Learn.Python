@@ -134,8 +134,8 @@
    1. Custom Exception
    2. Types of Errors
 10. Meta
-    1.  Meta Classes
-    2.  Meta Programming
+    1. Meta Classes
+    2. Meta Programming
 12. Iterator
     - [Iterator, Iterable](/lessons/python/concepts/advanced/simple-iterator.py)
     - [Custom Iterator](/lessons/python/concepts/advanced/custom-iterator.py)
@@ -158,6 +158,7 @@
 - Class
 - Reflection
 ---
+
 
 ### Advanced
 1. Dependency Injection
