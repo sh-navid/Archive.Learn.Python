@@ -1,5 +1,4 @@
 import os
-
 env = os.environ
 
 print(type(env))

@@ -6,16 +6,16 @@
     - [`os.name`](os_name.py)
     - [`os.environ['HOME']`](os_environ.py)
 - Methods
-    - `os.getcwd()`
+    - [`os.getcwd()`](os_get_cwd.py)
         - Current working directory
-    - `os.chdir()`
+    - [`os.chdir()`](os_get_cwd.py)
         - Change directory
-    - `os.mkdir()`
-    - `os.rmdir()`
+    - [`os.mkdir()`](os_mk_dir.py)
+    - [`os.rmdir()`](os_mk_dir.py)
     - `os.listdir()`
     - `os.remove()`
     - `os.rename()`
     - Path
-        - `os.path.join()`
+        - [`os.path.join()`](os_mk_dir.py)
         - `os.path.exists()`
         - `os.path.getsize()`
