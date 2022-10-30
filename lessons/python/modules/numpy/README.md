@@ -16,17 +16,16 @@
   - `V: byte-like object` ??
 - [Convert Data Type](numpy_convert_data_type.py)
   - `.astype()`
-- [Access](numpy_access.py)
-  - `.base` <sub>check if returned array is copy or view</sub>
-  - `np.nditer(array), np.ndenumerate(array)`
 - [Functions](numpy_functions.py)
   - `.reshape()`
   - `np.concatenate()`
   - `np.stack(), np.hstack(), np.vstack(), np.dstack()`
+  - [`np.nditer(array), np.ndenumerate(array)`](numpy_access.py)
 - Filter
   - [Where](numpy_filter_values.py)
 - Access
   - [One Row](numpy_access_one_row.py)
   - [One Column](numpy_access_one_column.py)
   - [Box](numpy_access_range.py)
-  - [`.copy()` va `.view()`](numpy_access_copy_view.py)
+  - [`.copy()` va `.view()`, `.base`](numpy_access_copy_view.py) <sub>check if returned array is copy or view</sub>
+- Math
