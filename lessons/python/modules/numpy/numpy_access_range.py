@@ -9,8 +9,5 @@ L = [
 
 N = np.array(L)
 
-print(N[1])
-print(N[1, :])
-print(N[1, :3])
-print(N[1, 2:])
-print(N[1, 1:3])
+print(N[:3, :3])
+print(N[1:, 2:])
