@@ -63,8 +63,9 @@ show()
 while True:
     i = int(input(f"Enter 1-9: "))
     if i >= 1 and i <= 9:
-        D[L[i-1]][i-1] = p1
-        L[i-1] -= 1
+        idx=i-1
+        D[L[idx]][idx] = p1
+        L[idx] -= 1
         p1, p2 = p2, p1
         show()
         check_winner()
