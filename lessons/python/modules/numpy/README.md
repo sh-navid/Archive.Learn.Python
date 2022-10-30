@@ -27,6 +27,6 @@
 - Filter
   - [Where](numpy_filter_values.py)
 - Access
-  - One Row
-  - One Column
-  - Box
+  - [One Row](numpy_access_one_row.py)
+  - [One Column](numpy_access_one_column.py)
+  - [Box](numpy_access_range.py)
