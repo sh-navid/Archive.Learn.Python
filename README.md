@@ -8,7 +8,7 @@
 ## Headings
 1. [Introduction](introduction/README.md)
 1. [Syntax](syntax/README.md)
-1. Variables
+1. [Variables](concepts/variables/README.md)
 1. <details>
    <summary><strong>String</strong></summary>
 
