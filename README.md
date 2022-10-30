@@ -156,6 +156,7 @@
 - [NumPy](/lessons/python/modules/numpy/README.md)
 - [Test](concepts/test/README.md)
 - Class
+- Reflection
 ---
 
 ### Advanced
