@@ -1,6 +1,6 @@
 import os
 
-env=os.environ
+env = os.environ
 
 print(type(env))
 
@@ -10,3 +10,8 @@ for key in env:
 print("-"*30)
 
 print(env["LANG"])
+print(env["OS"])
+print(env["HOMEPATH"])
+print(env["APPDATA"])
+print(env["SYSTEMDRIVE"])
+print(env["WINDIR"])
