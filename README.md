@@ -119,6 +119,8 @@
     - Getter, Setter ???
     - [Enum](/lessons/python/concepts/enum/color-enum.py)
 1. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
+----
+1. [Test](concepts/test/README.md)
 1. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
 1. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
 1. PIP
@@ -149,7 +151,7 @@
     1.  SQL, NoSQL, ORM (SQLAlchemy)
     2.  JSON, CSV, XML, OWL, ...
 20. Serialization, Deserialization
-21. [Test](concepts/test/README.md)
+
 
 ---
 ### New Cource (Temp)
