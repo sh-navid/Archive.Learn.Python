@@ -11,10 +11,10 @@ class Shape:
 
 
 class TestShape(unittest.TestCase):
-    def test_area_calculation(self):
+    def test_area_valid_calculation(self):
         s = Shape(12, 10)
         print(s.area())
-        self.assetTrue(s.area(), 120, "Area with 10 and 12 should be 120")
+        self.assertEqual(s.area(), 120, "Area with 10 and 12 should be 120")
         self.assertGreaterEqual(s.area(), 0, "Area should be 0 or greater")
 
 
