@@ -143,7 +143,7 @@
 14. [Descriptor](/lessons/python/concepts/advanced/simple-descriptor.py)
 15. [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
 16. [Context Manager](/lessons/python/concepts/keywords/keywords-with.py)
-17. Regular Expression
+17. [Regular Expression](/concepts/regex/README.md)
 18. Socket [`client`](/lessons/python/examples/sample/socket/simple-socket-client.py), [`server`](/lessons/python/examples/sample/socket/simple-socket-server.py)
 19. Data
     1.  SQL, NoSQL, ORM (SQLAlchemy)
@@ -158,6 +158,8 @@
 - Class
 - Reflection
 - [Regular Expression](/concepts/regex/README.md)
+- [Sys](/modules/sys/README.md)
+- [OS](/modules/os/README.md)
 ---
 
 
