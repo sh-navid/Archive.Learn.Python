@@ -16,10 +16,9 @@
   - `V: byte-like object` ??
 - [Convert Data Type](numpy_convert_data_type.py)
   - `.astype()`
-- [Functions](numpy_functions.py)
-  - `.reshape()`
-  - `np.concatenate()`
-  - `np.stack(), np.hstack(), np.vstack(), np.dstack()`
+- Functions
+  - [`.reshape()`](numpy_reshape.py)
+  - [`np.concatenate(), np.stack(), np.hstack(), np.vstack(), np.dstack()`](numpy_functions.py)
   - [`np.nditer(array), np.ndenumerate(array)`](numpy_access.py)
 - Filter
   - [Where](numpy_filter_values.py)
