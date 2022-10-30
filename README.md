@@ -119,19 +119,17 @@
     - Getter, Setter ???
     - [Enum](/lessons/python/concepts/enum/color-enum.py)
 1. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
+1. [`*argv`, `**kwargs`](/lessons/python/concepts/advanced/argv-kwargs.py)
 ----
 1. [Test](concepts/test/README.md)
 1. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
 1. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
-1. PIP
-    - [`install, list, uninstall, freeze`, ...](/lessons/python/installation/README-PIP.md)
+1. [PIP](/lessons/python/installation/README-PIP.md)
 1. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
 
 
 ### Optional
 1. VENV
-4. Arguments
-    - [`*argv`, `**kwargs`](/lessons/python/concepts/advanced/argv-kwargs.py)
 7. Exception
    1. Custom Exception
    2. Types of Errors
