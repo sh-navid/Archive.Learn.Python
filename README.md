@@ -1,20 +1,13 @@
 # Python Instructor
 
-- An article to complete the Python course.
 - **Disclaimer:** _The content of this repository is only for testing and training and is provided at the discretion of the author; So it may not be suitable for production or other conditions._
-- Check this [link](/lessons/python/installation/README.md) ([farsi](/lessons/python/installation/README-FARSI.md)) to install and run Python.
-
-## Python Code Examples
-- [Python micro code examples](/lessons/python/examples/README.md)
-
-## Homework
-
-- Check [this link](/README-PYTHON-HOMEWORKS.md)
+- [Install and Run](/lessons/python/installation/README.md) Python.
+- [Examples](/lessons/python/examples/README.md)
+- [Homeworks](/README-PYTHON-HOMEWORKS.md)
 
 ## Headings
-1. Introduction
-1. Syntax
-   - `pep8, naming, comments, indentation, ...`
+1. [Introduction](introduction/README.md)
+1. [Syntax](syntax/README.md)
 1. Variables
 1. <details>
    <summary><strong>String</strong></summary>
