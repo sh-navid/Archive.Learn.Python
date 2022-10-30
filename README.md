@@ -153,8 +153,9 @@
 
 ---
 ### New Cource (Temp)
-- [**NumPy**](/lessons/python/modules/numpy/README.md)
+- [NumPy](/lessons/python/modules/numpy/README.md)
 - [Test](concepts/test/README.md)
+- Class
 ---
 
 ### Advanced
