@@ -20,6 +20,8 @@
   - [`.reshape()`](numpy_reshape.py)
   - [`np.concatenate(), np.stack(), np.hstack(), np.vstack(), np.dstack()`](numpy_functions.py)
   - [`np.nditer(array), np.ndenumerate(array)`](numpy_access.py)
+  - [`np.copyTo(dst,src)`](numpy_func_copyto.py)
+  - `sort()`
 - Filter
   - [Where](numpy_filter_values.py)
 - Access
@@ -28,3 +30,5 @@
   - [Box](numpy_access_range.py)
   - [`.copy()` va `.view()`, `.base`](numpy_access_copy_view.py) <sub>check if returned array is copy or view</sub>
 - Math
+  - `.min()`, `.max()`
+  - `.sum()`, `.mean()`, `.median()`, `.std()`
