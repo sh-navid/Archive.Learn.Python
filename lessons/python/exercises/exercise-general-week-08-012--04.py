@@ -34,7 +34,7 @@ def show():
 
 
 def check_4(row):
-    if (np.sum(row) == 4):
+    if (np.sum(row) == 4 and not np.any(row == 2)):
         print("@ is the winner")
         exit()
     if (np.sum(row) == 8):
