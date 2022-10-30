@@ -17,5 +17,5 @@
     - [`os.rename()`](os_remove.py)
     - Path
         - [`os.path.join()`](os_mk_dir.py)
-        - `os.path.exists()`
+        - [`os.path.exists()`](os_path_exists.py)
         - [`os.path.getsize()`](os_path_get_size.py)
