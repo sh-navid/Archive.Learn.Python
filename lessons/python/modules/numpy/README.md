@@ -17,7 +17,6 @@
 - [Convert Data Type](numpy_convert_data_type.py)
   - `.astype()`
 - [Access](numpy_access.py)
-  - `.copy(), .view()`
   - `.base` <sub>check if returned array is copy or view</sub>
   - `np.nditer(array), np.ndenumerate(array)`
 - [Functions](numpy_functions.py)
@@ -30,3 +29,4 @@
   - [One Row](numpy_access_one_row.py)
   - [One Column](numpy_access_one_column.py)
   - [Box](numpy_access_range.py)
+  - [`.copy()` va `.view()`](numpy_access_copy_view.py)
