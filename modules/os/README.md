@@ -12,10 +12,10 @@
         - Change directory
     - [`os.mkdir()`](os_mk_dir.py)
     - [`os.rmdir()`](os_mk_dir.py)
-    - `os.listdir()`
-    - `os.remove()`
-    - `os.rename()`
+    - [`os.listdir()`](os_list_dir.py)
+    - [`os.remove()`](os_remove.py)
+    - [`os.rename()`](os_remove.py)
     - Path
         - [`os.path.join()`](os_mk_dir.py)
         - `os.path.exists()`
-        - `os.path.getsize()`
+        - [`os.path.getsize()`](os_path_get_size.py)
