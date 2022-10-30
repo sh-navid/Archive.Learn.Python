@@ -157,6 +157,7 @@
 - [Test](concepts/test/README.md)
 - Class
 - Reflection
+- [Regular Expression](/concepts/regex/README.md)
 ---
 
 
