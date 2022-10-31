@@ -3,5 +3,10 @@
 - Import
     - `import sys`
 - Attributes
-    - `path`
+    - [`sys.path`](sys_path.py)
+    - [`sys.version`](sys_version.py)
+    - [`sys.argv`](sys_argv.py)
+    - [`sys.modules`](sys_modules.py)
 - Methods
+    - sys.getrefcount()
+    - `sys.exit("string")`

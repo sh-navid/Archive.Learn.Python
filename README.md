@@ -126,6 +126,8 @@
 1. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
 1. [PIP](/lessons/python/installation/README-PIP.md)
 1. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
+1. [Sys](/modules/sys/README.md)
+1. [OS](/modules/os/README.md)
 
 
 ### Optional
