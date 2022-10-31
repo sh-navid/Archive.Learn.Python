@@ -19,8 +19,8 @@
     - [^abc]        Any except a,b,c
     - [357]         3,5,7
     - [123][645]    16, 14, ..., 35
-    - [0-9]+             At least One Digit
-    - [0-9]*             At least Zero Digit like empty string
+    - [0-9]+        At least One Digit
+    - [0-9]*        At least Zero Digit like empty string
 - Methods
     - `re.findall()`
     - [`re.search()`](regex_search.py)
