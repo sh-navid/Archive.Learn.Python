@@ -7,6 +7,3 @@
     - [`sys.version`](sys_version.py)
     - [`sys.argv`](sys_argv.py)
     - [`sys.modules`](sys_modules.py)
-- Methods
-    - sys.getrefcount()
-    - `sys.exit("string")`
