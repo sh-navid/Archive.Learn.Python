@@ -58,3 +58,4 @@
 
 ![](/lessons/python/examples/apps/color/console-color.png?style=center)
 - Simple [GET, POST](/lessons/python/examples/sample/get_post_service/simple-get-post-service.py) service and also [Request1](/lessons/python/examples/sample/get_post_service/simple-get-post-request.py), [Request2](/lessons/python/examples/sample/get_post_service/simple-get-post-request2.py)
+- Loading from [CSV](/lessons/python/examples/sample/csv_example/README.md)
