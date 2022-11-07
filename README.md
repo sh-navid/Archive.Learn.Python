@@ -130,6 +130,7 @@
 1. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
 1. [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
 1. [Regular Expression](/concepts/regex/README.md)
+1. [CSV](concepts/documents/csv/README.md)
 
 
 ### Optional
