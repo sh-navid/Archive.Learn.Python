@@ -120,14 +120,16 @@
     - [Enum](/lessons/python/concepts/enum/color-enum.py)
 1. [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
 1. [`*argv`, `**kwargs`](/lessons/python/concepts/advanced/argv-kwargs.py)
-----
-1. [Test](concepts/test/README.md)
-1. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
-1. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
-1. [PIP](/lessons/python/installation/README-PIP.md)
-1. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
 1. [Sys](/modules/sys/README.md)
 1. [OS](/modules/os/README.md)
+1. [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
+1. [Generator](/lessons/python/concepts/advanced/simple-generator.py)
+----
+1. [Test](concepts/test/README.md)
+1. [PIP](/lessons/python/installation/README-PIP.md)
+1. [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
+1. [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
+1. [Regular Expression](/concepts/regex/README.md)
 
 
 ### Optional
@@ -143,7 +145,6 @@
     - [Custom Iterator](/lessons/python/concepts/advanced/custom-iterator.py)
 13. Closure
 14. [Descriptor](/lessons/python/concepts/advanced/simple-descriptor.py)
-15. [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
 16. [Context Manager](/lessons/python/concepts/keywords/keywords-with.py)
 17. [Regular Expression](/concepts/regex/README.md)
 18. Socket [`client`](/lessons/python/examples/sample/socket/simple-socket-client.py), [`server`](/lessons/python/examples/sample/socket/simple-socket-server.py)
@@ -151,18 +152,6 @@
     1.  SQL, NoSQL, ORM (SQLAlchemy)
     2.  JSON, CSV, XML, OWL, ...
 20. Serialization, Deserialization
-
-
----
-### New Cource (Temp)
-- [NumPy](/lessons/python/modules/numpy/README.md)
-- [Test](concepts/test/README.md)
-- Class
-- Reflection
-- [Regular Expression](/concepts/regex/README.md)
-- [Sys](/modules/sys/README.md)
-- [OS](/modules/os/README.md)
----
 
 
 ### Advanced
@@ -174,6 +163,8 @@
 6. Semaphore, Lock, Mutex
 
 ## Modules, Packages, Libs, ...
+- [**Sys**](/modules/sys/README.md)
+- [**OS**](/modules/os/README.md)
 - [**Tkinter**](/lessons/python/modules/tkinter/README.md)
 - [**Turtle**](/lessons/python/modules/turtle/README.md)
 - [**NumPy**](/lessons/python/modules/numpy/README.md)
