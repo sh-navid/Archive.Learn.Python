@@ -63,9 +63,9 @@
     - ![](../../-/1.png) [`Loop over characters`](other-string-loop-over.py)
     - ![](../../-/1.png) [`Reverse`](other-string-reverse.py)
     - ![](../../-/1.png) [`len()`](other-string-len.py)
-    - ![](../../-/1.png) [`.count()`](other-string-functions.py)
-    - ![](../../-/1.png) [`.replace()`](other-string-functions.py)
-    - ![](../../-/2.png) [`.zfill()`](other-string-functions.py)
+    - ![](../../-/1.png) [`.count()`](other-string-count.py)
+    - ![](../../-/1.png) [`.replace()`](other-string-replace.py)
+    - ![](../../-/2.png) [`.zfill()`](other-string-zfill.py)
     - ![](../../-/2.png) [`.expandtabs()`](other-string-functions.py)
 - Scape Chars 
     - ![](../../-/2.png) [`\t \f \" \n \r \b \oct \hex`](scape-chars.py)
