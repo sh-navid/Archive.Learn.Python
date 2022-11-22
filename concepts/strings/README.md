@@ -12,6 +12,7 @@
         > `print("Hello" + " " + "World")`
     - ![](../../-/2.png) [`.join()`](join-string.py)
 - Search
+    > To check the existance of a text in another text
     - ![](../../-/1.png) [`in`](search-in.py)
     - ![](../../-/1.png) [`.endswith()`](search-start-end.py)
     - ![](../../-/1.png) [`.startswith()`](search-start-end.py)
@@ -24,6 +25,7 @@
     - ![](../../-/2.png) `.format_map()`
     - ![](../../-/2.png) [`.translate(), .maketrans()`](trans-maketrans-string.py)
 - Split
+    > To break a text into multiple parts
     - ![](../../-/1.png) [`.partition()`](split-string.py)
     - ![](../../-/2.png) [`.rpartition()`](split-string.py)
     - ![](../../-/2.png) [`.splitlines()`](split-string.py)
