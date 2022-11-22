@@ -61,7 +61,7 @@
 - Other
     - ![](../../-/1.png) [`Multi-line text`](other-string-multi-line.py)
     - ![](../../-/1.png) [`Loop over characters`](other-string-loop-over.py)
-    - ![](../../-/1.png) [`Reverse`](other-string-functions.py)
+    - ![](../../-/1.png) [`Reverse`](other-string-reverse.py)
     - ![](../../-/1.png) [`len()`](other-string-functions.py)
     - ![](../../-/1.png) [`.count()`](other-string-functions.py)
     - ![](../../-/1.png) [`.replace()`](other-string-functions.py)

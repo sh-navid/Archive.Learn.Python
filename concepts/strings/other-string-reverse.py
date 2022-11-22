@@ -1,0 +1,1 @@
+print("Reverse:", "Hello World"[::-1])
