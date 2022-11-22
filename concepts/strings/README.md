@@ -42,8 +42,11 @@
     > To check the character status of a text. For example, whether all are written in capital or small letters, or whether the characters are numeric or not?
     - Check Formatting
         - ![](../../-/2.png) [`.istitle()`](check-string.py)
+            > Do all the words of a text start with capital letters or not?
         - ![](../../-/2.png) [`.islower()`](check-string.py)
+            > Are all the letters of a text small?
         - ![](../../-/2.png) [`.isupper()`](check-string.py)
+            > Are all the letters of a text capital?
     - Check Alpha
         - ![](../../-/2.png) [`.isascii()`](check-string.py)
         - ![](../../-/2.png) [`.isalpha()`](check-string.py)
