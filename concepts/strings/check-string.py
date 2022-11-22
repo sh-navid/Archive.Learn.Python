@@ -1,14 +1,26 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 s1 = "HEllo"
-print(s1.istitle())
-print(s1.islower())
-print(s1.isupper())
-print(s1.isspace())
 
-###~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print(s1.istitle())
+# False
+
+print(s1.islower())
+# False
+
+print(s1.isupper())
+# False
+
+print(s1.isspace())
+# False
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 TAB = 14
 print(
-    "\n\n\n\tisalnum\tisnumeric\tisdigit\tisdecimal\tisalpha\tisascii".expandtabs(TAB)
+    "\n\n\n\tisalnum\tisnumeric\tisdigit\tisdecimal\tisalpha\tisascii".expandtabs(
+        TAB)
 )
 
 
@@ -42,5 +54,3 @@ print(s1.isidentifier())
 
 print(s1.isascii())
 print(s1.isalpha())
-
-
