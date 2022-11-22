@@ -1,6 +1,6 @@
 # encode, decode
-
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 s = "Hello World"
 print(s, type(s))
 # Hello World       <class 'str'>
