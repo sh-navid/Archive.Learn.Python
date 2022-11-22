@@ -14,7 +14,7 @@ Output:
 # OR make a function with `lambda`
 
 
-def c2(a, b): return a*b
+c2 = lambda a, b: a*b
 
 
 print(c2(20, 30))
