@@ -3,7 +3,6 @@
 def c1(a, b):
     return a*b
 
-
 print(c1(20, 30))
 '''
 Output:
@@ -12,10 +11,7 @@ Output:
 
 # -------------------------------------------------------------------
 # OR make a function with `lambda`
-
-
 c2 = lambda a, b: a*b
-
 
 print(c2(20, 30))
 '''
@@ -25,7 +21,6 @@ Output:
 
 # -------------------------------------------------------------------
 # A function calls itself
-
 
 def r1(num):
     print(num)
@@ -46,8 +41,6 @@ Outout:
 
 # -------------------------------------------------------------------
 # A Recursive fucntion
-
-
 def r2(num):
     if (num < 1000):
         return num
