@@ -16,7 +16,6 @@ print(s1.isspace())
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 TAB = 14
 print(
     "\n\n\n\tisalnum\tisnumeric\tisdigit\tisdecimal\tisalpha\tisascii".expandtabs(
@@ -48,9 +47,27 @@ check_numeric("\u00B2")
 check_numeric("A")
 check_numeric("ب")
 
-print(s1.isprintable())
-print(s1.isidentifier())
+#               isalnum       isnumeric     isdigit       isdecimal     isalpha       isascii
+# 2             True          True          True          True          False         True
+# 2.1           False         False         False         False         False         True
+# 2e10          True          False         False         False         False         True
+# ↁ             True          True          False         False         False         False
+# ⅔             True          True          False         False         False         False
+# 2²            True          True          True          False         False         False
+# ²             True          True          True          False         False         False
+# A             True          False         False         False         True          True
+# ب             True          False         False         False         True          False
 
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print(s1.isprintable())
+# True
+
+print(s1.isidentifier())
+# True
 
 print(s1.isascii())
+# True
+
 print(s1.isalpha())
+# True
