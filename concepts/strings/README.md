@@ -30,10 +30,15 @@
     - Change Case
         - ![](../../-/2.png) [`.capitalize()`](audit-string.py)
         - ![](../../-/1.png) [`.lower()`](audit-string.py)
+            > Convert all letters to lowercase
         - ![](../../-/1.png) [`.upper()`](audit-string.py)
+            > Convert all letters to uppercase
         - ![](../../-/2.png) [`.title()`](audit-string.py)
+            > Convert the first letter of all words in a sentence to capital letters
         - ![](../../-/2.png) [`.swapcase()`](audit-string.py)
+            > Convert uppercase letters to lowercase letters and vice versa
         - ![](../../-/3.png) [`.casefold()`](audit-string.py)
+            > Works like the `.lower()` method, but more powerful and works for other languages like German.
     - Direction
         - ![](../../-/1.png) [`.center()`](audit-string.py)
         - ![](../../-/1.png) [`.ljust()`](audit-string.py)
