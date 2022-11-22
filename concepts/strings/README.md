@@ -2,8 +2,11 @@
 ## Strings
 - Strip (Trim)
     - ![](../../-/1.png) [`.strip()`](trim-string.py)
+        > Trim spaces around a text
     - ![](../../-/2.png) [`.lstrip()`](trim-string.py)
+        > Trim spaces from left side of a text
     - ![](../../-/2.png) [`.rstrip()`](trim-string.py)
+        > Trim spaces from right side of a text
 - Concat
     - ![](../../-/1.png) [Concatenation](concat-string.py)
         > `print("Hello" + " " + "World")`
