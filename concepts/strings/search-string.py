@@ -1,38 +1,20 @@
-# Search
-
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 s = "Hello World"
-print("StartsWith:", s.startswith("hello"))
-print("StartsWith:", s.startswith("Hello"))
+
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-s = "Hello World"
-print("EndsWith:", s.endswith("rld"))
-print("EndsWith:", s.endswith("bye"))
+print("Find:", s.find("o"))
+# Find: 4
+
+
+print('Right Find:', s.rfind("o"))
+# Right Find: 7
+
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-s = "Hello World"
-print("Find:", s.find("World"))
-print("Find:", s.find("apple"))
-print('L Find "o":', s.find("o"))
-print('R Find "o":', s.rfind("o"))
+print("Index:", s.index("o"))
+# Index: 4
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Find vs Index
-s = "Hello World"
-print("Index:", s.index("World"))
-# print("Index:", s.index("apple")) # ValueError: substring not found
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-s = "hi hello hi hi bye"
-search = "hello"
-print("L Index:", f' Text:"{s}", Search for "{search}" -> ', s.index(search))
-# last founded substring ->
-print("R Index:", f' Text:"{s}", Search for "{search}" -> ', s.rindex(search))
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-s = "hi hello hi hi bye"
-search = "hi"
-print("L Index:", f' Text:"{s}", Search for "{search}" -> ', s.index(search))
-# last founded substring ->
-print("R Index:", f' Text:"{s}", Search for "{search}" -> ', s.rindex(search))
+print("Right Index:", s.rindex("o"))
+# Right Index: 7

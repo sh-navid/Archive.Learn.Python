@@ -1,34 +1,71 @@
 # Python
 ## Strings
-- Encode
-    - ![](../../-/2.png) [`.encode()`](encode-string.py)
-    - ![](../../-/2.png) [`.decode()`](encode-string.py)
 - Strip (Trim)
     - ![](../../-/1.png) [`.strip()`](trim-string.py)
-    - ![](../../-/1.png) [`.lstrip()`](trim-string.py)
-    - ![](../../-/1.png) [`.rstrip()`](trim-string.py)
+    - ![](../../-/2.png) [`.lstrip()`](trim-string.py)
+    - ![](../../-/2.png) [`.rstrip()`](trim-string.py)
 - Concat
     - ![](../../-/1.png) [Concatenation](concat-string.py)
         > `print("Hello" + " " + "World")`
-    - ![](../../-/2.png) [`.join()`](concat-string.py)
+    - ![](../../-/2.png) [`.join()`](join-string.py)
 - Search
-    - ![](../../-/1.png) [`.endswith()`](search-string.py)
-    - ![](../../-/1.png) [`.startswith()`](search-string.py)
+    - ![](../../-/1.png) [`in`](search-in.py)
+    - ![](../../-/1.png) [`.endswith()`](search-start-end.py)
+    - ![](../../-/1.png) [`.startswith()`](search-start-end.py)
     - ![](../../-/1.png) [`.find()`](search-string.py)
     - ![](../../-/2.png) [`.rfind()`](search-string.py)
-    - ![](../../-/1.png) [`.index()`](search-string.py)
+    - ![](../../-/2.png) [`.index()`](search-string.py)
     - ![](../../-/2.png) [`.rindex()`](search-string.py)
 - Mapping
-    - ![](../../-/2.png) [`.translate(), .maketrans()`](format-string.py)
     - ![](../../-/1.png) [`.format()`](format-string.py)
-    - ![](../../-/2.png) [`.format_map()`](format-string.py)
+    - ![](../../-/2.png) `.format_map()`
+    - ![](../../-/2.png) [`.translate(), .maketrans()`](trans-maketrans-string.py)
 - Split
     - ![](../../-/1.png) [`.partition()`](split-string.py)
     - ![](../../-/2.png) [`.rpartition()`](split-string.py)
-    - ![](../../-/1.png) [`.splitlines()`](split-string.py)
+    - ![](../../-/2.png) [`.splitlines()`](split-string.py)
     - ![](../../-/1.png) [`.split()`](split-string.py)
     - ![](../../-/1.png) [`.slice()`](split-string.py)
-- [`(title, capitalize), (lower, upper, swapcase, casefold), (center, ljust, rjust)`](audit-string.py)
-- [`in, (istitle, islower, isupper), isspace, isprintable, isidentifier, (isascii, isalpha), (isalnum, isnumeric, isdecimal, isdigit)`](check-string.py)
-- [`zfill, count, replace, len, expandtabs, multi-line, loop-over-characters, reverse`](other-string-functions.py)
-- [Scape Chars `\t \f \" \n \r \b \oct \hex`](scape-chars.py)
+- Formatting
+    - Change Case
+        - ![](../../-/2.png) [`.capitalize()`](audit-string.py)
+        - ![](../../-/1.png) [`.lower()`](audit-string.py)
+        - ![](../../-/1.png) [`.upper()`](audit-string.py)
+        - ![](../../-/2.png) [`.title()`](audit-string.py)
+        - ![](../../-/2.png) [`.swapcase()`](audit-string.py)
+        - ![](../../-/3.png) [`.casefold()`](audit-string.py)
+    - Direction
+        - ![](../../-/1.png) [`.center()`](audit-string.py)
+        - ![](../../-/1.png) [`.ljust()`](audit-string.py)
+        - ![](../../-/1.png) [`.rjust()`](audit-string.py)
+- Checking
+    - Check Formatting
+        - ![](../../-/2.png) [`.istitle()`](check-string.py)
+        - ![](../../-/2.png) [`.islower()`](check-string.py)
+        - ![](../../-/2.png) [`.isupper()`](check-string.py)
+    - Check Alpha
+        - ![](../../-/2.png) [`.isascii()`](check-string.py)
+        - ![](../../-/2.png) [`.isalpha()`](check-string.py)
+    - Check Number
+        - ![](../../-/2.png) [`.isalnum()`](check-string.py)
+        - ![](../../-/2.png) [`.isnumeric()`](check-string.py)
+        - ![](../../-/2.png) [`.isdecimal()`](check-string.py)
+        - ![](../../-/2.png) [`.isdigit()`](check-string.py)
+    - Check Other
+        - ![](../../-/2.png) [`.isspace()`](check-string.py)
+        - ![](../../-/2.png) [`.isprintable()`](check-string.py)
+        - ![](../../-/3.png) [`.isidentifier()`](check-string.py)
+- Encode
+    - ![](../../-/2.png) [`.encode()`](encode-string.py)
+    - ![](../../-/2.png) [`.decode()`](encode-string.py)
+- Other
+    - ![](../../-/1.png) [`Multi-line text`](other-string-functions.py)
+    - ![](../../-/1.png) [`Loop over characters`](other-string-functions.py)
+    - ![](../../-/1.png) [`Reverse`](other-string-functions.py)
+    - ![](../../-/1.png) [`len()`](other-string-functions.py)
+    - ![](../../-/1.png) [`.count()`](other-string-functions.py)
+    - ![](../../-/1.png) [`.replace()`](other-string-functions.py)
+    - ![](../../-/2.png) [`.zfill()`](other-string-functions.py)
+    - ![](../../-/2.png) [`.expandtabs()`](other-string-functions.py)
+- Scape Chars 
+    - ![](../../-/2.png) [`\t \f \" \n \r \b \oct \hex`](scape-chars.py)
