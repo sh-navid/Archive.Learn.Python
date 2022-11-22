@@ -2,13 +2,15 @@
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 s = "Hello World"
-e = s.encode()
-d = e.decode()
-
 print(s, type(s))
-print(e, type(e))
-print(d, type(d))
-
 # Hello World       <class 'str'>
+
+
+e = s.encode()
+print(e, type(e))
 # b'Hello World'    <class 'bytes'>
+
+
+d = e.decode()
+print(d, type(d))
 # Hello World       <class 'str'>
