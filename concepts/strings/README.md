@@ -39,6 +39,7 @@
         - ![](../../-/1.png) [`.ljust()`](audit-string.py)
         - ![](../../-/1.png) [`.rjust()`](audit-string.py)
 - Checking
+    > To check the character status of a text. For example, whether all are written in capital or small letters, or whether the characters are numeric or not?
     - Check Formatting
         - ![](../../-/2.png) [`.istitle()`](check-string.py)
         - ![](../../-/2.png) [`.islower()`](check-string.py)
@@ -62,6 +63,7 @@
     - ![](../../-/1.png) [`Multi-line text`](other-string-multi-line.py)
     - ![](../../-/1.png) [`Loop over characters`](other-string-loop-over.py)
     - ![](../../-/1.png) [`Reverse`](other-string-reverse.py)
+        > Reverse a text; for example to change `Hello` to `olleH`
     - ![](../../-/1.png) [`len()`](other-string-len.py)
         > Counting the total number of characters in a text. In fact, the size of a text.
     - ![](../../-/1.png) [`.count()`](other-string-count.py)
