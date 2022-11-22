@@ -9,7 +9,8 @@
 - ![](-/n.png) [Introduction](./concepts/introduction/README.md)
 - ![](-/n.png) [Syntax](./concepts/syntax/README.md)
 - ![](-/n.png) [Variables](./concepts/variables/README.md)
-- ![](-/p.png) [String](./concepts/strings/README.md)
+- ![](-/f.png) [String](./concepts/strings/README.md)
+- ![](-/f.png) [Function](./concepts/function/README.md)
 - [Random](/lessons/python/concepts/random/general-random-functions.py)
    - `random(), randint(), shuffle(), choice()`
 - <details>
@@ -87,7 +88,7 @@
 - [Read File, Write File](/lessons/python/examples/sample/file/read-write-file.py), [Pickle](/lessons/python/examples/sample/file/read-write-pickle.py)
 - Math
 - [Date, Time](/lessons/python/concepts/date-time/date-time.py)
-- [Function, Method, Lambda](/lessons/python/concepts/object-oriented/types-of-methods.py)
+- [Function, Method, Lambda](./lessons/python/concepts/object-oriented/types-of-methods.py)
 - [OOP](/lessons/python/concepts/object-oriented/README.md)
     - Class, Object
     - Constructor
