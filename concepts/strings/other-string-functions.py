@@ -1,1 +1,3 @@
-print("ExpandTab:", "Hello\tWorld".expandtabs(16))
+print("Hello\tWorld".expandtabs(16))
+
+# Hello           World
