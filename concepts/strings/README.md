@@ -65,7 +65,10 @@
     - ![](../../-/1.png) [`len()`](other-string-len.py)
     - ![](../../-/1.png) [`.count()`](other-string-count.py)
     - ![](../../-/1.png) [`.replace()`](other-string-replace.py)
+        > Change part of a string with another text
     - ![](../../-/2.png) [`.zfill()`](other-string-zfill.py)
+        > Put zeros before a text something like this: `000000000000000hello`
     - ![](../../-/2.png) [`.expandtabs()`](other-string-functions.py)
+        > Default tab is 4 spaces but we can expand it
 - Scape Chars 
     - ![](../../-/2.png) [`\t \f \" \n \r \b \oct \hex`](scape-chars.py)
