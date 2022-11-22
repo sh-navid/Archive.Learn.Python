@@ -22,7 +22,12 @@
     - ![](../../-/2.png) [`.translate(), .maketrans()`](format-string.py)
     - ![](../../-/1.png) [`.format()`](format-string.py)
     - ![](../../-/2.png) [`.format_map()`](format-string.py)
-- [`partition, rpartition, splitlines, split, slice`](split-string.py)
+- Split
+    - ![](../../-/1.png) [`.partition()`](split-string.py)
+    - ![](../../-/2.png) [`.rpartition()`](split-string.py)
+    - ![](../../-/1.png) [`.splitlines()`](split-string.py)
+    - ![](../../-/1.png) [`.split()`](split-string.py)
+    - ![](../../-/1.png) [`.slice()`](split-string.py)
 - [`(title, capitalize), (lower, upper, swapcase, casefold), (center, ljust, rjust)`](audit-string.py)
 - [`in, (istitle, islower, isupper), isspace, isprintable, isidentifier, (isascii, isalpha), (isalnum, isnumeric, isdecimal, isdigit)`](check-string.py)
 - [`zfill, count, replace, len, expandtabs, multi-line, loop-over-characters, reverse`](other-string-functions.py)
