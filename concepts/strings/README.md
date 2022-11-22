@@ -63,7 +63,9 @@
     - ![](../../-/1.png) [`Loop over characters`](other-string-loop-over.py)
     - ![](../../-/1.png) [`Reverse`](other-string-reverse.py)
     - ![](../../-/1.png) [`len()`](other-string-len.py)
+        > Counting the total number of characters in a text. In fact, the size of a text.
     - ![](../../-/1.png) [`.count()`](other-string-count.py)
+        > Counting the number of occurrences of a specific character in a text
     - ![](../../-/1.png) [`.replace()`](other-string-replace.py)
         > Change part of a string with another text
     - ![](../../-/2.png) [`.zfill()`](other-string-zfill.py)
